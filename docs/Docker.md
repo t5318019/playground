@@ -5,11 +5,13 @@
 Docker 是一種容器 (container) 的技術平台。容器是軟體的封裝，每個容器之間都相互隔離，很像是虛擬機器，但容器不包含整個作業系統，容器比虛擬機器更輕量一些。
 
 Docker 平台是 Client-Server 的架構，由下列元件組成：(參閱 [Docker overview](https://docs.docker.com/engine/docker-overview/))
-* Docker 服務 (daemon)：伺服端，負責管理 Docker 的映像檔和容器，也就是 dockerd 指令。
+* Docker 服務 (daemon)：伺服端，負責管理 Docker 的映像檔和容器，也就是 dockerd 指令。服務預設的 port number 是 2375，已經在 [IANA](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=docker) 上註冊。
 * Docker 映像檔 (image)：容器的樣板 (template)。
 * Docker 容器 (container)：可執行的映像檔實體 (instance)。
 * Docker 註冊儲存庫 (registry)：儲存映像檔的地方，預設是 [Docker Hub](https://hub.docker.com/) 。
 * Docker 用戶端工具 (client)：用戶端，透過 REST API 與 Docker 服務溝通，通常是指 CLI 的 docker 指令。
+
+Docker 的精神是「一個容器執行一個服務 (one service per container) 」，也就是一個容器只會執行一個行程 (process)，透過多個容器組成一個完整的應用。例如 Web 應用包含 Web server 和 database ，就會開啟兩個容器，透過多個容器的連結，避免一個容器故障影響其他服務。
 
 ## docker 指令
 
