@@ -58,6 +58,14 @@ mount.cifs 命令可以將 CIFS 的分享路徑 mount 在本機上，在 Ubuntu 
 smbclient 命令是用來存取 SMB/CIFS 資源的用戶端程式，在 Ubuntu 上屬於 smbclient 套件。
 
 * [Ubuntu Manpage: smbclient - ftp-like client to access SMB/CIFS resources on servers](http://manpages.ubuntu.com/manpages/xenial/en/man1/smbclient.1.html)
+* 原始碼：[https://github.com/samba-team/samba/tree/master/source3/client](https://github.com/samba-team/samba/tree/master/source3/client)
+
+## libsmbclient
+
+libsmbclient 是 SMB 用戶端的程式庫 (client library)，可以用來開發 SMB 的應用程式，像是 smbclient 就是使用 libsmbclient 開發的用戶端程式。程式庫中比較重要的是 SMBCCTX 結構，意思是 SMB client context information，因為大多數的 function 呼叫時都要傳遞此類型的引數。
+
+* 原始碼：[https://github.com/samba-team/samba/tree/master/source3/libsmb](https://github.com/samba-team/samba/tree/master/source3/libsmb)
+* 標頭檔：[https://github.com/samba-team/samba/blob/master/source3/include/libsmbclient.h](https://github.com/samba-team/samba/blob/master/source3/include/libsmbclient.h)
 
 ## 其他
 
