@@ -16,6 +16,7 @@ Common Internet File System (CIFS) 是 SMB 的另一個分支版本 (dialect) �
 * [[MS-CIFS]: Common Internet File System (CIFS) Protocol](https://msdn.microsoft.com/en-us/library/ee442092.aspx)
 * [[MS-SMB]: Server Message Block (SMB) Protocol](https://msdn.microsoft.com/en-us/library/cc246231.aspx)
 * [[MS-SMB2]: Server Message Block (SMB) Protocol Versions 2 and 3](https://msdn.microsoft.com/en-us/library/cc246482.aspx)
+* [Stop using SMB1 | Storage at Microsoft](https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/)
 
 ## Samba
 
@@ -26,6 +27,7 @@ Common Internet File System (CIFS) 是 SMB 的另一個分支版本 (dialect) �
 * [SambaWiki](https://wiki.samba.org/index.php/Main_Page)
 * [samba](https://www.samba.org/samba/docs/current/man-html/samba.7.html)
 * [Ubuntu Manpage: samba - A Windows AD and SMB/CIFS fileserver for UNIX](http://manpages.ubuntu.com/manpages/xenial/man7/samba.7.html)
+* [Samba Release History](https://www.samba.org/samba/history/)
 
 Samba 軟體套件可以做的事情有：
 
@@ -35,6 +37,11 @@ Samba 軟體套件可以做的事情有：
 * SMB 用戶端 (client)，存取其他檔案/印表機分享
 * 一些指令工具 (command-line tool)
 * 提供 Linux 的檔案系統，如 cifsvfs, smbfs
+
+smb.conf 是 Samba 的設定檔，這個設定檔同時可以設定 SMB 伺服器 (server) 和 SMB 用戶端 (client)。
+
+* [Ubuntu Manpage: smb.conf - The configuration file for the Samba suite](http://manpages.ubuntu.com/manpages/xenial/man5/smb.conf.5.html)
+* [smb.conf](https://www.samba.org/samba/docs/current/man-html/smb.conf.5.html)
 
 ### Samba source code
 
@@ -49,9 +56,15 @@ Samba 軟體套件可以做的事情有：
 
 ## mount.cifs
 
-mount.cifs 命令可以將 CIFS 的分享路徑 mount 在本機上，在 Ubuntu 上屬於 cifs-utils 套件。
+mount.cifs 是 Linux 系統上的命令，可以將 CIFS 的分享路徑 mount 在本機上，在 Ubuntu 上屬於 cifs-utils 套件。以前是用 smbmount 命令，屬於 smbfs 套件，但 smbmount 現在已經被 mount.cifs 取代。
 
 * [Ubuntu Manpage: mount.cifs - mount using the Common Internet File System (CIFS)](http://manpages.ubuntu.com/manpages/xenial/man8/mount.cifs.8.html)
+
+## mount_smbfs
+
+mount_smbfs 是 FreeBSD 和 Mac OS X 系統上的命令，可以將 CIFS 的分享路徑 mount 在本機上。
+
+* [mount_smbfs(8)](https://www.freebsd.org/cgi/man.cgi?mount_smbfs(8))
 
 ## smbclient
 
