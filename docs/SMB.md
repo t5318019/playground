@@ -2,13 +2,13 @@
 
 ## 介紹
 
-SMB 是一種通訊協定 (protocol) ，全名是  Server Message Block ，最早是由 IBM 所開發，基於 client-server 的應用架構，透過網路可以分享檔案與印表機，目前最新版本是 SMB 3.1.1 。
+SMB 是一種通訊協定 (protocol) ，全名是  Server Message Block ，最早是由 IBM 所開發，基於 client-server 的應用架構，透過網路可以分享檔案與印表機，目前最新版本是 SMB 3.1.1 (簡稱 SMB3 )。
 
 SMB 在 OSI 網路模型上屬於 Application Layer 和 Presentation Layer 。
 
-SMB 依靠底層的通訊協定主要是 NetBIOS over TCP/IP (簡稱 NBT )，而 NetBIOS 全名是 Network Basic Input/Output System，，NetBIOS 屬於 Session Layer 的通訊協定。
+SMB 依靠底層的通訊協定主要是 NetBIOS over TCP/IP (簡稱 NBT )，而 NetBIOS 全名是 Network Basic Input/Output System，NetBIOS 屬於 Session Layer 的通訊協定。
 
-Common Internet File System (CIFS) 是 SMB 的另一個分支版本 (dialect) ，以範圍來看，CIFS 是 SMB 的子集合，SMB 延伸 CIFS 增加許多的支援。
+Common Internet File System (CIFS) 是 SMB 的另一個分支版本 (dialect) ，以範圍來看，CIFS 是 SMB 的子集合，SMB 延伸 CIFS 增加許多的支援。從歷史來看，先有 CIFS 才有後續的 SMB1 。
 
 * [What is SMB?](https://www.samba.org/cifs/docs/what-is-smb.html)
 * [Implementing CIFS](http://www.ubiqx.org/cifs/)
