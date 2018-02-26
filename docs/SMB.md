@@ -18,9 +18,10 @@ CIFS 是主從式架構 (client-server) 的通訊協定，由一系列「 SMB �
 * [[MS-CIFS]: Common Internet File System (CIFS) Protocol](https://msdn.microsoft.com/en-us/library/ee442092.aspx)
 * [[MS-SMB]: Server Message Block (SMB) Protocol](https://msdn.microsoft.com/en-us/library/cc246231.aspx)
 * [[MS-SMB2]: Server Message Block (SMB) Protocol Versions 2 and 3](https://msdn.microsoft.com/en-us/library/cc246482.aspx)
-* [Stop using SMB1 | Storage at Microsoft](https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/)
 * [RFC 1001 - Protocol standard for a NetBIOS service on a TCP/UDP transport: Concepts and methods](https://tools.ietf.org/html/rfc1001)
 * [RFC 1002 - Protocol standard for a NetBIOS service on a TCP/UDP transport: Detailed specifications](https://tools.ietf.org/html/rfc1002)
+* [Stop using SMB1 | Storage at Microsoft](https://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/)
+* [SMB2, a complete redesign of the main remote file protocol for Windows &#8211; Jose Barreto&#039;s Blog](https://blogs.technet.microsoft.com/josebda/2008/12/09/smb2-a-complete-redesign-of-the-main-remote-file-protocol-for-windows/)
 
 ## Samba
 
@@ -75,14 +76,16 @@ mount_smbfs 是 FreeBSD 和 Mac OS X 系統上的命令，可以將 CIFS 的分�
 smbclient 命令是用來存取 SMB/CIFS 資源的用戶端程式，在 Ubuntu 上屬於 smbclient 套件。
 
 * [Ubuntu Manpage: smbclient - ftp-like client to access SMB/CIFS resources on servers](http://manpages.ubuntu.com/manpages/xenial/en/man1/smbclient.1.html)
-* 原始碼：[https://github.com/samba-team/samba/tree/master/source3/client](https://github.com/samba-team/samba/tree/master/source3/client)
+* smbclient 原始碼：[https://github.com/samba-team/samba/tree/master/source3/client](https://github.com/samba-team/samba/tree/master/source3/client)
+* smbclient4 原始碼：[https://github.com/samba-team/samba/tree/master/source4/client](https://github.com/samba-team/samba/tree/master/source4/client)
 
 ## libsmbclient
 
 libsmbclient 是 SMB 用戶端的程式庫 (client library)，可以用來開發 SMB 的應用程式，像是 smbclient 就是使用 libsmbclient 開發的用戶端程式。程式庫中比較重要的是 SMBCCTX 結構，意思是 SMB client context information，因為大多數的 function 呼叫時都要傳遞此類型的引數。
 
-* 原始碼：[https://github.com/samba-team/samba/tree/master/source3/libsmb](https://github.com/samba-team/samba/tree/master/source3/libsmb)
-* 標頭檔：[https://github.com/samba-team/samba/blob/master/source3/include/libsmbclient.h](https://github.com/samba-team/samba/blob/master/source3/include/libsmbclient.h)
+* Samba 3 原始碼：[https://github.com/samba-team/samba/tree/master/source3/libsmb](https://github.com/samba-team/samba/tree/master/source3/libsmb)
+* Samba 3 標頭檔：[https://github.com/samba-team/samba/blob/master/source3/include/libsmbclient.h](https://github.com/samba-team/samba/blob/master/source3/include/libsmbclient.h)
+* Samba 4 原始碼 & 標頭檔：[https://github.com/samba-team/samba/tree/master/source4/libcli](https://github.com/samba-team/samba/tree/master/source4/libcli)
 
 ## 其他
 
