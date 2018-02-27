@@ -31,8 +31,38 @@
 ## 資料類型 (Data Types)
 
 * [Numeric Data Types - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-types-numeric-data-types/)
+    * TINYINT: 1 byte，範圍是 -128 至 127 或 0 至 255 。
+    * BOOLEAN: 與 TINYINT(1) 是同義字。
+    * SMALLINT: 2 bytes，範圍是 -32768 至 32767 或 0 至 65535 。
+    * MEDIUMINT: 3 bytes，範圍是 -8388608 至 8388607 或 0 至 16777215 。
+    * INT, INTEGER: 4 bytes，範圍是 -2147483648 至 2147483647 或 0 至 4294967295 。
+    * BIGINT: 8 bytes，範圍是 -9223372036854775808 至 9223372036854775807 或 0 至 18446744073709551615 。
+    * DECIMAL: 同義字有 DEC, NUMERIC, FIXED ，唯一的定點數 (fixed-point number) 資料類型。整數部分可達 65 位數，預設是 10 位數；小數部分可達 38 位數，預設是 0 位數。
+    * FLOAT: 單精度 (single-precision) 浮點數，範圍請參閱 IEEE 754 標準，精確度大約是 7 位小數。
+    * DOUBLE: 同義字有 DOUBLE PRECISION, REAL ，雙精度 (double-precision) 浮點數，範圍請參閱 IEEE 754 標準，精確度大約是 15 位小數。
+    * BIT: 二進制位元，長度可達 64 bits，預設是 1 bit 。
 * [String Data Types - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/string-data-types/)
+    * CHAR: 固定長度的字串，最長至 255 字元。
+    * VARCHAR: 可變長度的字串，最長至 65535 字元。
+    * BINARY: 固定長度的字串，類似 CHAR 但以二進制儲存。
+    * CHAR BYTE: 與 BINARY 是同義字。
+    * VARBINARY: 可變長度的字串，類似 VARCHAR 但以二進制儲存。
+    * TINYBLOB: 可變長度的資料，最長至 255 位元，在字首以 1-byte 記錄資料長度。
+    * BLOB: 可變長度的資料，最長至 65535 位元，在字首以 2-byte 記錄資料長度。
+    * MEDIUMBLOB: 可變長度的資料，最長至 16777215 位元，在字首以 3-byte 記錄資料長度。
+    * LONGBLOB: 可變長度的資料，最長至 4294967295 位元，在字首以 4-byte 記錄資料長度。
+    * TINYTEXT: 可變長度的字串，最長至 255 字元，在字首以 1-byte 記錄字串長度。
+    * TEXT: 可變長度的字串，最長至 65535 字元，在字首以 2-byte 記錄字串長度。
+    * MEDIUMTEXT: 可變長度的字串，最長至 16777215 字元，在字首以 3-byte 記錄字串長度。
+    * LONGTEXT: 可變長度的字串，最長至 4294967295 字元，在字首以 4-byte 記錄字串長度。
+    * ENUM: 列舉字串。
 * [Date and Time Data Types - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/date-and-time-data-types/)
+    * DATE: 日期，範圍從  '1000-01-01' 至 '9999-12-31' 。
+    * TIME: 時間，範圍從 '-838:59:59.999999' 至 '838:59:59.999999' 。
+    * DATETIME: 日期時間，範圍從 '1000-01-01 00:00:00.000000' 至 '9999-12-31 23:59:59.999999' 。
+    * TIMESTAMP: 時間戳記，能儲存的範圍從 '1970-01-01 00:00:01' (UTC) 至 '2038-01-19 05:14:07' (UTC) 。
+    * YEAR: 西元年，範圍從 1901 至 2155 。
+* [Data Type Storage Requirements - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-type-storage-requirements/)
 
 ## 用戶端和工具程式 (Clients & Utilities)
 
