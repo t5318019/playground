@@ -14,19 +14,52 @@
 
 ## 儲存引擎 (Storage Engines)
 
+不論使用何種[儲存引擎](https://mariadb.com/kb/en/library/storage-engines/)，MySQL 使用 [.frm 檔案](https://dev.mysql.com/doc/internals/en/frm-file-format.html) 儲存資料表的定義資訊。我們必須針對用途與目的選擇正確的儲存引擎，可以使用 `SHOW ENGINES` 命令查看資料庫支援的儲存引擎有哪些。
+
 * [MyISAM](https://mariadb.com/kb/en/library/myisam-storage-engine/)，從 MySQL 3.23 至 5.5 之前是預設的儲存引擎。
 * [Aria](https://mariadb.com/kb/en/library/aria-storage-engine/)
 * [InnoDB](https://mariadb.com/kb/en/library/xtradb-and-innodb/) 源自於 Innobase Oy 公司，從 MariaDB and MySQL 5.5 開始是預設的儲存引擎。
 * [XtraDB](https://mariadb.com/kb/en/library/about-xtradb/)
 * [MEMORY](https://mariadb.com/kb/en/library/memory-storage-engine/)
+* [CSV](https://mariadb.com/kb/en/library/csv/)
+* [BLACKHOLE](https://mariadb.com/kb/en/library/blackhole/)
+* [MERGE](https://mariadb.com/kb/en/library/merge/) 也就是 MRG_MyISAM 儲存引擎。
+* [ARCHIVE](https://mariadb.com/kb/en/library/archive/)
+* [FEDERATED](https://mariadb.com/kb/en/library/federatedx-storage-engine/)
 * [BDB](https://mariadb.com/kb/en/library/bdb-obsolete/) 源自於 Berkeley DB ，從 MySQL 5.1 之後不支援，當然 MariaDB 也不支援了。
 
 ## 結構化查詢語言 (Structured Query Language, SQL)
 
+### 陳述式 (Statements)
+
+你可以在用戶端程式使用 [HELP](https://mariadb.com/kb/en/library/help-command/) 命令查詢各種命令的語法和說明文件。
+
 * [Administrative SQL Statements - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/administrative-sql-statements/)
+    * [USE](https://mariadb.com/kb/en/library/use/)
+    * [EXPLAIN](https://mariadb.com/kb/en/library/explain/)
+    * [SET CHARACTER SET](https://mariadb.com/kb/en/library/set-character-set/)
+    * [SET PASSWORD](https://mariadb.com/kb/en/library/set-password/)
+    * [SHOW VARIABLES](https://mariadb.com/kb/en/library/show-variables/)
+    * [SHOW DATABASES](https://mariadb.com/kb/en/library/show-databases/)
+    * [SHOW TABLES](https://mariadb.com/kb/en/library/show-tables/)
+    * [SHOW COLUMNS](https://mariadb.com/kb/en/library/show-columns/)
+    * [SHOW INDEX](https://mariadb.com/kb/en/library/show-index/)
 * [Account Management SQL Commands - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/account-management-sql-commands/)
+    * [CREATE USER](https://mariadb.com/kb/en/library/create-user/)
+    * [GRANT](https://mariadb.com/kb/en/library/grant/)
 * [Data Definition - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-definition/)
+    * [CREATE](https://mariadb.com/kb/en/library/create/)
+    * [DROP](https://mariadb.com/kb/en/library/drop/)
+    * [ALTER](https://mariadb.com/kb/en/library/alter/)
 * [Data Manipulation - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-manipulation/)
+    * [SELECT](https://mariadb.com/kb/en/library/select/)
+    * [INSERT](https://mariadb.com/kb/en/library/insert/)
+    * [UPDATE](https://mariadb.com/kb/en/library/update/)
+    * [DELETE](https://mariadb.com/kb/en/library/delete/)
+
+### 語言結構 (Language Structure)
+
+* [Identifier Names](https://mariadb.com/kb/en/library/identifier-names/)
 
 ## 資料類型 (Data Types)
 
