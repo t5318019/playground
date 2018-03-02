@@ -16,10 +16,13 @@
 
 不論使用何種[儲存引擎](https://mariadb.com/kb/en/library/storage-engines/)，MySQL 使用 [.frm 檔案](https://dev.mysql.com/doc/internals/en/frm-file-format.html) 儲存資料表的定義資訊。我們必須針對用途與目的選擇正確的儲存引擎，可以使用 `SHOW ENGINES` 命令查看資料庫支援的儲存引擎有哪些。
 
-* [MyISAM](https://mariadb.com/kb/en/library/myisam-storage-engine/)，從 MySQL 3.23 至 5.5 之前是預設的儲存引擎。
+* [MyISAM](https://mariadb.com/kb/en/library/myisam-storage-engine/) 從 MySQL 3.23 至 5.5 之前是預設的儲存引擎。
 * [Aria](https://mariadb.com/kb/en/library/aria-storage-engine/)
-* [InnoDB](https://mariadb.com/kb/en/library/xtradb-and-innodb/) 源自於 Innobase Oy 公司，從 MariaDB and MySQL 5.5 開始是預設的儲存引擎。
-* [XtraDB](https://mariadb.com/kb/en/library/about-xtradb/)
+* [InnoDB](https://mariadb.com/kb/en/library/xtradb-and-innodb/) 源自於 Innobase [Oy](https://en.wikipedia.org/wiki/Osakeyhti%C3%B6) 公司，從 MariaDB and MySQL 5.5 開始是預設的儲存引擎。
+    * [XtraDB/InnoDB File Format](https://mariadb.com/kb/en/library/xtradbinnodb-file-format/): 有 2 種格式，原本的羚羊 (Antelope) 和後來新的梭魚 (Barracuda) ，預設是羚羊的檔案格式。
+    * [XtraDB/InnoDB Storage Formats](https://mariadb.com/kb/en/library/xtradbinnodb-storage-formats/): 有 4 種格式: Compact, Redundant, Compressed, Dynamic ，預設是 Compact 的儲存格式。
+* [XtraDB](https://mariadb.com/kb/en/library/about-xtradb/) 是 InnoDB 效能改善的分支版本，與 InnoDB 完全相容。
+    * [Why does MariaDB 10.2 use InnoDB instead of XtraDB?](https://mariadb.com/kb/en/library/why-does-mariadb-102-use-innodb-instead-of-xtradb/)
 * [MEMORY](https://mariadb.com/kb/en/library/memory-storage-engine/)
 * [CSV](https://mariadb.com/kb/en/library/csv/)
 * [BLACKHOLE](https://mariadb.com/kb/en/library/blackhole/)
@@ -35,15 +38,18 @@
 你可以在用戶端程式使用 [HELP](https://mariadb.com/kb/en/library/help-command/) 命令查詢各種命令的語法和說明文件。
 
 * [Administrative SQL Statements - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/administrative-sql-statements/)
-    * [USE](https://mariadb.com/kb/en/library/use/)
+    * [USE](https://mariadb.com/kb/en/library/use/): 使用指定的資料庫當作預設值。
     * [EXPLAIN](https://mariadb.com/kb/en/library/explain/)
     * [SET CHARACTER SET](https://mariadb.com/kb/en/library/set-character-set/)
     * [SET PASSWORD](https://mariadb.com/kb/en/library/set-password/)
-    * [SHOW VARIABLES](https://mariadb.com/kb/en/library/show-variables/)
-    * [SHOW DATABASES](https://mariadb.com/kb/en/library/show-databases/)
-    * [SHOW TABLES](https://mariadb.com/kb/en/library/show-tables/)
-    * [SHOW COLUMNS](https://mariadb.com/kb/en/library/show-columns/)
-    * [SHOW INDEX](https://mariadb.com/kb/en/library/show-index/)
+    * [SHOW VARIABLES](https://mariadb.com/kb/en/library/show-variables/): 顯示 MariaDB 的系統變數。
+    * [SHOW DATABASES](https://mariadb.com/kb/en/library/show-databases/): 顯示所有的資料庫名稱。
+    * [SHOW TABLES](https://mariadb.com/kb/en/library/show-tables/): 顯示能夠存取的所有資料庫名稱。
+    * [SHOW COLUMNS](https://mariadb.com/kb/en/library/show-columns/): 顯示指定資料庫內所有的資料表名稱。
+    * [SHOW INDEX](https://mariadb.com/kb/en/library/show-index/): 顯示資料表的索引。
+    * [SHOW CREATE DATABASE](https://mariadb.com/kb/en/library/show-create-database/): 顯示資料庫建立的資訊。
+    * [SHOW CREATE TABLE](https://mariadb.com/kb/en/library/show-create-table/): 顯示資料表建立的資訊。
+    * [SHOW TABLE STATUS](https://mariadb.com/kb/en/library/show-table-status/): 顯示資料表的狀態。
 * [Account Management SQL Commands - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/account-management-sql-commands/)
     * [CREATE USER](https://mariadb.com/kb/en/library/create-user/)
     * [GRANT](https://mariadb.com/kb/en/library/grant/)
@@ -99,7 +105,8 @@
 
 ## 用戶端和工具程式 (Clients & Utilities)
 
-* 命令列用戶端程式：[mysql](https://mariadb.com/kb/en/library/mysql-command-line-client/)
+* 命令列用戶端程式： [mysql](https://mariadb.com/kb/en/library/mysql-command-line-client/)
+* 管理 mysqld daemon 的程式： [mysqladmin](https://mariadb.com/kb/en/library/mysqladmin/)
 
 ## 備份工具
 
