@@ -2,14 +2,35 @@
 
 ## Z File System (ZFS)
 
-ZFS 是一種檔案系統，全名是 Zettabyte File System，最早是由昇陽電腦 (Sun Microsystems) 所開發，開源碼的部分則有 OpenZFS 專案，ZFS 是 128 位元的檔案系統。
+ZFS 是一種檔案系統，全名是 Zettabyte File System，最早是由昇陽電腦 (Sun Microsystems) 所開發，開源碼的部分則有 OpenZFS 專案，ZFS 是世界上第一個 128 位元的檔案系統，可儲存至 256 quadrillion zettabytes，也就是 2^128 位元組。 (quadrillion = 10^15, zettabytes = 2^70 bytes)
 
-ZFS 特別的地方在於不僅是一個檔案系統，還包含磁碟區管理 (volume management) 的功能。
+ZFS 的設計有 3 個主要目標 (也是殺手級的優點) ：
+
+1. 資料完整性 (data integrity) ：所有的資料都包含總和檢查碼 (checksum)，用於錯誤校正以確保完整性。
+2. 共用儲存 (pooled storage) ：實體儲存裝置以儲存池的方式進行管理與使用。
+3. 效能 (performance) ：具備多個快取機制以提升效能。
+
+ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區管理 (volume management) 的功能，磁碟區是以「儲存池 (storage pool) 」的方式使用。一般的檔案系統是建立在磁碟區上，但稱為「資料集 (dataset)」的 ZFS 檔案系統則是建立在儲存池上，並且可多個 ZFS 一起共用同一個儲存池。
 
 * [Chapter 19. The Z File System (ZFS)](https://www.freebsd.org/doc/handbook/zfs.html)
-* [OpenZFS](http://open-zfs.org/wiki/Main_Page)
-* [ZFS - Ubuntu Wiki](https://wiki.ubuntu.com/ZFS)
 * [Oracle Solaris Administration: ZFS File Systems](https://docs.oracle.com/cd/E23824_01/html/821-1448/index.html)
+* [OpenZFS](http://open-zfs.org/wiki/Main_Page)
+* [GitHub - zfsonlinux/zfs: ZFS on Linux - the official OpenZFS implementation for Linux.](https://github.com/zfsonlinux/zfs)
+* [ZFS - Ubuntu Wiki](https://wiki.ubuntu.com/ZFS)
+* [Kernel/Reference/ZFS - Ubuntu Wiki](https://wiki.ubuntu.com/Kernel/Reference/ZFS)
+* [Ubuntu – Details of package zfsutils-linux in xenial](https://packages.ubuntu.com/xenial/admin/zfsutils-linux)
+* [The 'hidden' cost of using ZFS for your home NAS](http://louwrentius.com/the-hidden-cost-of-using-zfs-for-your-home-nas.html)
+* [128-bit storage: are you high? | Oracle Jeff Bonwick&#039;s Blog](https://blogs.oracle.com/bonwick/128-bit-storage:-are-you-high)
+
+### ZFS 相關指令與文件
+
+主要有兩個指令， zpool 用來管理儲存池，而 zfs 則是用來管理資料集。
+
+* [Ubuntu Manpage: zpool - configures ZFS storage pools](http://manpages.ubuntu.com/manpages/xenial/man8/zpool.8.html)
+* [Ubuntu Manpage: zfs - configures ZFS file systems](http://manpages.ubuntu.com/manpages/xenial/man8/zfs.8.html)
+* [Ubuntu Manpage: pool-features - ZFS pool feature descriptions](http://manpages.ubuntu.com/manpages/xenial/man5/zpool-features.5.html)
+* [Ubuntu Manpage: zfs-events - Events created by the ZFS filesystem.](http://manpages.ubuntu.com/manpages/xenial/man5/zfs-events.5.html)
+* [Ubuntu Manpage: zfs-module-parameters - ZFS module parameters](http://manpages.ubuntu.com/manpages/xenial/man5/zfs-module-parameters.5.html)
 
 ## File Allocation Table (FAT)
 
