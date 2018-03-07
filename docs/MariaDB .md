@@ -11,6 +11,7 @@
 * MySQL 的 Logo 是海豚 (dolphin)，而 MariaDB 的 Logo 是海豹 (seal)。
 * [MariaDB Documentation](https://mariadb.com/kb/en/library/documentation/)
 * MariaDB source code 在官方 Git 儲存庫：[GitHub - MariaDB/server](https://github.com/MariaDB/server)，授權條款是 GPLv2 。
+* [MySQL :: MySQL 5.7 Reference Manual :: MySQL Glossary](https://dev.mysql.com/doc/refman/5.7/en/glossary.html)
 
 ## 儲存引擎 (Storage Engines)
 
@@ -50,14 +51,14 @@
     * [SHOW CREATE DATABASE](https://mariadb.com/kb/en/library/show-create-database/): 顯示資料庫建立的資訊。
     * [SHOW CREATE TABLE](https://mariadb.com/kb/en/library/show-create-table/): 顯示資料表建立的資訊。
     * [SHOW TABLE STATUS](https://mariadb.com/kb/en/library/show-table-status/): 顯示資料表的狀態。
-* [Account Management SQL Commands - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/account-management-sql-commands/)
+* [Account Management SQL Commands - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/account-management-sql-commands/) (Data Control Languag, DCL)
     * [CREATE USER](https://mariadb.com/kb/en/library/create-user/)
     * [GRANT](https://mariadb.com/kb/en/library/grant/)
-* [Data Definition - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-definition/)
+* [Data Definition - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-definition/) (Data Definition Language, DDL)
     * [CREATE](https://mariadb.com/kb/en/library/create/)
     * [DROP](https://mariadb.com/kb/en/library/drop/)
     * [ALTER](https://mariadb.com/kb/en/library/alter/)
-* [Data Manipulation - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-manipulation/)
+* [Data Manipulation - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-manipulation/) (Data Manipulation Language, DML)
     * [SELECT](https://mariadb.com/kb/en/library/select/)
     * [INSERT](https://mariadb.com/kb/en/library/insert/)
     * [UPDATE](https://mariadb.com/kb/en/library/update/)
