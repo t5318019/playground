@@ -10,21 +10,24 @@ ZFS 的設計有 3 個主要目標 (也是殺手級的優點) ：
 2. 共用儲存 (pooled storage) ：實體儲存裝置以儲存池的方式進行管理與使用。
 3. 效能 (performance) ：具備多個快取機制以提升效能。
 
-ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區管理 (volume management) 的功能，磁碟區是以「儲存池 (storage pool) 」的方式使用。一般的檔案系統是建立在磁碟區上，但 ZFS 檔案系統 (稱為「資料集 (dataset)」) 則是建立在儲存池上，並且可多個 ZFS 一起共用同一個儲存池。
+ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區管理 (volume management) 的功能，磁碟區是以「儲存池 (storage pool) 」的方式使用。一般的檔案系統是建立在磁碟區上，但 ZFS 檔案系統 (稱為「資料集 (dataset)」) 則是建立在儲存池上，並且可多個 ZFS dataset 共用同一個儲存池。
 
 可被加入儲存池的裝置共有 7 種類型，ZFS 稱為 vdev (全名是 virtual device) 。
 
 1. disk: 區塊裝置 (block device) ，像是整個磁碟或磁碟分割區 (partition)。
 2. file: 一般的檔案，通常用於測試和實驗的用途。
 3. mirror: 2 個以上的區塊裝置，資料將被複製到多個裝置上，當裝置損毀到剩下一個時，資料還是能保證完整。
-4. raidz, raidz2, raidz3: 類似磁碟陣列 RAID-5 但改善 RAID-5 的缺點，ZFS 提供 3 種等級的同位元資料 (parity) 保護。raidz 也就是 raidz1 。
+4. raidz, raidz2, raidz3: 類似磁碟陣列但改善傳統 RAID 的缺點，ZFS 提供 3 種等級的同位元資料 (parity) 保護。
+    * raidz 也就是 raidz1，稱為 Single-parity RAID-Z ，類似於傳統的 RAID-5 。
+    * raidz2，稱為 Single-parity RAID-Z ，類似於傳統的 RAID-6 。
+    * raidz3，稱為 Triple-Parity RAID-Z 。
 5. spare: 用於熱備援 (hot spare) 。
 6. log: 用於 ZFS intent log (ZIL) 。
 7. cache: 用於快取以提升效能。
 
 儲存池建立後，我們就能夠在上面建立資料集，ZFS 有 4 種類型的 dataset 。
 
-1. file system: 就是 ZFS 檔案系統。
+1. file system: 就是 ZFS 檔案系統，比較特別的是 ZFS 具有階層架構，稱為 ZFS File System Hierarchy 。
 2. volume: 作為區塊裝置使用。
 3. snapshot: file system 或 volume 的快照。
 4. bookmark: 快照的參照 (refernece)。
@@ -38,11 +41,13 @@ ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區�
 * [Ubuntu Manpage: pool-features - ZFS pool feature descriptions](http://manpages.ubuntu.com/manpages/xenial/man5/zpool-features.5.html)
 * [Ubuntu Manpage: zfs-events - Events created by the ZFS filesystem.](http://manpages.ubuntu.com/manpages/xenial/man5/zfs-events.5.html)
 * [Ubuntu Manpage: zfs-module-parameters - ZFS module parameters](http://manpages.ubuntu.com/manpages/xenial/man5/zfs-module-parameters.5.html)
+* [Ubuntu Manpage: zdb - Display zpool debugging and consistency information](http://manpages.ubuntu.com/manpages/xenial/en/man8/zdb.8.html)
 
 ### ZFS 參考資料
 
 * [Chapter 19. The Z File System (ZFS)](https://www.freebsd.org/doc/handbook/zfs.html)
 * [Oracle Solaris Administration: ZFS File Systems](https://docs.oracle.com/cd/E23824_01/html/821-1448/index.html)
+* [Creating a ZFS File System Hierarchy - Oracle Solaris Administration: ZFS File Systems](https://docs.oracle.com/cd/E23824_01/html/821-1448/gaypa.html)
 * [OpenZFS](http://open-zfs.org/wiki/Main_Page)
 * [GitHub - zfsonlinux/zfs: ZFS on Linux - the official OpenZFS implementation for Linux.](https://github.com/zfsonlinux/zfs)
 * [ZFS - Ubuntu Wiki](https://wiki.ubuntu.com/ZFS)
@@ -50,6 +55,7 @@ ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區�
 * [Ubuntu – Details of package zfsutils-linux in xenial](https://packages.ubuntu.com/xenial/admin/zfsutils-linux)
 * [The 'hidden' cost of using ZFS for your home NAS](http://louwrentius.com/the-hidden-cost-of-using-zfs-for-your-home-nas.html)
 * [128-bit storage: are you high? | Oracle Jeff Bonwick&#039;s Blog](https://blogs.oracle.com/bonwick/128-bit-storage:-are-you-high)
+* [How to improve ZFS performance &#8211; ICESQUARE &#8211; Solve Computer Server Problems, Computer Help, Server Support, Server Help](https://icesquare.com/wordpress/how-to-improve-zfs-performance/)
 
 ## File Allocation Table (FAT)
 
