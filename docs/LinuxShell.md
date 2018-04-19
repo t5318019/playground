@@ -1,8 +1,12 @@
 # Linux Shell
 
+<style> td { vertical-align: top; } </style>
+
 ## GNU core utilities
 
-### /bin/
+<table>
+<tr><th>/bin/<th>/usr/bin/<th>/usr/sbin/
+<tr><td>
 
 * [cat](http://manpages.ubuntu.com/manpages/xenial/en/man1/cat.1.html)
 * [chgrp](http://manpages.ubuntu.com/manpages/xenial/en/man1/chgrp.1.html)
@@ -33,7 +37,7 @@
 * [uname](http://manpages.ubuntu.com/manpages/xenial/en/man1/uname.1.html)
 * [vdir](http://manpages.ubuntu.com/manpages/xenial/en/man1/vdir.1.html)
 
-### /usr/bin/
+<td>
 
 * [\[](http://manpages.ubuntu.com/manpages/xenial/en/man1/[.1.html)
 * [arch](http://manpages.ubuntu.com/manpages/xenial/en/man1/arch.1.html)
@@ -111,9 +115,11 @@
 * [whoami](http://manpages.ubuntu.com/manpages/xenial/en/man1/whoami.1.html)
 * [yes](http://manpages.ubuntu.com/manpages/xenial/en/man1/yes.1.html)
 
-### /usr/sbin/
+<td>
 
 * [chroot](http://manpages.ubuntu.com/manpages/xenial/en/man8/chroot.8.html)
+
+</table>
 
 ### 參考資料
 
@@ -122,20 +128,20 @@
 * [Kochan &amp; Wood, Shell Programming in Unix, Linux and OS X | Pearson](https://www.pearson.com/us/higher-education/product/Kochan-Shell-Programming-in-Unix-Linux-and-OS-X-4th-Edition/9780134496689.html)
 * [The Linux Command Line by William E. Shotts, Jr.](http://linuxcommand.org/tlcl.php)
 
-## Bourne-Again SHell (bash)
+## Bourne-Again SHell (Bash)
 
-### bash 內建指令
+### Bash 內建指令
 
 * : [arguments]
 * .  filename [arguments]
 * source filename [arguments]
 * alias [-p] [name[=value] ...]
 * bg [jobspec ...]
-* bind [-m keymap] [-lpsvPSVX]<br/>
-  bind [-m keymap] [-q function] [-u function] [-r keyseq]<br/>
-  bind [-m keymap] -f filename<br/>
-  bind [-m keymap] -x keyseq:shell-command<br/>
-  bind [-m keymap] keyseq:function-name<br/>
+* bind [-m keymap] [-lpsvPSVX]<br>
+  bind [-m keymap] [-q function] [-u function] [-r keyseq]<br>
+  bind [-m keymap] -f filename<br>
+  bind [-m keymap] -x keyseq:shell-command<br>
+  bind [-m keymap] keyseq:function-name<br>
   bind readline-command
 * break [n]
 * builtin shell-builtin [arguments]
@@ -143,11 +149,11 @@
 * cd [-L|[-P [-e]] [-@]] [dir]
 * command [-pVv] command [arg ...]
 * compgen [option] [word]
-* complete [-abcdefgjksuv] [-o comp-option] [-DE] [-A action]  [-G globpat] [-W wordlist] [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] name [name ...]<br/>
+* complete [-abcdefgjksuv] [-o comp-option] [-DE] [-A action]  [-G globpat] [-W wordlist] [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] name [name ...]<br>
   complete -pr [-DE] [name ...]
 * compopt [-o option] [-DE] [+o option] [name]
 * continue [n]
-* declare [-aAfFgilnrtux] [-p] [name[=value] ...]<br/>
+* declare [-aAfFgilnrtux] [-p] [name[=value] ...]<br>
   typeset [-aAfFgilnrtux] [-p] [name[=value] ...]
 * dirs [-clpv] [+n] [-n]
 * disown [-ar] [-h] [jobspec ...]
@@ -156,43 +162,43 @@
 * eval [arg ...]
 * exec [-cl] [-a name] [command [arguments]]
 * exit [n]
-* export [-fn] [name[=word]] ...<br/>
+* export [-fn] [name[=word]] ...<br>
   export -p
-* fc [-e ename] [-lnr] [first] [last]<br/>
+* fc [-e ename] [-lnr] [first] [last]<br>
   fc -s [pat=rep] [cmd]
 * fg [jobspec]
 * getopts optstring name [args]
 * hash [-lr] [-p filename] [-dt] [name]
 * help [-dms] [pattern]
-* history [n]<br/>
-  history -c<br/>
-  history -d offset<br/>
-  history -anrw [filename]<br/>
-  history -p arg [arg ...]<br/>
+* history [n]<br>
+  history -c<br>
+  history -d offset<br>
+  history -anrw [filename]<br>
+  history -p arg [arg ...]<br>
   history -s arg [arg ...]
-* jobs [-lnprs] [ jobspec ... ]<br/>
+* jobs [-lnprs] [ jobspec ... ]<br>
   jobs -x command [ args ... ]
-* kill [-s sigspec | -n signum | -sigspec] [pid | jobspec] ...<br/>
+* kill [-s sigspec | -n signum | -sigspec] [pid | jobspec] ...<br>
   kill -l [sigspec | exit_status]
 * let arg [arg ...]
 * local [option] [name[=value] ...]
 * logout
-* mapfile [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]<br/>
+* mapfile [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]<br>
   readarray  [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
 * popd [-n] [+n] [-n]
 * printf [-v var] format [arguments]
-* pushd [-n] [+n] [-n]<br/>
+* pushd [-n] [+n] [-n]<br>
   pushd [-n] [dir]
 * pwd [-LP]
 * read [-ers] [-a aname] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt] [-t timeout] [-u fd] [name ...]
 * readonly [-aAf] [-p] [name[=word] ...]
 * return [n]
-* set [--abefhkmnptuvxBCEHPT] [-o option-name] [arg ...]<br/>
+* set [--abefhkmnptuvxBCEHPT] [-o option-name] [arg ...]<br>
   set [+abefhkmnptuvxBCEHPT] [+o option-name] [arg ...]
 * shift [n]
 * shopt [-pqsu] [-o] [optname ...]
 * suspend [-f]
-* test expr<br/>
+* test expr<br>
   [ expr ]
 * times
 * trap [-lp] [[arg] sigspec ...]
@@ -203,7 +209,117 @@
 * unset [-fv] [-n] [name ...]
 * wait [-n] [n ...]
 
+### Bash 變數
+
+<table>
+<tr><th>由 Bash 設定的變數<th>由 Bash 讀取的變數
+<tr><td>
+
+* BASH
+* BASHOPTS
+* BASHPID
+* BASH_ALIASES
+* BASH_ARGC
+* BASH_ARGV
+* BASH_CMDS
+* BASH_COMMAND
+* BASH_EXECUTION_STRING
+* BASH_LINENO
+* BASH_REMATCH
+* BASH_SOURCE
+* BASH_SUBSHELL
+* BASH_VERSINFO
+* BASH_VERSION
+* COMP_CWORD
+* COMP_KEY
+* COMP_LINE
+* COMP_POINT
+* COMP_TYPE
+* COMP_WORDBREAKS
+* COMP_WORDS
+* COPROC
+* DIRSTACK
+* EUID
+* FUNCNAME
+* GROUPS
+* HISTCMD
+* HOSTNAME
+* HOSTTYPE
+* LINENO
+* MACHTYPE
+* MAPFILE
+* OLDPWD
+* OPTARG
+* OPTIND
+* OSTYPE
+* PIPESTATUS
+* PPID
+* PWD
+* RANDOM
+* READLINE_LINE
+* READLINE_POINT
+* REPLY
+* SECONDS
+* SHELLOPTS
+* SHLVL
+* UID
+
+<td>
+
+* BASH_COMPAT
+* BASH_ENV
+* BASH_XTRACEFD
+* CDPATH
+* CHILD_MAX
+* COLUMNS
+* COMPREPLY
+* EMACS
+* ENV
+* FCEDIT
+* FIGNORE
+* FUNCNEST
+* GLOBIGNORE
+* HISTCONTROL
+* HISTFILE
+* HISTFILESIZE
+* HISTIGNORE
+* HISTSIZE
+* HISTTIMEFORMAT
+* HOME
+* HOSTFILE
+* IFS
+* IGNOREEOF
+* INPUTRC
+* LANG
+* LC_ALL
+* LC_COLLATE
+* LC_CTYPE
+* LC_MESSAGES
+* LC_NUMERIC
+* LINES
+* MAIL
+* MAILCHECK
+* MAILPATH
+* OPTERR
+* PATH
+* POSIXLY_CORRECT
+* PROMPT_COMMAND
+* PROMPT_DIRTRIM
+* PS1
+* PS2
+* PS3
+* PS4
+* SHELL
+* TIMEFORMAT
+* TMOUT
+* TMPDIR
+* auto_resume
+* histchars
+
+</table>
+
 ### 參考資料
 
+* [Bash - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/)
 * [Ubuntu – Details of package bash in xenial](https://packages.ubuntu.com/xenial/bash)
 * [Ubuntu Manpage: bash - GNU Bourne-Again SHell](http://manpages.ubuntu.com/manpages/xenial/en/man1/bash.1.html)
