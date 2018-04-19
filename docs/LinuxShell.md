@@ -203,7 +203,21 @@
 * unset [-fv] [-n] [name ...]
 * wait [-n] [n ...]
 
-### 由 Bash 設定的變數
+### Bash 參數
+
+特別的參數：
+
+* \*
+* @
+* \#
+* ?
+* \-
+* $
+* !
+* 0
+* _
+
+由 Bash 設定的變數：
 
 * BASH
 * BASHOPTS
@@ -254,7 +268,7 @@
 * SHLVL
 * UID
 
-## 由 Bash 讀取的變數
+由 Bash 讀取的變數：
 
 * BASH_COMPAT
 * BASH_ENV
@@ -305,6 +319,17 @@
 * TMPDIR
 * auto_resume
 * histchars
+
+### 擴展 (Expansion)
+
+* Brace Expansion
+* Tilde Expansion
+* Parameter Expansion
+* Command Substitution
+* Arithmetic Expansion
+* Process Substitution
+* Word Splitting
+* Pathname Expansion
 
 ### 參考資料
 
