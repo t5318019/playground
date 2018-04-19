@@ -2,9 +2,7 @@
 
 ## GNU core utilities
 
-<table>
-<tr><th>/bin/<th>/usr/bin/<th>/usr/sbin/
-<tr><td style="vertical-align: top;">
+### /bin/
 
 * [cat](http://manpages.ubuntu.com/manpages/xenial/en/man1/cat.1.html)
 * [chgrp](http://manpages.ubuntu.com/manpages/xenial/en/man1/chgrp.1.html)
@@ -35,7 +33,7 @@
 * [uname](http://manpages.ubuntu.com/manpages/xenial/en/man1/uname.1.html)
 * [vdir](http://manpages.ubuntu.com/manpages/xenial/en/man1/vdir.1.html)
 
-<td style="vertical-align: top;">
+### /usr/bin/
 
 * [\[](http://manpages.ubuntu.com/manpages/xenial/en/man1/[.1.html)
 * [arch](http://manpages.ubuntu.com/manpages/xenial/en/man1/arch.1.html)
@@ -113,11 +111,9 @@
 * [whoami](http://manpages.ubuntu.com/manpages/xenial/en/man1/whoami.1.html)
 * [yes](http://manpages.ubuntu.com/manpages/xenial/en/man1/yes.1.html)
 
-<td style="vertical-align: top;">
+### /usr/sbin/
 
 * [chroot](http://manpages.ubuntu.com/manpages/xenial/en/man8/chroot.8.html)
-
-</table>
 
 ### 參考資料
 
@@ -207,11 +203,7 @@
 * unset [-fv] [-n] [name ...]
 * wait [-n] [n ...]
 
-### Bash 變數
-
-<table>
-<tr><th>由 Bash 設定的變數<th>由 Bash 讀取的變數
-<tr><td style="vertical-align: top;">
+### 由 Bash 設定的變數
 
 * BASH
 * BASHOPTS
@@ -262,7 +254,7 @@
 * SHLVL
 * UID
 
-<td style="vertical-align: top;">
+## 由 Bash 讀取的變數
 
 * BASH_COMPAT
 * BASH_ENV
@@ -313,8 +305,6 @@
 * TMPDIR
 * auto_resume
 * histchars
-
-</table>
 
 ### 參考資料
 
