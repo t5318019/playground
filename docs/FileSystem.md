@@ -59,7 +59,7 @@ ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區�
 
 ## File Allocation Table (FAT)
 
-FAT 家族有 FAT12, FAT16, FAT32, 與 exFAT (或稱 FAT64 )，其中 FAT 後面的數字代表檔案系統記錄資訊 (FAT 稱為「entry」) 的位元數，以下用 FAT32 舉例。而叢集是 FAT 檔案系統可以操作的最小單位，與磁碟可操作的最小單位是磁區 (sector) 不一樣。
+FAT 家族有 FAT12, FAT16, FAT32, 與 exFAT (或稱 FAT64 )，其中 FAT 後面的數字代表檔案系統記錄叢集位址的位元數，以下用 FAT32 舉例。而叢集是 FAT 檔案系統可以操作的最小單位，與磁碟可操作的最小單位是磁區 (sector) 不一樣。
 
 FAT32 是用 32-bit 記錄叢集 (cluster) 的位址，FAT 32 是 Windows 95 以後才引進的檔案系統，理論上可定址到 2^32 個叢集，但 FAT32 保留最高 4 位元僅用 28 位元，以 FAT 支援最大的 32 kB 叢集 (一個叢集可儲存 32 kB 的資料) 來計算，FAT32 的最大磁碟區大小理論上是 8TB (= 32kB * 2^28)，但實際上依作業系統或磁碟工具的支援而定，目前以 Windows 來說是限制在 32GB 。
 
@@ -67,9 +67,29 @@ FAT32 支援的最大檔案大小為 4GB (實際上是 2^32 少 1 個位元組)�
 
 每個磁碟區最多可存放的檔案數量為 4177920 個 (大約 2^22 )，這主要是由於 ScanDisk 工具程式的限制導致。
 
-一個目錄最多可存放的檔案數量為 65534 個，根目錄沒有限制數量。這主要是規格限制 16-bit (參閱 [Microsoft Extensible Firmware Initiative FAT32 File System Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc) 最後面)，所以是 2^16 少兩個 "." 與 ".." 目錄檔案。FAT 中的目錄本身也是一種「檔案」，而根目錄則是一種特別的目錄，根目錄具有 ATTR_VOLUME_ID 的屬性。
+一個目錄最多可存放的檔案數量為 65534 個，根目錄沒有限制數量。這主要是規格限制 16-bit (參閱 [Microsoft Extensible Firmware Initiative FAT32 File System Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/fatgen103.doc) 最後面)，所以是 2^16 少兩個 "." 與 ".." 目錄檔案。FAT 中的目錄本身也是一種「檔案」，是設定 ATTR_DIRECTORY (0x10) 屬性的檔案，而根目錄則是一種特別的目錄，根目錄具有 ATTR_VOLUME_ID (0x08) 屬性。
 
-FAT 的資料在磁碟上是以 "Little-endian" 的位元組順序存放，低位元存放於低位址，高位元存放於高位址。
+FAT 的資料在磁碟上是以 "Little-endian" 的位元組順序存放，低位元存放於低位址，高位元存放於高位址。檔名是不區分大小寫 (case-insensitive)。
+
+FAT 檔案系統的紀錄資訊 (entry) 有下列屬性與用途：
+
+* ATTR_READ_ONLY: 唯讀，不能寫入。
+* ATTR_HIDDEN: 列出目錄下的檔案清單時，要不能被顯示。
+* ATTR_SYSTEM: 作業系統使用的檔案。
+* ATTR_VOLUME_ID: 一個磁碟區 (volume) 只能有一個，檔名將會是磁碟區名稱。
+* ATTR_DIRECTORY: 標示這個檔案紀錄是一個目錄。
+* ATTR_ARCHIVE: 用於備份工具程式標示是否已經備份。
+
+FAT 檔案系統的時間資訊如下，注意到這些時間日期是以機器的本地時間為儲存資訊。
+
+* DIR_CrtTimeTenth (1 byte): 建立時間，非必要，單位是 10 毫秒 (millisecond)，有效範圍是 0 到 199 ，因此檔案建立時間的精確度是 10 毫秒。
+* DIR_CrtTime (2 bytes): 建立時間，非必要，最小單位是 2 秒，有效範圍是 00:00:00 到 23:59:58 。
+* DIR_CrtDate (2 bytes): 建立日期，非必要，有效範圍是 1980-01-01 到 2107-12-31 。
+* DIR_LstAccDate (2 bytes): 最後存取時間，非必要，有效範圍是 1980-01-01 到 2107-12-31 ，精確度是 1 天，因為沒有記錄時間。
+* DIR_WrtTime (2 bytes): 最後寫入時間，必要，最小單位是 2 秒，有效範圍是 00:00:00 到 23:59:58 。
+* DIR_WrtDate (2 bytes): 最後寫入日期，必要，有效範圍是 1980-01-01 到 2107-12-31 。
+
+### FAT 參考資料
 
 * [How FAT Works: Local File Systems](https://msdn.microsoft.com/en-us/library/cc776720)
 * [Design of the FAT file system - Wikipedia](https://en.wikipedia.org/wiki/Design_of_the_FAT_file_system)
@@ -80,8 +100,13 @@ FAT 的資料在磁碟上是以 "Little-endian" 的位元組順序存放，低�
 
 ## New Technology File System (NTFS)
 
+NTFS 在 4kB 叢集大小下可支援最大 16TB 的磁碟區，若是用最大 64kB 的叢集，則磁碟區可支援到 256TB 的大小。架構上可定址到 2^64 - 1 個叢集，但實際上依 Windows 實作則是 2^32 - 1 個叢集。
+
+每個磁碟區最多可存放的檔案數量為 4294967295 (= 2^32 - 1) 個。單個檔案架構上可至 16 EB (= 2^64 - 1k)，但實作上是 16TB (= 2^44 - 64k)。
+
 * [File System Functionality Comparison (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/ee681827(v=vs.85).aspx)
 * [NTFS Technical Reference: Local File Systems | Microsoft Docs](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc758691(v%3dws.10))
+* [[MS-FSA]: Appendix A: Product Behavior](https://msdn.microsoft.com/en-us/library/ff469400.aspx)
 
 ## FUSE (Filesystem in Userspace)
 
