@@ -15,6 +15,7 @@ Live CD 是包含「完整」作業系統的可開機光碟 (bootable CD) ，可
 * [LiveCDCustomizationFromScratch - Community Help Wiki](https://help.ubuntu.com/community/LiveCDCustomizationFromScratch)
 * [LiveCD/Persistence - Community Help Wiki](https://help.ubuntu.com/community/LiveCD/Persistence)
 * [LiveUsbPendrivePersistent - Ubuntu Wiki](https://wiki.ubuntu.com/LiveUsbPendrivePersistent)
+* [CustomizeLiveInitrd - Ubuntu Wiki](https://wiki.ubuntu.com/CustomizeLiveInitrd)
 * [GNU GRUB - GNU Project - Free Software Foundation (FSF)](https://www.gnu.org/software/grub/)
 * [Syslinux Wiki](https://www.syslinux.org/wiki/)
 * [The Linux Kernel Archives](https://www.kernel.org/)
@@ -28,6 +29,7 @@ Live CD 是包含「完整」作業系統的可開機光碟 (bootable CD) ，可
 * [Ubuntu Manpage: casper - a hook for initramfs-tools to boot live systems.](http://manpages.ubuntu.com/manpages/xenial/en/man7/casper.7.html)
 * [Ubuntu Manpage: extlinux - install  the SYSLINUX bootloader on a ext2/ext3/ext4/btrfs](http://manpages.ubuntu.com/manpages/xenial/en/man1/extlinux.1.html)
 * [Ubuntu Manpage: debirf - build an initrd to boot a full Debian system entirely from RAM](http://manpages.ubuntu.com/manpages/xenial/en/man1/debirf.1.html)
+* [Ubuntu Manpage: cpio - copy files to and from archives](http://manpages.ubuntu.com/manpages/xenial/en/man1/cpio.1.html)
 
 ### 相關套件
 
@@ -46,3 +48,13 @@ Live CD 是包含「完整」作業系統的可開機光碟 (bootable CD) ，可
 * [Ubuntu – Details of package discover in xenial](https://packages.ubuntu.com/xenial/discover)
 * [Ubuntu – Details of package os-prober in xenial](https://packages.ubuntu.com/xenial/os-prober)
 * [Ubuntu – Details of package linux-generic in xenial](https://packages.ubuntu.com/xenial/linux-generic)
+
+### 相關知識
+
+* [BootLoader - Debian Wiki](https://wiki.debian.org/BootLoader)
+* [initramfs - Debian Wiki](https://wiki.debian.org/initramfs)
+* [Initramfs - Ubuntu Wiki](https://wiki.ubuntu.com/Initramfs)
+* [ramfs-rootfs-initramfs.txt](https://www.kernel.org/doc/Documentation/filesystems/ramfs-rootfs-initramfs.txt)
+* [overlayfs.txt](https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt)
+* [tmpfs.txt](https://www.kernel.org/doc/Documentation/filesystems/tmpfs.txt)
+* [cpio - Debian Wiki](https://wiki.debian.org/cpio)
