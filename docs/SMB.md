@@ -8,7 +8,7 @@ SMB 在 OSI 網路模型上屬於 Application Layer 和 Presentation Layer 。
 
 SMB 依靠底層的通訊協定主要是 NetBIOS over TCP/IP (簡稱 NBT )，而 NetBIOS 全名是 Network Basic Input/Output System，NetBIOS 屬於 Session Layer 的通訊協定。
 
-Common Internet File System (CIFS) 是 SMB 的另一個分支版本 (dialect) ，一般會用「 SMB/CIFS 」稱之。從歷史來看，IBM 定義了最早的 SMB ，之後微軟自己實現 SMB 並定義了 MS-CIFS (簡稱 CIFS )，微軟繼續擴充 CIFS 增加許多的支援並定義了 MS-SMB (也簡稱 SMB ) ，以範圍來看，MS-CIFS 是 MS-SMB 的子集合。要特別注意 SMB 這個縮寫指的是 MS-SMB 還是最早的 SMB，在網路上查資料的時候，常常會搞不清楚 CIFS 與 SMB 的關係 (例如誰先定義、誰是誰的集合等)。
+Common Internet File System (CIFS) 是 SMB 的另一個分支版本 (dialect) ，一般會用「 SMB/CIFS 」稱之。_CIFS 與 SMB 的關係，相當於 JavaScript 與 ECMAScript 的關係。_從歷史來看，IBM 定義了最早的 SMB ，之後微軟自己實現 SMB 並定義了 MS-CIFS (簡稱 CIFS )，微軟繼續擴充 CIFS 增加許多的支援並定義了 MS-SMB (也簡稱 SMB ) ，以範圍來看，MS-CIFS 是 MS-SMB 的子集合。要特別注意 SMB 這個縮寫指的是 MS-SMB 還是最早的 SMB，在網路上查資料的時候，常常會搞不清楚 CIFS 與 SMB 的關係 (例如誰先定義、誰是誰的集合等)。
 
 CIFS 是主從式架構 (client-server) 的通訊協定，由一系列「 SMB 命令 (SMB commands) 」組成，而 SMB 命令則是包含伺服器和用戶端交換的「 SMB 訊息 (SMB messages) 」。而 SMB 訊息則是包含 3 個部分： (1) 固定 32-bytes 的標頭。 (2) 可變長度的參數區塊。 (3) 可變長度的資料區塊。
 
