@@ -11,36 +11,47 @@
 
 ## Python 2 or Python 3
 
-Python 目前有 2 和 3 兩個版本，其中 Python 3 也稱為 Python 3000 或 Python 3k，學習與使用上應該要用哪一個呢？
+Python 目前有 2 和 3 兩個版本，其中 Python 3 也稱為 Python 3000 或 Py3k，學習與使用上應該要用哪一個呢？
 
 * [Python2orPython3 - Python Wiki](https://wiki.python.org/moin/Python2orPython3)
 * [Python 2.x或3.x？ | iThome](https://www.ithome.com.tw/voice/104207)
+* [PEP 3000 -- Python 3000 | Python.org](https://www.python.org/dev/peps/pep-3000/)
 * [PEP 3099 -- Things that will Not Change in Python 3000 | Python.org](https://www.python.org/dev/peps/pep-3099/)
 
 ## The Zen of Python
 
-Python 程式語言的指導原則，定義在 [PEP 20 -- The Zen of Python | Python.org](https://www.python.org/dev/peps/pep-0020/) 共 19 條，也可以在 Python 用 `import this` 顯示，或是執行 `python3 -c "import this"`。
+Python 程式語言的設計原則和哲學，定義在 [PEP 20 -- The Zen of Python | Python.org](https://www.python.org/dev/peps/pep-0020/) 共 19 條，有助於我們理解和學習 Python。你可以在互動模式中用 `import this` 顯示，或是執行 `python3 -c "import this"`，內容如下：
 
-* Beautiful is better than ugly.
-* Explicit is better than implicit.
-* Simple is better than complex.
-* Complex is better than complicated.
-* Flat is better than nested.
-* Sparse is better than dense.
-* Readability counts.
-* Special cases aren't special enough to break the rules.
-* Although practicality beats purity.
-* Errors should never pass silently.
-* Unless explicitly silenced.
-* In the face of ambiguity, refuse the temptation to guess.
-* There should be one-- and preferably only one --obvious way to do it.
-* Although that way may not be obvious at first unless you're Dutch.
-* Now is better than never.
-* Although never is often better than *right* now.
-* If the implementation is hard to explain, it's a bad idea.
-* If the implementation is easy to explain, it may be a good idea.
-* Namespaces are one honking great idea -- let's do more of those!
+    The Zen of Python, by Tim Peters
+
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
+
+PEP 20 列出 19 條箴言 (據說有 20 條但只記錄 19 條)，有沒有那些特別重要？是否有先後順序？搜尋結果看來是沒有。其中「比較好 (better than)」出現了 8 次，這幾句是程式設計的判斷依據。
+
+## Styles and Conventions
+
+* [PEP 8 -- Style Guide for Python Code | Python.org](https://www.python.org/dev/peps/pep-0008/)
+* [PEP 257 -- Docstring Conventions | Python.org](https://www.python.org/dev/peps/pep-0257/)
 
 ## 其他
 
+* [Glossary &#8212; Python 3.7.0 documentation](https://docs.python.org/3/glossary.html)
 * [The History of Python](http://python-history.blogspot.com/)
