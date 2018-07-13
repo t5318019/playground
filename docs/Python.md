@@ -60,13 +60,65 @@ PEP 20 列出 19 條箴言 (據說有 20 條但只記錄 19 條)，有沒有那�
 
 Python 的設計哲學會在程式語言本身的語法 (Syntax) 和語意 (Semantics) 上表現。
 
-## 資料模型 (Data Model)
+## 資料模型 (Data model)
 
 * Python 中所有的資料都是物件 (object)，或是物件之間的關係。
 * 每個物件都具有唯一身分 (identity)、型別 (type)、值 (value) 。
-    * 唯一身分 (identity) 可由 id() 函式取得，對於 CPython 而言是物件的記憶體位置。
-    * 型別可由 type() 函式取得。
+    * 唯一身分 (identity) 可由 `id()` 函式取得，對於 CPython 而言是物件的記憶體位置。
+    * 型別可由 `type()` 函式取得
+* 物件建立之後，不可改變物件的唯一身分與型別。
 * 物件分成「可變更(mutable)」和「不可變更(immutable)」兩種，指的是物件的值是否可變更，由物件的型別決定。
+* 判斷兩個物件是否相同 (同一個記憶體位置)，可以使用 `is` 運算子進行比較。
+* 物件不需要明確地摧毀，Python 使用垃圾回收 (garbage collection) 記憶體管理機制。
+* 某些物件可以包含其他物件，稱為容器 (container)。
+
+### 標準型別的階層架構 (Standard type hierarchy)
+
+Python 定義了需多內建的型別，各型別之間其實是有關連的階層架構，這裡指的是概念上，而不是物件導向上面的繼承關係。
+
+* None
+* NotImplemented
+* Ellipsis
+* numbers.Number
+    * numbers.Integral
+        * Integers (int)
+        * Booleans (bool)
+    * numbers.Real (float)
+    * numbers.Complex (complex)
+* Sequences
+    * Immutable sequences
+        * Strings
+        * Tuples
+        * Bytes
+    * Mutable sequences
+        * Lists
+        * Byte Arrays
+* Set types
+    * Sets
+    * Frozen sets
+* Mappings
+    * Dictionaries
+* Callable types
+    * User-defined functions
+    * Instance methods
+    * Generator functions
+    * Coroutine functions
+    * Asynchronous generator functions
+    * Built-in functions
+    * Built-in methods
+    * Classes
+    * Class Instances
+* Modules
+* Custom classes
+* Class instances
+* I/O objects (also known as file objects)
+* Internal types
+    * Code objects
+    * Frame objects
+    * Traceback objects
+    * Slice objects
+    * Static method objects
+    * Class method objects
 
 ## Styles and Conventions
 
