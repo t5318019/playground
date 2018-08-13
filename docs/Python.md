@@ -122,8 +122,25 @@ Python 定義了需多內建的型別，各型別之間其實是有關連的階�
 
 ## Styles and Conventions
 
+* [PEP 7 -- Style Guide for C Code | Python.org](https://www.python.org/dev/peps/pep-0007/)
 * [PEP 8 -- Style Guide for Python Code | Python.org](https://www.python.org/dev/peps/pep-0008/)
 * [PEP 257 -- Docstring Conventions | Python.org](https://www.python.org/dev/peps/pep-0257/)
+
+### PEP 8
+
+Guido 對程式碼的見解：閱讀程式碼比撰寫還要多。Style Guide 讓程式碼的風格一致，目的是改善程式碼的可讀性，也就是 PEP 20 中的 _Readability counts. (可讀性是重要的)_ 。
+
+* 縮排 (indentation) 用 4 個空格 (space)。
+* 懸掛縮排 (hanging indentation)，意思是除了第一行外，同一個段落的其他行都縮排。
+* 縮排使用空格，而不要使用 tab 字元。
+    * Python 3 不允許 space 和 tab 混用。
+    * Python 2 允許 space 和 tab 混用，但應該將 tab 都改用 space 替代。
+* 限制每行最多 79 字元的長度。
+    * docstring 或註解 (comment) 應限制在 72 字元的長度。
+    * 限制每行的字元數，優點是程式碼可以並排 (side-by-side) 顯示。而且在 code review 時可以方便地瀏覽。
+    * 編輯器支援自動換行 (word wrap) 可能讓程式碼換行後的可讀性變差。編輯器視窗應設定為 80 字元。
+    * 每行長度可以從 80 字元增加到 100 字元 (也就是限制 99 字元)。
+    * 續行請使用反斜線 (backslash) 字元： \
 
 ## 其他
 
