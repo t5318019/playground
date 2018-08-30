@@ -2,14 +2,16 @@
 
 我接觸 Windows 程式開發大概是在 2009 年的時候開始，當時是用 C# 程式語言和 .NET Framework 2.0 ，使用 Windows Forms 技術進行視窗程式開發，開發工具則是用 Visual Studio 2005。
 
-後來工作的時候使用 WPF (Windows Presentation Foundation) 進行開發，用了一陣子的 Visual Studio 2010 。中斷一陣子的視窗應用程式開發，在 2013 年進行 Outlook Add-in 的開發工作，使用 [Add-in Express for Office and .NET](https://www.add-in-express.com/add-in-net/index.php) 和 Visual Studio 2012 。前述這些開發都使用 C# 程式語言。
+後來工作的時候使用 WPF (Windows Presentation Foundation) 進行開發，用了一陣子的 Visual Studio 2010 。中斷一陣子的視窗應用程式開發，在 2013 年進行 Outlook Add-in 的開發工作，使用 [Add-in Express for Office and .NET](https://www.add-in-express.com/add-in-net/index.php) 和 Visual Studio 2012 。前述這些開發我都是使用 C# 程式語言。
 
 * [Technical documentation, API, and code examples | Microsoft Docs](https://docs.microsoft.com/en-us/)
+* [C# Guide | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [.NET Framework Guide | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/framework/)
 
 ## Microsoft Visual Studio
 
 <table>
-<tr><th>產品名稱</th><th>版本號碼</th><th>支援 .NET 版本<th></tr>
+<tr><th>產品名稱</th><th>版本號碼</th><th>支援 .NET Framework 版本</th></tr>
 <tr><td>Visual Studio .NET</td><td>7.0</td><td>1.0</td></tr>
 <tr><td>Visual Studio .NET 2003</td><td>7.1</td><td>1.1</td></tr>
 <tr><td>Visual Studio 2005</td><td>8.0</td><td>2.0, 3.0</td></tr>
@@ -22,11 +24,12 @@
 </table>
 
 * [Microsoft Visual Studio - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio)
-
+* [The Visual Studio Blog | The official source of product insight from the Visual Studio Engineering Team](https://blogs.msdn.microsoft.com/visualstudio/)
+
 ## Microsoft Windows
 
 <table>
-<tr><th>產品名稱</th><th>版本號碼</th><th>發行日期<th></tr>
+<tr><th>產品名稱</th><th>版本號碼</th><th>發行日期</th></tr>
 <tr><td>Windows NT 3.1</td><td>3.1</td><td>July 1993</td></tr>
 <tr><td>Windows NT 3.5</td><td>3.5</td><td>September 1994</td></tr>
 <tr><td>Windows NT 3.51</td><td>3.51</td><td>May 1995</td></tr>
@@ -63,3 +66,19 @@
 </table>
 
 * [Microsoft Office - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Office)
+
+## Windows Installer
+
+<table>
+<tr><th>版本號碼</th><th>包含於 Windows 版本</th><th>可支援 Windows 版本</th></tr>
+<tr><td>5.0</td><td>Windows 7 以後, Windows Server 2008 R2 以後</td><td>N/A (沒有 Redistributable 版本)</td></tr>
+<tr><td>4.5</td><td>Windows Vista SP2, Windows Server 2008 SP2</td><td>Windows XP, Windows Server 2003, Windows Vista, Windows Server 2008</td></tr>
+<tr><td>4.0</td><td>Windows Vista, Windows Server 2008</td><td>N/A (沒有 Redistributable 版本)</td></tr>
+<tr><td>3.1</td><td>Windows XP SP3, Windows Server 2003 SP1 & SP2</td><td>Windows 2000, Windows XP, Windows Server 2003</td></tr>
+<tr><td>3.0</td><td>Windows XP SP2</td><td>Windows 2000, Windows XP, Windows Server 2003</td></tr>
+<tr><td>2.0</td><td>Windows XP, Windows Server 2003</td><td>Windows 2000</td></tr>
+</table>
+
+* [Windows Installer | Microsoft Docs](https://docs.microsoft.com/en-us/windows/desktop/Msi/windows-installer-portal)
+* [Released Versions of Windows Installer | Microsoft Docs](https://docs.microsoft.com/en-us/windows/desktop/Msi/released-versions-of-windows-installer)
+* [Windows Installer - Wikipedia](https://en.wikipedia.org/wiki/Windows_Installer)
