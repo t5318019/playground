@@ -25,7 +25,7 @@ Python 目前有 2 和 3 兩個版本，其中 Python 3.0 也稱為 Python 3000 
 
 Python 2 和 Python 3 兩個版本是可以同時安裝在一個作業系統上，像是在 Ubuntu 系統上，目前 `python` 指令是 Python 2，而 `python3` 指令則是 Python 3。
 
-Python 2 原始碼檔案的預設編碼是 ASCII ，但在 Python 3 的預設編碼則是 UTF-8 。原始碼檔案若要指定與預設不同的編碼方式，可以在檔案一開始加上特別的註解，像這樣：
+Python 2 原始碼檔案的預設編碼是 ASCII ，但在 Python 3 的預設編碼則是 UTF-8 。原始碼檔案若要指定與預設不同的編碼方式，可以在檔案一開始加上特別的註解，稱為「編碼宣告(encoding declaration)」，像這樣：
 
     #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
@@ -132,7 +132,7 @@ Guido 對程式碼的見解：閱讀程式碼比撰寫還要多。Style Guide �
 
 * 縮排 (indentation) 用 4 個空格 (space)。
 * 懸掛縮排 (hanging indentation)，意思是除了第一行外，同一個段落的其他行都縮排。
-* 縮排使用空格，而不要使用 tab 字元。
+* 縮排使用「空格」字元比較好，而不要使用 tab 字元 (除非舊有的程式碼是用 tab 方式)。
     * Python 3 不允許 space 和 tab 混用。
     * Python 2 允許 space 和 tab 混用，但應該將 tab 都改用 space 替代。
 * 限制每行最多 79 字元的長度。
@@ -141,6 +141,28 @@ Guido 對程式碼的見解：閱讀程式碼比撰寫還要多。Style Guide �
     * 編輯器支援自動換行 (word wrap) 可能讓程式碼換行後的可讀性變差。編輯器視窗應設定為 80 字元。
     * 每行長度可以從 80 字元增加到 100 字元 (也就是限制 99 字元)。
     * 續行請使用反斜線 (backslash) 字元： \
+* 換行 (line break) 請在二元運算子 (binary operator) 之前換行，依循數學方程式的慣例。
+* 空行 (blank line)
+    * Top-level function 和 class 前面需要 2 個空行。
+    * 類別的方法前面需要 1 個空行。
+    * 使用空行分隔程式碼中的邏輯部分。
+* 原始碼檔案編碼
+    * Python 2 使用 ASCII 編碼。
+    * Python 3 使用 UTF-8 編碼。
+    * 原始碼檔案編碼和預設相同，不應該加上編碼宣告。
+* import
+    * 每一行應該匯入一個 module。
+    * 總是在原始碼檔案開頭 import 模組。在模組註解、docstring 之後，在模組的全域變數、常數之前。
+    * 依下列分組，每組之間用 1 個空行。
+        * Standard library
+        * Third party library
+        * Local application/library
+    * 建議採用 absolute import 。
+    * relative import 有明確的 (explicit) 和隱含的 (implicit) 兩種方式，不要使用 implicit relative import (在 Python 3 已經移除)。
+    * 避免使用 wildcard import ，像是 `from <module> import *` 這樣的方式，因為這會造成名稱的不明確。
+* Module-level "dunders" (開頭 2 個底線的變數)，在模組註解、docstring 之後，在模組 import 之前。
+* 在 Python 當中，字串用單引號和雙引號是相同的，依可讀性決定用哪一種 (例如避免使用反斜線的跳脫字元)。
+* Docstring 的 3 個引號，使用 3 個雙引號。
 
 ## 其他
 
