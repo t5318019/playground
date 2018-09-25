@@ -131,3 +131,15 @@ libfuse 讓我們開發新的檔案系統，它提供兩種類型的API，兩者
 * [GitHub - libfuse/libfuse: The reference implementation of the Linux FUSE (Filesystem in Userspace) interface](https://github.com/libfuse/libfuse)
 * [GitHub - libfuse/sshfs: A network filesystem client to connect to SSH servers](https://github.com/libfuse/sshfs)
 * [libfuse: libfuse API documentation](http://libfuse.github.io/doxygen/)
+
+## Overlay Filesystem
+
+[OverlayFS](https://www.kernel.org/doc/Documentation/filesystems/overlayfs.txt) 是 Linux 的一種檔案系統，有時稱為聯合檔案系統 (union filesystem)。如同 OverlayFS 的名字，OverlayFS 是將一個檔案系統 (稱為 upper filesystem ) 覆蓋至另一個檔案系統 (稱為 lower filesystem ) 上，合併 (merge) 而成一個檔案系統。
+
+* OverlayFS 在 [Linux 3.18](https://kernelnewbies.org/Linux_3.18) 合併到 kernel 中。
+* lower filesystem 是 Linux 支援的任一檔案系統，可以是唯讀權限。
+* upper filesystem 通常是可讀寫，但支援寫入可能需要額外資訊，NFS 就不太適合當上層的檔案系統。
+* 若上下層都是唯讀，任何檔案系統都可以支援。
+* [mount](http://manpages.ubuntu.com/manpages/xenial/en/man8/mount.8.html) 的時候使用 lowerdir 和 upperdir 選項指定上下層的目錄。另外需要設定 workdir 選項 (目錄必須為空) ，並且要和 upperdir 是相同的檔案系統。
+    * mount 指定檔案系統 types 是用 "overlay" 的名稱，在還沒整進 kernel 前則是用 "overlayfs" 的名稱。
+    * workdir 以前可忽略，但整進 kernel 後必須指定這個選項。
