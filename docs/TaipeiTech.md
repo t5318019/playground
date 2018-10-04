@@ -4,51 +4,79 @@
 
 # 教學單位
 
+6 學院 | 19 系 | 26 研究所 | 17 博士班
+
 * [機電學院 (College of Mechanical and Electrical Engineering)](https://cmee.ntut.edu.tw/)
-    * [機電科技研究所 (Graduate Institute of Mechanical and Electrical Engineering)](https://cmeephd.ntut.edu.tw/)
-    * [製造科技研究所 (Graduate Institute of Manufacturing Technology)](https://imt.ntut.edu.tw/)
-    * [自動化科技研究所 (Graduate Institute of Automation Technology)](https://giat.ntut.edu.tw/)
+    * [機電科技博士班 (Ph.D. Program in Mechanical and Electrical Engineering)](https://cmeephd.ntut.edu.tw/)
+    * [製造科技研究所 (Graduate Institute of Manufacturing Technology)](https://imt.ntut.edu.tw/) (製科所)
+        * 博士班
+    * [自動化科技研究所 (Graduate Institute of Automation Technology)](https://giat.ntut.edu.tw/) (自動化所)
     * [機械工程系 (Department of Mechanical Engnieering)](https://me1.ntut.edu.tw/)
-        * 機電整合碩士班
-    * [車輛工程系(所) (Department of Vehicle Engineering)](https://ve.ntut.edu.tw/)
-    * [能源與冷凍空調工程系(所) (Department of Energy and Refrigerating Air-Conditioning Engineering)](https://erac.ntut.edu.tw/)
+        * 機電整合碩士班 (機電所)
+    * [車輛工程系 (Department of Vehicle Engineering)](https://ve.ntut.edu.tw/)
+        * 碩士班 (車輛所)
+    * [能源與冷凍空調工程系 (Department of Energy and Refrigerating Air-Conditioning Engineering)](https://erac.ntut.edu.tw/)
+        * 碩士班 (能源所)
+        * 博士班
 * [電資學院 (College of Electrical Engineering and Computer Science)](https://eecs.ntut.edu.tw/)
-    * [電機工程系(所) (Department of Electrical Engineering)](https://www.ee.ntut.edu.tw/)
-    * [電子工程系(所) (Department of Electronic Engineering)](https://cce.ntut.edu.tw/)
-    * [光電工程系(所) (Department of Electro-Optical Engineering)](https://eo.ntut.edu.tw/)
-    * [資訊工程系(所) (Department of Computer Science and Information Engineering)](https://csie.ntut.edu.tw/)
+    * [電機工程系 (Department of Electrical Engineering)](https://www.ee.ntut.edu.tw/)
+        * 碩士班 (電機所)
+        * 博士班
+    * [電子工程系 (Department of Electronic Engineering)](https://cce.ntut.edu.tw/)
+        * 碩士班 (電子所)
+        * 博士班
+    * [光電工程系 (Department of Electro-Optical Engineering)](https://eo.ntut.edu.tw/)
+        * 碩士班 (光電所)
+        * 博士班
+    * [資訊工程系 (Department of Computer Science and Information Engineering)](https://csie.ntut.edu.tw/)
+        * 碩士班 (資工所)
+        * 博士班
 * [工程學院 (College of Engineering)](https://coeng.ntut.edu.tw/)
     * [工程科技博士班 (Graduate Institute of Engineering Technology)](https://et.ntut.edu.tw/)
     * [土木工程系 (Department of Civil Engineering)](https://ce.ntut.edu.tw/)
-        * 土木與防災碩、博士班
+        * 土木與防災碩士班 (防災所)
+        * 土木與防災博士班
     * [分子科學與工程系 (Department of Molecular Science and Engineering)](https://mse.ntut.edu.tw/)
-        * 有機高分子碩、博士班
-    * [環境工程與管理研究所 (Graduate Institute of Environmental Engineering and Management)](https://ieem.ntut.edu.tw/)
-    * [資源工程研究所 (Graduate Institute of Mineral Resources Engineering)](https://imre.ntut.edu.tw/)
-        * 材料科學與工程研究所
+        * 有機高分子碩士班 (高分所)
+        * 有機高分子博士班
+    * [環境工程與管理研究所 (Graduate Institute of Environmental Engineering and Management)](https://ieem.ntut.edu.tw/) (環境所)
+        * 博士班
+    * [資源工程研究所 (Graduate Institute of Mineral Resources Engineering)](https://imre.ntut.edu.tw/) (資源所)
+        * 博士班
     * [化學工程與生物科技系 (Department of Chemical Engineering and Biotechnology)](https://che.ntut.edu.tw/)
-        * 化學工程碩、博士班
-        * 生化與生醫工程碩士班
+        * 化學工程碩士班 (化工所)
+        * 化學工程博士班
+        * 生化與生醫工程碩士班 (生化所)
     * [材料及資源工程系 (Department of Materials and Mineral Resources Engineering)](https://mmre.ntut.edu.tw/)
+        * 材料科學與工程研究所 (材料所)
+            * 博士班
 * [管理學院 (College of Management)](https://cmgt.ntut.edu.tw/)
     * [管理博士班 (Ph.D. Program in Management)](https://iibm.ntut.edu.tw/)
-    * [資訊與財金管理系(所) (Department of Information and Finance Management)](https://ifm.ntut.edu.tw/)
-    * [工業工程與管理系(所) (Department of Industrial Engineering and Management)](https://iem.ntut.edu.tw/)
-    * [經營管理系(所) (Department of Business Management)](https://bm.ntut.edu.tw/)
+    * [資訊與財金管理系 (Department of Information and Finance Management)](https://ifm.ntut.edu.tw/)
+        * 碩士班 (資財所)
+    * [工業工程與管理系 (Department of Industrial Engineering and Management)](https://iem.ntut.edu.tw/)
+        * 碩士班 (工管所)
+        * 博士班
+    * [經營管理系 (Department of Business Management)](https://bm.ntut.edu.tw/)
+        * 碩士班 (經管所)
     * [EMBA (Executive Master of Business Administration)](https://emba.ntut.edu.tw/)
     * [IMBA (International Master of Business Administration)](https://imba.ntut.edu.tw/)
 * [設計學院 (College of Design)](https://dc.ntut.edu.tw/)
     * [設計博士班 (Doctoral Program in Design)](https://gid.ntut.edu.tw/)
     * [建築系 (Department of Architecture)](https://arch.ntut.edu.tw/)
-        * 建築與都市設計碩士班
+        * 建築與都市設計碩士班 (建都所)
     * [工業設計系 (Department of Industrial Design)](https://wwwid.ntut.edu.tw/)
-        * 創新設計碩士班
-    * [互動設計系(所) (Department of Interaction Design)](https://www.ixd.ntut.edu.tw/zh_TW/)
+        * 創新設計碩士班 (創新所)
+    * [互動設計系 (Department of Interaction Design)](https://www.ixd.ntut.edu.tw/zh_TW/)
+        * 碩士班 (互動所)
 * [人文與社會科學學院 (College of Humanities and Social Science)](https://chass.ntut.edu.tw/)
-    * [技術及職業教育研究所 (Graduate Institute of Technological and Vocational Education)](https://wwwtve.ntut.edu.tw/)
-    * [智慧財產權研究所 (Graduate Institute of Intellectual Property)](https://iip.ntut.edu.tw/)
-    * [應用英文系(所) (Department of English)](https://www.eng.ntut.edu.tw/)
-    * [文化事業發展系(所) (Department of Cultural Vocation Development)](https://cvd.ntut.edu.tw/)
+    * [技術及職業教育研究所 (Graduate Institute of Technological and Vocational Education)](https://wwwtve.ntut.edu.tw/) (技職所)
+        * 博士班
+    * [智慧財產權研究所 (Graduate Institute of Intellectual Property)](https://iip.ntut.edu.tw/) (智財所)
+    * [應用英文系 (Department of English)](https://www.eng.ntut.edu.tw/)
+        * 碩士班 (英文所)
+    * [文化事業發展系 (Department of Cultural Vocation Development)](https://cvd.ntut.edu.tw/)
+        * 碩士班 (文發所)
 * [體育室 (Physical Education Office)](https://pe.ntut.edu.tw/)
 * [通識中心 (General Education Center)](https://gec.ntut.edu.tw/)
 * [師資培育中心 (Teacher Education Center)](https://tec.ntut.edu.tw/)
