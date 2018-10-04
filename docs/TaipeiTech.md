@@ -42,7 +42,6 @@
     * [環境工程與管理研究所 (Graduate Institute of Environmental Engineering and Management)](https://ieem.ntut.edu.tw/) (環境所)
         * 博士班
     * [資源工程研究所 (Graduate Institute of Mineral Resources Engineering)](https://imre.ntut.edu.tw/) (資源所)
-        * 博士班
     * [化學工程與生物科技系 (Department of Chemical Engineering and Biotechnology)](https://che.ntut.edu.tw/)
         * 化學工程碩士班 (化工所)
         * 化學工程博士班
