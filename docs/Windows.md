@@ -45,13 +45,21 @@
 <tr><td>Windows Server 2012</td><td>6.2 (Build 9200)</td><td>September 2012</td></tr>
 <tr><td>Windows 8.1</td><td>6.3 (Build 9600)</td><td>October 2013</td></tr>
 <tr><td>Windows Server 2012 R2</td><td>6.3 (Build 9600)</td><td>October 2013</td></tr>
-<tr><td>Windows 10</td><td>10.0</td><td>July 2015</td></tr>
+<tr><td>Windows 10, Version 1507 (Threshold 1)</td><td>10.0 (OS build 10240)</td><td>July 2015</td></tr>
+<tr><td>Windows 10, Version 1511 (Threshold 2)</td><td>10.0 (OS build 10586)</td><td>November 2015</td></tr>
+<tr><td>Windows 10 Anniversary Update, Version 1607 (Redstone 1)</td><td>10.0 (OS build 14393)</td><td>August 2016</td></tr>
+<tr><td>Windows 10 Creators Update, Version 1703 (Redstone 2)</td><td>10.0 (OS build 15063)</td><td>April 2017</td></tr>
+<tr><td>Windows 10 Fall Creators Update, Version 1709 (Redstone 3)</td><td>10.0 (OS build 16299)</td><td>October 2017</td></tr>
+<tr><td>Windows 10, Version 1803 (Redstone 4)</td><td>10.0 (OS build 17134)</td><td>April 2018</td></tr>
+<tr><td>Windows 10, Version 1809 (Redstone 5)</td><td>10.0 (OS build 17763)</td><td>October 2018</td></tr>
 <tr><td>Windows Server 2016</td><td>10.0</td><td>October 2016</td></tr>
 </table>
 
 * [Microsoft Windows - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Windows)
 * [Windows Server - Wikipedia](https://en.wikipedia.org/wiki/Windows_Server)
-
+* [Windows 10 release information](https://www.microsoft.com/en-us/itpro/windows-10/release-information)
+* [Overview of Windows as a service (Windows 10) | Microsoft Docs](https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview)
+
 ## Microsoft Office
 
 <table>
