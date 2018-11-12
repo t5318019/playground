@@ -8,11 +8,14 @@ Node.js 是一個建於 V8 JavaScript 引擎上的一套伺服端平台，採用
 
 Node 就是 Node.js ，正確名稱是 Node.js (字母 N 大寫) ，一般都簡稱 Node 。
 
+在 Node 當中，每個檔案是一個模組 (module) ，與 Python 的模組概念一樣。Node 使用 `require()` 函式引入模組，像是 `const http = require('http');` 的用法引入 [http](https://nodejs.org/dist/latest-v10.x/docs/api/http.html) 模組。
+
+Node 的全域物件 (Global objects) 是 `global` ，但在瀏覽器的 JavaScript 執行環境下則是 `window` 。另外，與瀏覽器的 JavaScript 最大差異，Node 有 [process](https://nodejs.org/dist/latest-v10.x/docs/api/process.html) 物件以及 [Buffer](https://nodejs.org/dist/latest-v10.x/docs/api/buffer.html) 物件，為了處理多程序和二進位資料，這兩種情況在瀏覽器中都不會發生。
+
 * [Guides | Node.js](https://nodejs.org/en/docs/guides/)
-* [Command Line Options | Node.js v8.x Documentation](https://nodejs.org/dist/latest-v8.x/docs/api/cli.html)
-* [Global Objects | Node.js v8.x Documentation](https://nodejs.org/dist/latest-v8.x/docs/api/globals.html)
-* [Process | Node.js v8.x Documentation](https://nodejs.org/dist/latest-v8.x/docs/api/process.html)
-* [Index | Node.js v8.x Documentation](https://nodejs.org/dist/latest-v8.x/docs/api/)
+* [Command Line Options | Node.js v10.x Documentation](https://nodejs.org/dist/latest-v10.x/docs/api/cli.html)
+* [Global Objects | Node.js v10.x Documentation](https://nodejs.org/dist/latest-v10.x/docs/api/globals.html)
+* [Index | Node.js v10.x Documentation](https://nodejs.org/dist/latest-v10.x/docs/api/)
 * [Node.js Foundation · GitHub](https://github.com/nodejs)
 
 ## npm
@@ -21,7 +24,7 @@ npm 全名是 node package manager，用來管理 JavaScript 的套件 (packages
 
 npm 通常有三個意思
 
-* npm 網站 https://www.npmjs.com/
+* npm 網站 [https://www.npmjs.com/](https://www.npmjs.com/)
 * npm 的資料庫，package 的註冊清單
 * npm 用戶端 CLI 程式
 
@@ -35,6 +38,9 @@ npm 的版本規範是用 Semantic Versioning (語意化版本)。
 npm 有 scoped packages ，類似名稱空間 (namespace) 的概念。scope 是以「@」字元開頭，在「/」斜線之間，整個套件名稱為@scope/project-name 。請參閱 [14 - How to work with scoped packages | npm Documentation](https://docs.npmjs.com/getting-started/scoped-packages)
 
 npm 當中定義了套件 (packages) 和模組 (module) ，兩者很容易搞混，套件不必是模組(非強制條件)，套件也可能只是 CLI package 。請參閱 [19 - Understanding packages and modules | npm Documentation](https://docs.npmjs.com/getting-started/packages)
+
+* [The npm Blog — kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
+* [NPM &amp; left-pad: Have We Forgotten How To Program? - David Haney - Blogging my experiences as a developer and engineering manager.](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/)
 
 ## 參考資料
 
