@@ -70,6 +70,8 @@
 
 ## 資料類型 (Data Types)
 
+注意：欄位定義的字串長度與中英文無關，也就是實際可儲存的字數，但佔用的 bytes 可能不同。可用 [LENGTH](https://mariadb.com/kb/en/library/length/) 和 [CHAR_LENGTH](https://mariadb.com/kb/en/library/char_length/) 取得相關資訊。
+
 * [Numeric Data Types - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/data-types-numeric-data-types/)
     * TINYINT: 1 byte，範圍是 -128 至 127 或 0 至 255 。
     * BOOLEAN: 與 TINYINT(1) 是同義字。
@@ -108,6 +110,18 @@
 
 * 命令列用戶端程式： [mysql](https://mariadb.com/kb/en/library/mysql-command-line-client/)
 * 管理 mysqld daemon 的程式： [mysqladmin](https://mariadb.com/kb/en/library/mysqladmin/)
+
+## 設定
+
+* [Configuring MariaDB with my.cnf - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/configuring-mariadb-with-mycnf/)
+* [Server System Variables - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/server-system-variables/)
+
+## High Availability & Performance Tuning
+
+* [Replication Overview - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/replication-overview/)
+* [MariaDB Galera Cluster - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/galera-cluster/)
+* [MariaDB MaxScale - MariaDB Knowledge Base](https://mariadb.com/kb/en/mariadb-enterprise/maxscale/)
+* [Optimization and Tuning - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/optimization-and-tuning/)
 
 ## 備份工具
 
