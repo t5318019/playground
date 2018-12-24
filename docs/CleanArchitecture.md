@@ -15,7 +15,7 @@
 
 ## Part II: Starting with the Bricks: Programming Paradigms
 
-軟體架構開始於程式碼 (code)，程式碼是用程式語言 (programming language) 編寫，從程式語言發明以來一直都有一些變革和改進，但重要的改變是：程式語言背後的設計典範 (paradigm)，典範是程式的方法 (ways of programming)，和程式的語言無關。典範告訴我們可以使用那些程式的結構 (structure)，以及什麼時候可以使用它。
+軟體架構開始於程式碼 (code)，程式碼是用程式語言 (programming language) 編寫，從程式語言發明以來一直都有一些變革和改進，但重要的改變是：程式語言背後的設計典範 (paradigm)，典範是寫程式的方法 (ways of programming)，和寫程式用的語言無關。典範告訴我們可以使用那些程式的結構 (structure)，以及什麼時候可以使用它。
 
 至今有下列三種典範，這三種各自移除了程式設計師 (programmer) 可用的某部分能力，這些典範告訴我們不要做什麼，比告訴我們可以做什麼還要多。
 
@@ -42,15 +42,23 @@ _Functional programming imposes discipline upon assignment._
 
 ## Part III: Design Principles
 
-SRP: The Single Responsibility Principle
+優良的軟體系統來自於無瑕的程式碼 (Good software systems begin with clean code.) ，「SOLID 原則」告訴我們如何建造「堅固的積木 (bricks)」，如何將 functions 和 data 分組規劃成 groupings 。
 
-OCP: The Open-Closed Principle
+### SRP: The Single Responsibility Principle
 
-LSP: The Liskov Substitution Principle
+An active corollary to Conway's law: The best structure for a software system is heavily influenced by social structure of the organization that uses it to that each softeare module ha one, and only one, reason to change.
 
-ISP: The Interface Segregation Principle
+* A module should have one, and only one, reason to change.
+* A module should be responsible to one, and only one, user or stakeholder.
+* A module should be responsible to one, and only one, actor.
 
-DIP: The Dependency Inversion Principle
+### OCP: The Open-Closed Principle
+
+### LSP: The Liskov Substitution Principle
+
+### ISP: The Interface Segregation Principle
+
+### DIP: The Dependency Inversion Principle
 
 ## Part IV: Component Principles
 
