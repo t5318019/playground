@@ -42,11 +42,11 @@ _Functional programming imposes discipline upon assignment._
 
 ## Part III: Design Principles
 
-優良的軟體系統來自於無瑕的程式碼 (Good software systems begin with clean code.) ，「SOLID 原則」告訴我們如何建造「堅固的積木 (bricks)」，如何將 functions 和 data 分組規劃成 groupings 。
+優良的軟體系統來自於無瑕的程式碼 (Good software systems begin with clean code.) ，「SOLID 原則」告訴我們如何建造「堅固的積木 (bricks)」，如何將 functions 和 data 分組規劃成 groupings (書上用 "classes" 稱之，但不是物件導向中類別的意思)，以及這些 groupings 要如何互相連接。
 
 ### SRP: The Single Responsibility Principle
 
-An active corollary to Conway's law: The best structure for a software system is heavily influenced by social structure of the organization that uses it to that each softeare module ha one, and only one, reason to change.
+An active corollary to Conway's law: The best structure for a software system is heavily influenced by social structure of the organization that uses it to that each softeare module has one, and only one, reason to change.
 
 * A module should have one, and only one, reason to change.
 * A module should be responsible to one, and only one, user or stakeholder.
@@ -54,29 +54,67 @@ An active corollary to Conway's law: The best structure for a software system is
 
 ### OCP: The Open-Closed Principle
 
+Bertrand Meyer 於 1988 年在 Object-Oriented Software Construction 書中寫到： A software artifict should be open for extension but closed for modification.
+
 ### LSP: The Liskov Substitution Principle
+
+Barbara Liskov 於 1988 年的 Data Abstraction and Hierarchy 文章中所提出的 subtype 概念。
+
+What is wanted here is something like the following substitution property: If for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T, the behavior of P is unchanged when o1 is substituted for o2 then S is a subtype of T.
 
 ### ISP: The Interface Segregation Principle
 
+This principle advises software designers to avoid depending on things that they don't use.
+
+Depending on something that carries baggage that you don't need can cause tou troubles that you didn't expect.
+
+ISP is a language issue, rather than an architecture issue.
+
+對架構上而言，如果一個系統依賴於一個框架，而這個框架又依賴於一個資料庫，那麼當資料庫變動時，勢必也需要變動依賴於它的框架與系統。更糟的是，如果資料庫發生失效 (failure)，那麼框架與系統也都會失效。
+
 ### DIP: The Dependency Inversion Principle
+
+The code that implements high-level policy should not depend on the code that implements low-level details. Rather, details should depend on policies.
 
 ## Part IV: Component Principles
 
-### Component cohesion
+Components are the units of deployment. They are the smallest entities that can be deployed as part of a system.
 
-REP: The Reuse/Release Equivalence Principle
+### Component Cohesion
 
-CCP: The Common Closure Principle
+設計上，我們必須決定哪些 classes 要放在一個元件裡 (也就是元件的內聚力)，有下列 3 個原則：
 
-CRP: The Common Reuse Principle
+#### REP: The Reuse/Release Equivalence Principle
+
+The granule of reuse is the granule of release.
+
+#### CCP: The Common Closure Principle
+
+Gather into components those classes that change for the same reasons and at the same times. Separate into different components those classes that change at different times and for different reasons.
+
+The CCP is the component form of the SRP.
+
+#### CRP: The Common Reuse Principle
+
+Don't force users of a component to depend on things they don't need.
+
+The CRP is the generic version of the ISP.
 
 ### Component Coupling
 
-ADP: The Acyclic Dependencies Principle
+元件與元件之間的關係如何設計，有下列 3 個原則：
 
-SDP: The Stable Dependencies Principle
+#### ADP: The Acyclic Dependencies Principle
 
-SAP: The Stable Abstractions Principle
+Allow no cycles in the component dependency graph.
+
+#### SDP: The Stable Dependencies Principle
+
+Depend in the direction of stability.
+
+#### SAP: The Stable Abstractions Principle
+
+A component should be as abstract as it is stable.
 
 ## Part V: Architecture
 
