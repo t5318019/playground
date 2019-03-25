@@ -19,18 +19,20 @@ ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區�
 3. mirror: 2 個以上的區塊裝置，資料將被複製到多個裝置上，當裝置損毀到剩下一個時，資料還是能保證完整。
 4. raidz, raidz2, raidz3: 類似磁碟陣列但改善傳統 RAID 的缺點，ZFS 提供 3 種等級的同位元資料 (parity) 保護。
     * raidz 也就是 raidz1，稱為 Single-parity RAID-Z ，類似於傳統的 RAID-5 。
-    * raidz2，稱為 Single-parity RAID-Z ，類似於傳統的 RAID-6 。
+    * raidz2，稱為 Double-parity RAID-Z ，類似於傳統的 RAID-6 。
     * raidz3，稱為 Triple-Parity RAID-Z 。
-5. spare: 用於熱備援 (hot spare) 。
-6. log: 用於 ZFS intent log (ZIL) 。
+5. spare: 用於熱備援 (hot spare) ，當使用中的裝置失敗時才會進行替換，正常情形下是沒有使用 spare vdev 。
+6. log: 用於 ZFS intent log (ZIL) 。預設的 ZIL 儲存於 pool 當中，為了更好的效能可以將 ZIL 另外儲存於單獨的磁碟中。
 7. cache: 用於快取以提升效能。
 
 儲存池建立後，我們就能夠在上面建立資料集，ZFS 有 4 種類型的 dataset 。
 
 1. file system: 就是 ZFS 檔案系統，比較特別的是 ZFS 具有階層架構，稱為 ZFS File System Hierarchy 。
-2. volume: 作為區塊裝置使用。
+2. volume: 作為區塊裝置使用，例如用在 swap 裝置上，參考：[HOWTO use a zvol as a swap device](https://github.com/zfsonlinux/pkg-zfs/wiki/HOWTO-use-a-zvol-as-a-swap-device)。
 3. snapshot: file system 或 volume 的快照。
 4. bookmark: 快照的參照 (refernece)。
+
+在 Ubuntu 16.04 以後安裝的指令：`apt install zfsutils-linux` 或 `apt install zfs` 。
 
 ### ZFS 相關指令與文件
 
@@ -49,6 +51,7 @@ ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區�
 * [Oracle Solaris Administration: ZFS File Systems](https://docs.oracle.com/cd/E23824_01/html/821-1448/index.html)
 * [Creating a ZFS File System Hierarchy - Oracle Solaris Administration: ZFS File Systems](https://docs.oracle.com/cd/E23824_01/html/821-1448/gaypa.html)
 * [OpenZFS](http://open-zfs.org/wiki/Main_Page)
+* [Aaron Toponce : Install ZFS on Debian GNU/Linux](https://pthree.org/2012/04/17/install-zfs-on-debian-gnulinux/)
 * [GitHub - zfsonlinux/zfs: ZFS on Linux - the official OpenZFS implementation for Linux.](https://github.com/zfsonlinux/zfs)
 * [ZFS - Ubuntu Wiki](https://wiki.ubuntu.com/ZFS)
 * [Kernel/Reference/ZFS - Ubuntu Wiki](https://wiki.ubuntu.com/Kernel/Reference/ZFS)
