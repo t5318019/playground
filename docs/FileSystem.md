@@ -32,7 +32,24 @@ ZFS 特別的地方在於 ZFS 不僅是一個檔案系統，還包含磁碟區�
 3. snapshot: file system 或 volume 的快照。
 4. bookmark: 快照的參照 (refernece)。
 
-在 Ubuntu 16.04 以後安裝的指令：`apt install zfsutils-linux` 或 `apt install zfs` 。
+在 Ubuntu 16.04 以後安裝的指令：`apt install zfsutils-linux` 或 `apt install zfs` ( zfs 套件實際上是 zfsutils-linux ) 。 Ubuntu 與 ZFS 的版本關係如下。
+
+| Ubuntu 版本               | ZFS 版本                                                     |
+| ------------------------- | ------------------------------------------------------------ |
+| 16.04 LTS (Xenial Xerus)  | [0.6.5.6](https://packages.ubuntu.com/xenial/zfsutils-linux) |
+| 18.04 LTS (Bionic Beaver) | [0.7.5](https://packages.ubuntu.com/bionic/zfsutils-linux)   |
+| 18.10 (Cosmic Cuttlefish) | [0.7.9](https://packages.ubuntu.com/cosmic/zfsutils-linux)   |
+| 19.04 (Disco Dingo)       | [0.7.12](https://packages.ubuntu.com/disco/zfsutils-linux)   |
+
+在 Ubuntu 16.04 會安裝下列服務：
+
+| 服務名稱                                     | 說明                                 |
+| -------------------------------------------- | ------------------------------------ |
+| /etc/init.d/zfs-share                        | LSB: Network share OpenZFS datasetss |
+| /lib/systemd/system/zfs-import-cache.service | Import ZFS pools by cache file       |
+| /lib/systemd/system/zfs-import-scan.service  | Import ZFS pools by device scanning  |
+| /lib/systemd/system/zfs-mount.service        | Mount ZFS filesystems                |
+| /lib/systemd/system/zfs.target               | ZFS startup target                   |
 
 ### ZFS 相關指令與文件
 
