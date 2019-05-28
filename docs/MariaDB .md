@@ -45,11 +45,12 @@
     * [SET PASSWORD](https://mariadb.com/kb/en/library/set-password/)
     * [SHOW VARIABLES](https://mariadb.com/kb/en/library/show-variables/): 顯示 MariaDB 的系統變數。
     * [SHOW DATABASES](https://mariadb.com/kb/en/library/show-databases/): 顯示所有的資料庫名稱。
-    * [SHOW TABLES](https://mariadb.com/kb/en/library/show-tables/): 顯示能夠存取的所有資料庫名稱。
-    * [SHOW COLUMNS](https://mariadb.com/kb/en/library/show-columns/): 顯示指定資料庫內所有的資料表名稱。
+    * [SHOW TABLES](https://mariadb.com/kb/en/library/show-tables/): 顯示指定資料庫內所有的資料表名稱。
+    * [SHOW COLUMNS](https://mariadb.com/kb/en/library/show-columns/): 顯示指定資料表內所有的欄位資訊。
     * [SHOW INDEX](https://mariadb.com/kb/en/library/show-index/): 顯示資料表的索引。
     * [SHOW CREATE DATABASE](https://mariadb.com/kb/en/library/show-create-database/): 顯示資料庫建立的資訊。
     * [SHOW CREATE TABLE](https://mariadb.com/kb/en/library/show-create-table/): 顯示資料表建立的資訊。
+    * [SHOW STATUS](https://mariadb.com/kb/en/library/show-status/): 顯示伺服器的狀態。
     * [SHOW TABLE STATUS](https://mariadb.com/kb/en/library/show-table-status/): 顯示資料表的狀態。
 * [Account Management SQL Commands - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/account-management-sql-commands/) (Data Control Languag, DCL)
     * [CREATE USER](https://mariadb.com/kb/en/library/create-user/)
@@ -122,6 +123,31 @@
 * [MariaDB Galera Cluster - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/galera-cluster/)
 * [MariaDB MaxScale - MariaDB Knowledge Base](https://mariadb.com/kb/en/mariadb-enterprise/maxscale/)
 * [Optimization and Tuning - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/optimization-and-tuning/)
+
+## MariaDB Galera Cluster
+
+MariaDB Galera Cluster 和 [MySQL NDB Cluster](https://dev.mysql.com/doc/refman/8.0/en/mysql-cluster.html) 是不一樣的！
+
+在 [MariaDB 10.1](https://mariadb.com/kb/en/library/changes-improvements-in-mariadb-101/) 版本以後，Galera Cluster 已經是內建在 MariaDB 當中，透過設定 `wsrep_on=ON` 就能夠啟用 Galera Cluster 的功能，不需要另外安裝其他套件。注意目前只有 Linux 能使用 MariaDB Galera Cluster ，而且只支援 XtraDB/InnoDB 儲存引擎。
+
+當 MariaDB 變成 Galera Cluster 之後，資料庫的資料會同步複製到各台 MariaDB 之中，其實是「[Virtually Synchronous Replication](https://mariadb.com/kb/en/library/about-galera-replication/)」。技術上是擴充 MariaDB 支援 [wsrep API](http://galeracluster.com/documentation-webpages/architecture.html) (Write-Set Replication API) ，並實作 Galera Replication 程式庫處理資料的同步。
+
+Galera Cluster 的特色：
+
+* Synchronous replication：同步指的是在任何時刻各台的資料都是一致的。優點是高可用性、Transaction 可以平行的在多台上執行。缺點是效能較差、實作較複雜。
+* Active-active multi-master topology：架構上沒有 standby & slave。
+* Read and write to any cluster node：每一台都可以存取。
+* Automatic membership control, failed nodes drop from the cluster
+* Automatic node joining
+* True parallel replication, on row level
+* Direct client connections, native MariaDB look & feel
+
+參考資料：
+
+* [Galera Cluster Documentation &#8212; Galera Cluster Documentation](http://galeracluster.com/documentation-webpages/)
+* [Galera Cluster Status Variables - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/galera-cluster-status-variables/)：查看有哪些狀態，可以用 `SHOW STATUS LIKE 'wsrep%';` 指令顯示。
+* [Galera Cluster System Variables - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/galera-cluster-system-variables/)：說明有哪些設定值。
+* [wsrep_provider_options - MariaDB Knowledge Base](https://mariadb.com/kb/en/library/wsrep_provider_options/)：說明 Galera provider 的設定。
 
 ## 備份工具
 
