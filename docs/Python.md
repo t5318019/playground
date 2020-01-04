@@ -56,9 +56,29 @@ Python 程式語言的設計原則和哲學，定義在 [PEP 20 -- The Zen of Py
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
 
-PEP 20 列出 19 條箴言 (據說有 20 條但只記錄 19 條)，有沒有那些特別重要？是否有先後順序？搜尋結果看來是沒有。其中「比較好 (better than)」出現了 8 次，這幾句是程式設計的判斷依據。
+PEP 20 列出 19 條箴言 (據說有 20 條但只記錄 19 條，最後一條還沒寫)，有沒有那些特別重要？是否有先後順序？搜尋結果看來是沒有。其中「比較好 (better than)」出現了 8 次，這幾句是程式設計的判斷依據。
 
-Python 的設計哲學會在程式語言本身的語法 (Syntax) 和語意 (Semantics) 上表現。
+Python 的設計哲學會在程式語言本身的語法 (Syntax) 和語意 (Semantics) 上表現。以下為中文翻譯，參考「Python 專家實踐指南: 搭乘專業開發者的學習便車」書本第 45 頁的內容。
+
+    美比醜好。
+    直接比間接好。
+    簡單比複雜好。
+    複雜比複雜化好。
+    平鋪比套疊好。
+    稀比密好。
+    可讀性重要。
+    特殊案例不足以破壞規矩。
+    但實務重於純粹。
+    別讓錯誤悄悄逃走。
+    除非表明要安靜。
+    面對含糊時堅拒猜測。
+    應該有一個，最好只有一個，明顯的作法。
+    然而這種做法，開始並不明顯，除非你是那個荷蘭佬。
+    現在開始總比不作為好。
+    但不作為通常比"馬上做"好。
+    難以解釋的實作不好。
+    容易解釋的實作也許不錯。
+    命名空間是個好主意，多來幾個吧！
 
 ## 資料模型 (Data model)
 
@@ -169,3 +189,4 @@ Guido 對程式碼的見解：閱讀程式碼比撰寫還要多。Style Guide �
 * [The Python Language Reference &#8212; Python 3.7.0 documentation](https://docs.python.org/3/reference/index.html)
 * [Glossary &#8212; Python 3.7.0 documentation](https://docs.python.org/3/glossary.html)
 * [The History of Python](http://python-history.blogspot.com/)
+* [Tanya Schlusser, Kenneth Reitz, The Hitchhiker's Guide to Python: Best Practices for Development, O'Reilly Media, 2016](http://shop.oreilly.com/product/0636920042921.do)
