@@ -21,6 +21,7 @@
 | Visual Studio 2013      | 12.0     | 2.0-4.5.2                | C# 5    | N/A                 |
 | Visual Studio 2015      | 14.0     | 2.0-4.6                  | C# 6    | .NET Core 1.0       |
 | Visual Studio 2017      | 15.0     | 3.5-4.7                  | C# 7    | .NET Core 2.0       |
+| Visual Studio 2019      | 16.0     | 4.0-4.8                  | C# 8    | .NET Core 3.0       |
 
 在 2014 年 11 月 12 日，發佈的 Visual Studio 2013 Community 是第一個社群版本，功能齊全且可擴充的免費 IDE。
 
@@ -54,6 +55,8 @@
 | Windows 10 Fall Creators Update, Version 1709 (Redstone 3) | 10.0 (OS build 16299) | October 2017   |
 | Windows 10, Version 1803 (Redstone 4)                      | 10.0 (OS build 17134) | April 2018     |
 | Windows 10, Version 1809 (Redstone 5)                      | 10.0 (OS build 17763) | October 2018   |
+| Windows 10, Version 1903 (19H1)                            | 10.0 (OS build 18362) | May 2019       |
+| Windows 10, Version 1909 (19H2)                            | 10.0 (OS build 18363) | November 2019  |
 | Windows Server 2016                                        | 10.0                  | October 2016   |
 
 * [Microsoft Windows - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Windows)
@@ -72,6 +75,9 @@
 | Microsoft Office 2010 | 14.0     |
 | Microsoft Office 2013 | 15.0     |
 | Microsoft Office 2016 | 16.0     |
+| Microsoft Office 2019 | 16.0     |
+
+Office 2019 和 Office 2016 的版本號碼相同。
 
 * [Microsoft Office - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Office)
 
