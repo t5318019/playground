@@ -7,6 +7,7 @@ Markdown 是一種格式語法(第一個字母M大寫)，用來簡化 HTML 的�
 * [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)
 * [Markdown - Wikipedia](https://en.wikipedia.org/wiki/Markdown)
 * [Markdown 語法說明](http://markdown.tw/)
+* [Markdown Guide](https://www.markdownguide.org/)
 
 ### 客製化
 
