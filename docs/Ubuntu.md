@@ -1,10 +1,18 @@
 # Ubuntu
 
 * [Official Ubuntu Documentation](https://help.ubuntu.com/)
-* [DevelopmentCodeNames - Ubuntu Wiki](https://wiki.ubuntu.com/DevelopmentCodeNames) 開發代碼名稱由「形容詞」與「動物」名稱組成。
+* [DevelopmentCodeNames - Ubuntu Wiki](https://wiki.ubuntu.com/DevelopmentCodeNames)
+  * 官方的發行名稱是 "Ubuntu X.YY"，其中 X 是西元年減去 2000 的數字，而 YY 則是發行年的第幾個月份。例如 Ubuntu 12.04 就是 2012 年 4 月發行。
+  * 開發代碼名稱 (code name) 由「形容詞」與「動物」名稱組成，是給開發和測試人員使用的名稱。
 * 下載映像檔的地方：
-    * [Ubuntu Releases](http://releases.ubuntu.com/)
-    * [Old Ubuntu Releases](http://old-releases.ubuntu.com/releases/)
+  * [Ubuntu Releases](http://releases.ubuntu.com/)
+  * [Old Ubuntu Releases](http://old-releases.ubuntu.com/releases/)
+* 各發行版本清單：
+  * [Releases - Ubuntu Wiki](https://wiki.ubuntu.com/Releases)
+
+## Ubuntu 20.04 LTS (Focal Fossa)
+
+[FocalFossa/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes)
 
 ## Ubuntu 18.04 LTS (Bionic Beaver)
 
@@ -18,7 +26,7 @@
 
 [TrustyTahr/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes)
 
-## Ubuntu 12.04.5 LTS (Precise Pangolin)
+## Ubuntu 12.04 LTS (Precise Pangolin)
 
 [PrecisePangolin/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/PrecisePangolin/ReleaseNotes)
 
