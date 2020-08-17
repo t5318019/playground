@@ -8,7 +8,16 @@ def main():
 
     f = open(md_file, 'w', encoding="utf-8")
     print('# Big5\n', file=f)
-    print('## 常用漢字\n', file=f)
+
+    write_table(f, '符號', 'a140', 'a3bf')
+    write_table(f, '常用漢字', 'a440', 'c67e')
+    write_table(f, '次常用漢字', 'c940', 'f9d5')
+
+    f.close()
+
+
+def write_table(f, title, start, end):
+    print('## %s\n' % title, file=f)
 
     header = ['\u3000', ]
     for i in range(16):
@@ -16,10 +25,9 @@ def main():
     print('|', '| '.join(header), '|', sep='', file=f)
     print('|--'*17, '| ', sep='', file=f)
 
-    # 常用漢字 (0xA440-0xC67E)
-    c = int.from_bytes(bytes.fromhex('a440'), 'big')
+    c = int.from_bytes(bytes.fromhex(start), 'big')
     s = []
-    while c <= int.from_bytes(bytes.fromhex('c67e'), 'big'):
+    while c <= int.from_bytes(bytes.fromhex(end), 'big'):
         try:
             character = c.to_bytes(2, 'big').decode('big5')
         except:
@@ -35,8 +43,7 @@ def main():
         padding = ['\u3000']*(16-len(s))
         s.extend(padding)
     print('|', start, '|', '|'.join(s), '|', sep='', file=f)
-
-    f.close()
+    print('', sep='', file=f)
 
 
 if __name__ == "__main__":
