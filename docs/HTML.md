@@ -27,17 +27,18 @@
 
 HTML5 的 input 元素新增以下 type：
 
-* color
-* datetime-local
-* email
-* month
-* number
-* range
-* search
-* tel
-* time
-* url
-* week
+* color: 顏色，預設是黑色 (#000000)。
+* date: 日期，年、月、日。
+* datetime-local: 日期時間，年、月、日、小時、分鐘、秒。
+* email: 電子郵件。
+* month: 月份輸入，注意除了月份，也包含西元年的資訊。
+* number: 數字，整數或浮點數。
+* range: 滑杆，設定一個數字範圍，讓使用者滑動選取。
+* search: 用於搜尋的文字輸入。
+* tel: 電話號碼。
+* time: 時間，小時、分鐘、秒。
+* url: 網址，絕對 URL。
+* week: 第幾週，也包含西元年的資訊。
 
 ## 參考資料
 * [HTML Standard](https://html.spec.whatwg.org/)
