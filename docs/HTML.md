@@ -12,7 +12,7 @@
 * password: 文字輸入，但隱藏文字的顯示(用*取代)，用於敏感資料的輸入，例如密碼欄位。
 * checkbox: 核取方塊。
 * radio: 選項按鈕。
-* submit: 送出按鈕，用來將表單送出。
+* submit: 送出按鈕，用來將表單提交。
 * reset: 重設按鈕，將表單的控制項重設回預設值。
 * file: 檔案。
 * hidden: 隱藏資訊，不顯示給使用者。
@@ -21,9 +21,10 @@
 
 除了 input 元素之外，表單還有以下元素可以使用：
 
-* button: 按鈕，與 input 按鈕功能相同，但 button 元素可以有 HTML 內容，因此可以設計豐富的顯示內容。
-* select: 下拉式選單，類似 ComboBox ，提供選項 (option) 讓使用者選擇。
+* button: 按鈕，與 input 按鈕功能相同，但 button 元素可以有 HTML 內容，因此可以設計豐富的顯示內容，button 可以設定 3 種 type: submit, button, reset 。
+* select: 下拉式選單，類似 ComboBox ，提供選項 (option) 讓使用者選擇。select 元素的內容包含 option 元素或 optgroup 元素，option 可以透過 selected 特性設定預設是否選取。
 * textarea: 多行的文字輸入。沒有 value 特性，初始值是元素的內容。
+* fieldset 元素和 legend 元素，用來組織結構。
 
 HTML5 的 input 元素新增以下 type：
 
@@ -39,6 +40,26 @@ HTML5 的 input 元素新增以下 type：
 * time: 時間，小時、分鐘、秒。
 * url: 網址，絕對 URL。
 * week: 第幾週，也包含西元年的資訊。
+
+控制項的標題使用 label 元素，可以將控制項置於 label 的內容，或是透過 for 特性設定到控制項的 id 特性，注意 label 的 for 是對應到 id 而不是 name。
+
+禁用 (disable) 控制項請設定 disabled 特性，這會讓控制項失效，使用者將不能操作(變更值或選取)。可以禁用的元素有： button, input, group, optgroup, select, textarea
+
+若控制項需要不能修改，請設定 readonly 特性，則控制項的值會是唯讀，可以唯讀的元素有 input 和 textarea 共 2 個。
+
+元素 disable 和 readonly 相同的地方是使用者不能操作，差別在於 disable 的元素不會跟表單提交，但 readonly 會隨表單提交。
+
+最後談 form 元素，以上元素都應該在 form 的內容當中。透過設定 form 的 method 特性可以設定 2 種表單提交的方法：
+
+* method="get"，以 HTTP GET 方式傳送表單資料。
+* method="post"，以 HTTP POST 方式傳送表單資料。
+
+表單資料需要編碼送出，指定 enctype 特性設定編碼方式，分別是：
+
+* enctype="application/x-www-form-urlencoded"，預設值，以 RFC 1738 編碼。
+* enctype="multipart/form-data"，以 RFC 2388 編碼。
+
+表單要送給伺服器的 URL 位置則是設定 action 特性。
 
 ## 參考資料
 * [HTML Standard](https://html.spec.whatwg.org/)
