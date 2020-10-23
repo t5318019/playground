@@ -1,5 +1,20 @@
 # HyperText Markup Language (HTML)
 
+HTML 是組成一個網頁 (web page) 最基礎的語言，一個簡單的 HTML 大概長這樣：
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>網頁標題</title>
+    </head>
+    <body>
+        <p>網頁內容</p>
+    </body>
+</html>
+```
+
 ## 網頁表單 (Forms)
 
 網頁上的表單提供使用者輸入資料，可以傳送給伺服器端的程式處理，這是網頁的重要功能。
@@ -63,3 +78,4 @@ HTML5 的 input 元素新增以下 type：
 
 ## 參考資料
 * [HTML Standard](https://html.spec.whatwg.org/)
+* [HTML: HyperText Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
