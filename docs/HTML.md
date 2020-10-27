@@ -1,19 +1,37 @@
 # HyperText Markup Language (HTML)
 
-HTML 是組成一個網頁 (web page) 最基礎的語言，一個簡單的 HTML 大概長這樣：
+HTML 是組成一個網頁 (web page) 最基礎的語言，一個簡單的 HTML 文件大概長這樣：
 
 ```html
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>網頁標題</title>
-    </head>
-    <body>
-        <p>網頁內容</p>
-    </body>
+
+<head>
+    <title>網頁的標題，表示這個文件的名稱。</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <style>
+        body {
+            background-color;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    head 元素是描述 body 資訊的資料，而 body 是網頁的內容。
+    <!--這是評論文字，不會顯示在網頁上-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+
 </html>
 ```
+
+這裡的範例是 HTML5 的規範，和前一個版本 HTML 4.01 的差異有：
+
+* 第一行的 DOCTYPE 就是只有一種：`<!DOCTYPE html>`。
+* link 和 style 元素不需要設定 type，預設類型就是 `type="text/css">`。
+* script 元素不需要設定 type，預設類型就是 `type="text/javascript">`。
 
 ## 網頁表單 (Forms)
 
