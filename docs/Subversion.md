@@ -8,7 +8,7 @@ SVN 是 CollabNet, Inc. 公司在 2000 年創造的系統，最初是為了解�
 
 SVN 除了可以管理程式碼的版本，也可以管理任何檔案，SVN 本身沒有限制可處理的檔案類型。
 
-儲存庫 (repository) 是版本控制系統的核心，儲存所有 (各個版本) 檔案內容的資訊，通常是檔案系統樹 ( filesystem tree)，包含檔案和目錄，與其之間的階層關係。
+儲存庫 (repository) 是版本控制系統的核心，儲存所有 (各個版本) 檔案內容的資訊，通常是檔案系統樹 (filesystem tree)，包含檔案和目錄，與其之間的階層關係。
 
 工作副本 (working copy) 是指某一個版本的檔案系統樹。
 
@@ -32,23 +32,23 @@ SVN 建議 Repository 中的每個專案都有下列 3 個子目錄：
 
 [Subversion Command-Line Client](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.html) 指令就是 `svn` ， `svn --version` 印出 client 的版本資訊。目前 2020 年最新的版本是 version 1.14.0 。
 
-* [svn add](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.blame.html)
+* [svn add](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.blame.html) 把項目(檔案與目錄)加入下次 commit 的清單當中。
 * [svn blame (praise, annotate, ann)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.blame.html)
 * [svn cat](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.cat.html)
 * [svn changelist (cl)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.changelist.html)
-* [svn checkout (co)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.checkout.html)
+* [svn checkout (co)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.checkout.html) 從儲存庫取出檔案到工作副本，例如 `svn checkout http://svn.apache.org/repos/asf/httpd/httpd/trunk httpd-trunk`。
 * [svn cleanup](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.cleanup.html)
-* [svn commit (ci)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.commit.html)
-* [svn copy (cp)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.copy.html)
-* [svn delete (del, remove, rm)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.delete.html)
+* [svn commit (ci)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.commit.html) 提交工作副本的變動到儲存庫中。
+* [svn copy (cp)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.copy.html) 複製工作副本或儲存庫的項目(檔案與目錄)。
+* [svn delete (del, remove, rm)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.delete.html) 把項目從工作副本或儲存庫中刪除。
 * [svn diff (di)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.diff.html)
-* [svn export](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html)
-* [svn help (h, ?)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.help.html)
-* [svn import](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.import.html)
+* [svn export](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html) 匯出，把指定的目錄內容輸出到另一個目錄中。
+* [svn help (h, ?)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.help.html) 幫助，後面接子命令 (subcommand) 名稱，例如 `svn help checkout` 查詢 checkout 的用法。
+* [svn import](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.import.html) 匯入，把現有的檔案 commit 到儲存庫中。
 * [svn info](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.info.html)
-* [svn list (ls)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.list.html)
+* [svn list (ls)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.list.html) 列出儲存庫的檔案與目錄清單，相當於 dir 或 ls 指令。
 * [svn lock](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.lock.html)
-* [svn log](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.log.html)
+* [svn log](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.log.html) 顯示 commit log 訊息。
 * [svn merge](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.merge.html)
 * [svn mergeinfo](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.mergeinfo.html)
 * [svn mkdir](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.mkdir.html)
@@ -62,9 +62,9 @@ SVN 建議 Repository 中的每個專案都有下列 3 個子目錄：
 * [svn relocate](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.relocate.html)
 * [svn resolve](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.resolve.html)
 * [svn resolved](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.resolved.html)
-* [svn revert](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.revert.html)
-* [svn status (stat, st)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.status.html)
-* [svn switch (sw)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.switch.html)
+* [svn revert](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.revert.html) 回復 (undo) 本地工作副本的變動。
+* [svn status (stat, st)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.status.html) 印出工作副本中檔案與目錄的狀態。
+* [svn switch (sw)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.switch.html) 更新工作副本到不同的 URL。
 * [svn unlock](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.unlock.html)
 * [svn update (up)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.update.html)
 * [svn upgrade](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.upgrade.html)
@@ -73,3 +73,5 @@ SVN 建議 Repository 中的每個專案都有下列 3 個子目錄：
 
 * [Apache Subversion](https://subversion.apache.org/)
 * [Version Control with Subversion](http://svnbook.red-bean.com/en/1.7/index.html)
+* [Git 和 Subversion的相比 | 連猴子都能懂的Git入門指南  | 貝格樂（Backlog）](https://backlog.com/git-tutorial/tw/reference/git-svn.html)
+* [如何讓 TortoiseSVN 僅匯出新增或修改過的檔案 | The Will Will Web](https://blog.miniasp.com/post/2008/09/09/Using-TortoiseSVN-to-Export-Only-Added-Modified-Files)
