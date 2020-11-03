@@ -14,18 +14,18 @@ SVN 除了可以管理程式碼的版本，也可以管理任何檔案，SVN 本
 
 版本控制系統不只一個使用者使用，因此會遇到多人存取的問題。有兩個解決方法： lock-modify-unlock 和 copy-modify-merge ， SVN 採用的是 copy-modify-merge 解決方法，但也提供 lock 操作。
 
-每一個版本的 filesystem tree 狀態， SVN 都會指定一個號碼， revision 號碼從 0 開始增加，對於一個 repository 是全域的 revision 號碼。
+每一個版本的 filesystem tree 狀態 (稱為 revision)， SVN 都會指定一個號碼， revision 號碼從 0 開始增加，對於一個 repository 是全域的 revision 號碼。
 
 每個工作副本會有一個 .svn 資料夾，這是 SVN 用於管理工作副本的目錄。
 
-一般而言，一個 repository 可能會儲存多個專案，因此每個子目錄會是一個專案 (用這樣的方式管理)。於是開發一個專案的時候， working copy 會是對 repository 的子目錄 check out 。
+一般而言，一個 repository 可能會儲存多個專案，因此每個子目錄會是一個專案根目錄 (project root)，用不同的子目錄管理不同的專案。於是開發一個專案的時候， working copy 會是對 repository 的子目錄 check out 。
 
 ## 建議的 Repository 結構
 
-SVN 建議 Repository 中的每個專案都有下列 3 個子目錄：
+SVN 建議 Repository 中的每個專案根目錄都有下列 3 個子目錄：
 
-* trunk：主線 (main line)，產品開發的主線。
-* branches：分支，開發新功能的分支。
+* trunk：主線 (main line)，產品開發的主幹 (trunk)。
+* branches：分支，開發新功能的分支 (branch)。
 * tags：某一條線快照的狀態。
 
 ## 指令
@@ -68,6 +68,25 @@ SVN 建議 Repository 中的每個專案都有下列 3 個子目錄：
 * [svn unlock](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.unlock.html) 解開鎖住的路徑。
 * [svn update (up)](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.update.html) 更新你的工作副本。
 * [svn upgrade](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.upgrade.html) 升級，給 SVN 1.7 版本以前升級 .svn 資料夾使用。
+
+## SVN 和 Git 的命令比較
+
+| 操作       | SVN          | Git          |
+| ---------- | ------------ | ------------ |
+| 複製儲存庫 | svn checkout | git clone    |
+| 更新       | svn update   | git pull     |
+| 檢視狀態   | svn status   | git status   |
+| 檢視差異   | svn diff     | git diff     |
+| 檢視紀錄   | svn log      | git log      |
+| 增加       | svn add      | git add      |
+| 刪除       | svn delete   | git rm       |
+| 移動       | svn move     | git mv       |
+| 還原修改   | svn revert   | git reset    |
+| 建立分支   | svn copy     | git branch   |
+| 切換分支   | svn switch   | git checkout |
+| 合併       | svn merge    | git merge    |
+| 提交       | svn commit   | git commit   |
+| 更新到遠端 |              | git push     |
 
 ## 參考資料
 
