@@ -11,11 +11,12 @@ Markdown 是一種格式語法(第一個字母M大寫)，用來簡化 HTML 的�
 
 ### 客製化
 
-GitHub Flavored Markdown (簡稱GFM)是 Github 使用的語法。
+GitHub Flavored Markdown (簡稱GFM)是 Github 使用的語法，有不少好用的語法，我個人就滿喜歡 Table 和 Syntax highlighting 的功能。
 
 * [Mastering Markdown · GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 * [A formal spec for GitHub Flavored Markdown | GitHub Engineering](https://githubengineering.com/a-formal-spec-for-github-markdown/)
 * [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+* [linguist/languages.yml at master · github/linguist · GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) 列出 GitHub 支援的程式語言
 
 ### 標準化
 
@@ -93,7 +94,7 @@ HTML 是文件發佈的格式，而 Markdown 是文件編寫的格式。
     []  方括號 (square brackets)
     ()  括弧 (parentheses)
     #   數字符號 (hash mark)
-	+   加號 (plus sign)
-	-   減號 (minus sign)，連字符號 (hyphen)
+    +   加號 (plus sign)
+    -   減號 (minus sign)，連字符號 (hyphen)
     .   點 (dot)
     !   驚嘆號 (exclamation mark)
