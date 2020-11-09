@@ -28,6 +28,41 @@ SVN 建議 Repository 中的每個專案根目錄都有下列 3 個子目錄：
 * branches：分支，開發新功能的分支 (branch)。
 * tags：某一條線快照的狀態。
 
+## Revision 關鍵字
+
+SVN 的 revision 號碼通常會用 r 前綴表示，例如 r123 表示 revision 為 123 版本，除了用數字以外，SVN 也能使用一些關鍵字表示修訂版號。
+
+* HEAD：儲存庫上最新的版本。
+* BASE：工作副本上項目的版本。
+* COMMITTED：最近的版本，小於或等於 BASE。
+* PREV：前一個版本，即 COMMITTED - 1 。
+
+我們可以在指令中使用這些 Revision 關鍵字，例如 `svn log -r HEAD` 顯示儲存庫上最新的 log 訊息。
+
+## 屬性 (properties)
+
+SVN 除了可以管理檔案與目錄的版本，還有可以處理檔案與目錄的「屬性」這個額外的功能，屬性指的是 metadata。SVN 預設定義以下的屬性：
+
+* svn:executable
+* svn:mime-type
+* svn:ignore
+* svn:keywords
+* svn:eol-style
+* svn:externals
+* svn:special
+* svn:needs-lock
+* svn:mergeinfo
+* svn:author
+* svn:autoversioned
+* svn:date
+* svn:log
+* svn:rdump-lock
+* svn:sync-currently-copying
+* svn:sync-from-uuid
+* svn:sync-from-url
+* svn:sync-last-merged-rev
+* svn:sync-lock
+
 ## 指令
 
 [Subversion Command-Line Client](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.html) 指令就是 `svn` ， `svn --version` 印出 client 的版本資訊。
