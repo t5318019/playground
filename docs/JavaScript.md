@@ -8,12 +8,78 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 
 * JavaScript 不是 Java，只是當年 Java 很紅，借用他的名字。原本命名為 LiveScript 。
 * JS 的標準是 ECMAScript (簡稱 ES)，目前瀏覽器都有支援 2009 年訂定的 ES5 (第五版)。在 2015 年訂定了 ECMAScript 第六版 (ES6)，也稱為 ECMAScript 2015，之後則都是以西元年當作版本號碼，例如 ECMAScript 2020。詳細的版本資訊：[JavaScript Versions](https://www.w3schools.com/js/js_versions.asp)。
-* JS 是基於原型 (prototype-based) 的物件導向程式語言，不同於基於類別 (class-based) 的物件導向程式語言，可以參考：[Details of the object model - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)。
+* JS 是手稿語言 (scripting language)，不同於像是 C++ 或 Java 的編譯語言 (Compiled language)。
+* JS 是基於原型 (prototype-based) 的物件導向程式語言。不同於基於類別 (class-based) 的物件導向程式語言，例如 C++ 或 Java 有 class 語法，詳細可以參考：[Details of the object model - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)。
 * 變數是區分大小寫 (case sensitive)，變數開頭可以是 $ 或 _，以及 Unicode 字元，也就是允許中文字(或其他文字)當變數名稱。
+
+## 關鍵字 (Keywords) 和保留字 (Reserved Words)
+
+關鍵字是程式語言識別使用，不能拿來當作變數名稱。ES5 到 ES6 增加了 7 個關鍵字。
+
+|     | ES6 (共 33 個) | ES5 (共 26 個) |
+| --- | -------------- | -------------- |
+| 1   | break          | break          |
+| 2   | case           | case           |
+| 3   | catch          | catch          |
+| 4   | class          |                |
+| 5   | const          |                |
+| 6   | continue       | continue       |
+| 7   | debugger       | debugger       |
+| 8   | default        | default        |
+| 9   | delete         | delete         |
+| 10  | do             | do             |
+| 11  | else           | else           |
+| 12  | export         |                |
+| 13  | extends        |                |
+| 14  | finally        | finally        |
+| 15  | for            | for            |
+| 16  | function       | function       |
+| 17  | if             | if             |
+| 18  | import         |                |
+| 19  | in             | in             |
+| 20  | instanceof     | instanceof     |
+| 21  | new            | new            |
+| 22  | return         | return         |
+| 23  | super          |                |
+| 24  | switch         | switch         |
+| 25  | this           | this           |
+| 26  | throw          | throw          |
+| 27  | try            | try            |
+| 28  | typeof         | typeof         |
+| 29  | var            | var            |
+| 30  | void           | void           |
+| 31  | while          | while          |
+| 32  | with           | with           |
+| 33  | yield          |                |
+
+保留字是 JS 未來可能會使用的關鍵字，所以也不要盡量不要當作變數名稱。
+
+|     | ES5 (共 16 個) | ES6 (共 8 個) |
+| --- | -------------- | ------------- |
+| 1   | class          |               |
+| 2   | const          |               |
+| 3   | enum           | enum          |
+| 4   | export         |               |
+| 5   | extends        |               |
+| 6   | implements     | implements    |
+| 7   | import         |               |
+| 8   | interface      | interface     |
+| 9   | let            |               |
+| 10  | package        | package       |
+| 11  | private        | private       |
+| 12  | protected      | protected     |
+| 13  | public         | public        |
+| 14  | static         |               |
+| 15  | super          |               |
+| 16  | yield          |               |
+| 17  |                | await         |
+
+不能當作變數名稱的除了關鍵字和保留字，還有 null, true, false 這三個 (Null 和 Boolean 型別的值)。
 
 ## 參考資料
 
 * [ECMAScript Language Specification - ECMA-262 Edition 5.1](https://www.ecma-international.org/ecma-262/5.1/)
+* [ECMAScript 2015 Language Specification &ndash; ECMA-262 6th Edition](http://www.ecma-international.org/ecma-262/6.0/)
 * [ECMAScript® Language Specification](https://tc39.es/ecma262/)
 * [JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [JavaScript Tutorial](https://www.w3schools.com/js/)
