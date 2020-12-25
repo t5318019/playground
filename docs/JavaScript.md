@@ -12,7 +12,7 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 * JS 是基於原型 (prototype-based) 的物件導向程式語言。不同於基於類別 (class-based) 的物件導向程式語言，例如 C++ 或 Java 有 class 語法，詳細可以參考：[Details of the object model - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model)。
 * 變數是區分大小寫 (case sensitive)，變數開頭可以是 $ 或 _，以及 Unicode 字元，也就是允許中文字(或其他文字)當變數名稱。
 
-## 關鍵字 (Keywords) 和保留字 (Reserved Words)
+## 關鍵字 (keywords) & 保留字 (reserved words)
 
 關鍵字是程式語言識別使用，不能拿來當作變數名稱。ES5 到 ES6 增加了 7 個關鍵字。
 
@@ -52,7 +52,7 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 | 32  | with           | with           |
 | 33  | yield          |                |
 
-保留字是 JS 未來可能會使用的關鍵字，所以也不要盡量不要當作變數名稱。
+保留字是 JS 未來可能會使用的關鍵字，所以也不要盡量不要當作變數名稱。其中 ES5 的幾個保留字在 ES6 已經是關鍵字了。
 
 |     | ES5 (共 16 個) | ES6 (共 8 個) |
 | --- | -------------- | ------------- |
@@ -74,7 +74,49 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 | 16  | yield          |               |
 | 17  |                | await         |
 
-不能當作變數名稱的除了關鍵字和保留字，還有 null, true, false 這三個 (Null 和 Boolean 型別的值)。
+不能當作變數名稱的除了關鍵字和保留字，還有 null, true, false 這三個 (Null 和 Boolean 型別的值)。等等，注意 undefined (Undefined 型別的值) 不是關鍵字，所以 undefined 可以當作變數名稱！
+
+## 內建型別 (built-in types) & 內建物件 (built-in objects)
+
+內建型別的值稱為「原始值」(primitive values)，通常也把內建型別稱為「原始型別」，JS 的內建型別有 5 種：
+
+| 內建型別  | 說明                        |
+| --------- | --------------------------- |
+| Undefined | 值就是 undefined            |
+| Null      | 值就是 null                 |
+| Boolean   | 值有 true 跟 false 兩種     |
+| Number    | IEEE 754 標準的雙精度浮點數 |
+| String    | UTF-16 編碼的字串           |
+
+內建物件
+
+|     | ES6               | ES5      |
+| --- | ----------------- | -------- |
+| 1   | Array             | Array    |
+| 2   | ArrayBuffer       |          |
+| 3   | Boolean           | Boolean  |
+| 4   | DataView          |          |
+| 5   | Date              | Date     |
+| 6   | Error             | Error    |
+| 7   | Function          | Function |
+| 8   | Generator         |          |
+| 9   | GeneratorFunction |          |
+| 10  | Iteration         |          |
+| 11  | JSON              | JSON     |
+| 12  | Map               |          |
+| 13  | Math              | Math     |
+| 14  | Number            | Number   |
+| 15  | Object            | Object   |
+| 16  | Promise           |          |
+| 17  | Proxy             |          |
+| 18  | Reflect           |          |
+| 19  | RegExp            | RegExp   |
+| 20  | Set               |          |
+| 21  | String            | String   |
+| 22  | Symbol            |          |
+| 23  | TypedArray        |          |
+| 24  | WeakMap           |          |
+| 25  | WeakSet           |          |
 
 ## 參考資料
 
