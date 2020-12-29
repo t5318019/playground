@@ -82,41 +82,79 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 
 | 內建型別  | 說明                        |
 | --------- | --------------------------- |
-| Undefined | 值就是 undefined            |
-| Null      | 值就是 null                 |
-| Boolean   | 值有 true 跟 false 兩種     |
+| Undefined | 值就是 `undefined`          |
+| Null      | 值就是 `null`               |
+| Boolean   | 值有 `true` 跟 `false` 兩種 |
 | Number    | IEEE 754 標準的雙精度浮點數 |
 | String    | UTF-16 編碼的字串           |
 
-內建物件
+這邊可以看到 JS 的型別相當簡單，數字就只有一種，沒有區分整數和浮點數，文字也沒有區分字元和字串。
 
-|     | ES6               | ES5      |
-| --- | ----------------- | -------- |
-| 1   | Array             | Array    |
-| 2   | ArrayBuffer       |          |
-| 3   | Boolean           | Boolean  |
-| 4   | DataView          |          |
-| 5   | Date              | Date     |
-| 6   | Error             | Error    |
-| 7   | Function          | Function |
-| 8   | Generator         |          |
-| 9   | GeneratorFunction |          |
-| 10  | Iteration         |          |
-| 11  | JSON              | JSON     |
-| 12  | Map               |          |
-| 13  | Math              | Math     |
-| 14  | Number            | Number   |
-| 15  | Object            | Object   |
-| 16  | Promise           |          |
-| 17  | Proxy             |          |
-| 18  | Reflect           |          |
-| 19  | RegExp            | RegExp   |
-| 20  | Set               |          |
-| 21  | String            | String   |
-| 22  | Symbol            |          |
-| 23  | TypedArray        |          |
-| 24  | WeakMap           |          |
-| 25  | WeakSet           |          |
+內建物件如下：
+
+|     | ES6 (共 25 個)    | ES5 (共 11 個) |
+| --- | ----------------- | -------------- |
+| 1   | Array             | Array          |
+| 2   | ArrayBuffer       |                |
+| 3   | Boolean           | Boolean        |
+| 4   | DataView          |                |
+| 5   | Date              | Date           |
+| 6   | Error             | Error          |
+| 7   | Function          | Function       |
+| 8   | Generator         |                |
+| 9   | GeneratorFunction |                |
+| 10  | Iteration         |                |
+| 11  | JSON              | JSON           |
+| 12  | Map               |                |
+| 13  | Math              | Math           |
+| 14  | Number            | Number         |
+| 15  | Object            | Object         |
+| 16  | Promise           |                |
+| 17  | Proxy             |                |
+| 18  | Reflect           |                |
+| 19  | RegExp            | RegExp         |
+| 20  | Set               |                |
+| 21  | String            | String         |
+| 22  | Symbol            |                |
+| 23  | TypedArray        |                |
+| 24  | WeakMap           |                |
+| 25  | WeakSet           |                |
+
+全域物件 (global object) 是未執行 JS 就已經建立的物件，在瀏覽器當中全域物件就是 `window` ，全域物件包含一些屬性 (property)，存取的時候不需要指定全域物件，例如 Math 和 window.Math 是一樣的，ES5 的全域物件屬性如下：
+
+* 值屬性，都是唯讀不能修改
+  1. [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+  2. [Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
+  3. [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+* 函式屬性
+  1. [eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
+  2. [parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
+  3. [parseFloat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
+  4. [isNaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+  5. [isFinite](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isFinite)
+  6. [decodeURI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI)
+  7. [decodeURIComponent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent)
+  8. [encodeURI](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI)
+  9. [encodeURIComponent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent)
+* 建構子屬性，基本上是內建物件的建構子
+  1. [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
+  2. [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function)
+  3. [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+  4. [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+  5. [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+  6. [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+  7. [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+  8. [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+  9. [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error)
+  10. [EvalError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError)
+  11. [RangeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError)
+  12. [ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+  13. [SyntaxError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError)
+  14. [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
+  15. [URIError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError)
+* 其他屬性
+  1. [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+  2. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
 ## 參考資料
 
