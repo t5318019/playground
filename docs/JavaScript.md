@@ -123,9 +123,9 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 全域物件 (global object) 是未執行 JS 就已經建立的物件，在瀏覽器當中全域物件就是 `window` ，全域物件包含一些屬性 (property)，存取的時候不需要指定全域物件，例如 Math 和 window.Math 是一樣的，ES5 的全域物件屬性如下：
 
 * 值屬性，都是唯讀不能修改
-  1. [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
-  2. [Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity)
-  3. [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
+  1. [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN) 就是 "Not-a-Number"，不是一個數字。
+  2. [Infinity](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity) 正無限大的數字。
+  3. [undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) 未定義的原始值。如果變數沒有給值，那這個變數的值就是 undefined 。
 * 函式屬性
   1. [eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
   2. [parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
@@ -155,6 +155,21 @@ JavaScript 簡稱 JS ，是一種程式語言，1995 年由布蘭登·艾克 (Br
 * 其他屬性
   1. [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
   2. [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+
+## 運算子 (operators) & 運算式(expressions)
+
+運算式 (expression) 是程式語言中會計算出值的語法，當中會用到運算子 (operator)。 JS 當中的運算子如下：
+
+| 類型              | 一元 (unary)       | 二元 (binary)                           | 三元 (ternary) |
+| ----------------- | ------------------ | --------------------------------------- | -------------- |
+| 賦值 (assignment) |                    | = *=	/=	%=	+=	-=	<<=	>>=	>>>=	&=	^= \|= |                |
+| 算術 (arithmetic) | ++ --              | + - * / %                               |                |
+| 關係 (relational) |                    | < > <= >= instanceof in                 |                |
+| 比較 (equality)   |                    | == != === !==                           |                |
+| 位元 (bitwise)    | ~                  | & ^ \| << >> >>>                        |                |
+| 邏輯 (logical)    | !                  | &&                                      |                |
+| 其他              | delete void typeof | ,                                       | ?:             |
+
 
 ## 參考資料
 
