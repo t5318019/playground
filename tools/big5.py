@@ -1,4 +1,5 @@
 import os
+import urllib.parse
 
 
 def main():
@@ -9,14 +10,14 @@ def main():
     f = open(md_file, 'w', encoding="utf-8")
     print('# Big5\n', file=f)
 
-    write_table(f, '符號', 'a140', 'a3bf')
-    write_table(f, '常用漢字', 'a440', 'c67e')
-    write_table(f, '次常用漢字', 'c940', 'f9d5')
+    write_table(f, '符號', 'a140', 'a3bf', False)
+    write_table(f, '常用漢字', 'a440', 'c67e', True)
+    write_table(f, '次常用漢字', 'c940', 'f9d5', True)
 
     f.close()
 
 
-def write_table(f, title, start, end):
+def write_table(f, title, start, end, moedict):
     print('## %s\n' % title, file=f)
 
     header = ['\u3000', ]
@@ -30,6 +31,11 @@ def write_table(f, title, start, end):
     while c <= int.from_bytes(bytes.fromhex(end), 'big'):
         try:
             character = c.to_bytes(2, 'big').decode('big5')
+            if(moedict):
+                character = '[%s](https://www.moedict.tw/%s)' % (
+                    character,
+                    urllib.parse.quote(character)
+                )
         except:
             character = '\u3000'
         s.append(character)
