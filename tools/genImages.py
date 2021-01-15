@@ -8,7 +8,6 @@ except ModuleNotFoundError:
 
 
 def main():
-
     current_dir = (os.path.abspath(os.path.dirname(__file__)))
     image_types = ("png", "jpg", "gif")
     default_image_size = (800, 600)
@@ -46,7 +45,7 @@ def main():
             if not os.path.exists(filename):
                 im.save(filename)
 
-        """ 產生不同大小的 JPEG 圖片 """
+        """ 產生不同大小的圖片 """
         for size in image_sizes:
             im = Image.new("RGB", size, "cyan")
             filename = output_dir + os.sep + "{}x{}.png".format(*size)
