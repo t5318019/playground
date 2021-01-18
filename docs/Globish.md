@@ -6,1503 +6,1503 @@
 
 ## The Basic 1500 Globish Words
 
-a
-able
-about
-above
-accept
-according (to)
-account
-accuse
-achieve
-across
-act
-adapt
-add
-admit
-adult
-advertisement
-advise
-affect
-afraid
-after
-again
-against
-age
-agency
-ago
-agree
-ahead
-aid
-aim
-air
-alive
-all
-allow
-ally
-almost
-alone
-along
-already
-also
-although
-always
-among
-amount
-and
-anger
-angle
-announce
-another
-answer
-any
-apartment
-apologize
-appeal
-appear
-apple
-apply
-appoint
-approve
-area
-argue
-arm
-army
-around
-arrest
-arrive
-art
-as
-ask
-assist
-at
-attach
-attack
-attempt
-attend
-attention
-authority
-automatic
-autumn
-available
-average
-avoid
-awake
-award
-away
-baby
-back
-bad
-bag
-balance
-ball
-ballot
-ban
-bank
-bar
-barrier
-base
-basket
-bath
-battle
-be
-bear
-beat
-beauty
-because
-become
-bed
-beer
-before
-begin
-behind
-believe
-bell
-belong
-below
-bend
-beside
-best
-betray
-better
-between
-big
-bill
-bird
-birth
-bit
-bite
-black
-blade
-blame
-blank
-blanket
-bleed
-blind
-block
-blood
-blow
-blue
-board
-boat
-body
-bomb
-bone
-bonus
-book
-boot
-border
-born
-borrow
-boss
-both
-bottle
-bottom
-box
-boy
-boycott
-brain
-brake
-branch
-brave
-bread
-break
-breathe
-brick
-bridge
-brief
-bright
-bring
-broad
-broadcast
-brother
-brown
-brush
-budget
-build
-bullet
-burn
-burst
-bury
-business
-busy
-but
-butter
-button
-buy
-by
-cabinet
-call
-calm
-camera
-camp
-campaign
-can
-cancel
-capture
-car
-card
-care
-carriage
-carry
-case
-cash
-cat
-catch
-cause
-celebrate
-cell
-center
-century
-ceremony
-certain
-chain
-chair
-chairman
-challenge
-champion
-chance
-change
-channel
-character
-charge
-chart
-chase
-cheap
-check
-cheer
-cheese
-chemical
-chest
-chief
-child
-choose
-church
-circle
-citizen
-city
-civilian
-claim
-clash
-class
-clean
-clear
-climate
-climb
-clock
-close
-cloth
-cloud
-coal
-coast
-coat
-code
-cold
-collect
-college
-colony
-color
-combine
-come
-comfort
-command
-comment
-committee
-common
-communicate
-community
-company
-compare
-compete
-complete
-compromise
-computer
-concern
-condemn
-condition
-conference
-confirm
-congratulate
-congress
-connect
-consider
-consumption
-contact
-contain
-continent
-continue
-control
-cook
-cool
-cooperate
-copy
-cork
-corn
-corner
-correct
-cost
-cotton
-count
-country
-course
-court
-cover
-cow
-crash
-create
-credit
-crew
-crime
-crisis
-criteria
-criticize
-crop
-cross
-crowd
-crush
-cry
-culture
-cup
-cure
-current
-custom
-cut
-damage
-dance
-danger
-dark
-date
-daughter
-day
-dead
-deaf
-deal
-dear
-debate
-debt
-decide
-declare
-decrease
-deep
-defeat
-defend
-define
-degree
-delay
-delicate
-deliver
-demand
-demonstrate
-denounce
-deny
-departure
-depend
-deploy
-depression
-describe
-desert
-design
-desire
-destroy
-detail
-develop
-device
-die
-diet
-differ
-difficult
-dig
-dinner
-diplomat
-direct
-dirt
-disappear
-discover
-discuss
-disease
-disk
-dismiss
-dispute
-distance
-divide
-do
-doctor
-document
-dog
-door
-doubt
-down
-drain
-draw
-dream
-dress
-drink
-drive
-drop
-drug
-dry
-during
-dust
-duty
-each
-ear
-early
-earn
-earth
-east
-easy
-eat
-edge
-education
-effect
-effort
-egg
-either
-elastic
-electricity
-element
-else
-embassy
-emergency
-emotion
-employ
-empty
-end
-enemy
-enforce
-engine
-enjoy
-enough
-enter
-entertain
-environment
-equal
-equate
-equipment
-erase
-escape
-especially
-establish
-estimate
-ethnic
-evaporate
-even
-event
-ever
-every
-evidence
-evil
-exact
-example
-except
-exchange
-excuse
-execute
-exercise
-exist
-exit
-expand
-expect
-expense
-experience
-experiment
-expert
-explain
-explode
-explore
-export
-express
-extend
-extra
-extreme
-eye
-face
-fact
-factory
-fail
-fair
-fall
-false
-family
-famous
-far
-fast
-fat
-father
-fear
-feather
-feature
-feed
-feel
-female
-fertile
-few
-field
-fierce
-fight
-figure
-file
-fill
-film
-final
-finance
-find
-fine
-finger
-finish
-fire
-firm
-first
-fish
-fist
-fit
-fix
-flag
-flat
-float
-floor
-flow
-flower
-fluid
-fly
-fog
-fold
-follow
-food
-fool
-foot
-for
-forbid
-force
-foreign
-forest
-forget
-forgive
-form
-former
-forward
-frame
-free
-freeze
-fresh
-friend
-frighten
-from
-front
-fruit
-fuel
-full
-fun
-future
-gain
-gallon
-game
-gang
-garden
-gas
-gather
-general
-gentle
-get
-gift
-girl
-give
-glass
-global
-go
-goal
-god
-gold
-good
-govern
-grass
-gray (grey)
-great
-green
-ground
-group
-grow
-guarantee
-guard
-guess
-guide
-guilty
-gun
-guy
-hair
-half
-halt
-hand
-hang
-happen
-happy
-hard
-harm
-hat
-hate
-have
-he
-head
-heal
-health
-hear
-heart
-heat
-heavy
-help
-her
-here
-hide
-high
-hijack
-hill
-him
-hire
-his
-history
-hit
-hold
-hole
-holiday
-hollow
-holy
-home
-honest
-hope
-horrible
-horse
-hospital
-hostage
-hostile
-hot
-hour
-house
-how
-however
-huge
-human
-humor
-hunger
-hunt
-hurry
-hurt
-husband
-I
-ice
-idea
-identify
-if
-ill
-imagine
-import
-important
-improve
-in
-inch
-incident
-include
-increase
-independent
-indicate
-individual
-industry
-infect
-influence
-inform
-inject
-injure
-innocent
-insane
-insect
-inspect
-instead
-insult
-insurance
-intelligence
-intense
-interest
-interfere
-international
-into
-invade
-invent
-invest
-investigate
-invite
-involve
-iron
-island
-issue
-it
-item
-jacket
-jail
-jewel
-job
-join
-joint
-joke
-joy
-judge
-jump
-jury
-just
-keep
-key
-kick
-kid
-kill
-kind
-king
-kiss
-kit
-kitchen
-knife
-know
-labor
-laboratory
-lack
-lake
-land
-language
-large
-last
-late
-laugh
-law
-lay
-lead
-leak
-learn
-least
-leave
-left
-leg
-legal
-lend
-length
-less
-let
-letter
-level
-lie
-lie
-life
-lift
-light
-like
-limit
-line
-link
-lip
-liquid
-list
-listen
-little
-live
-load
-loan
-local
-locate
-lock
-log
-lone
-long
-look
-loose
-lose
-lot
-loud
-love
-low
-luck
-mail
-main
-major
-make
-male
-man
-manufacture
-many
-map
-march
-mark
-market
-marry
-master
-match
-material
-matter
-may
-mayor
-me
-meal
-mean
-measure
-meat
-media
-meet
-member
-memory
-mental
-mercy
-message
-metal
-method
-middle
-might
-mile
-military
-milk
-mind
-mine
-minister
-minor
-miscellaneous
-miss
-mistake
-mix
-mob
-model
-moderate
-modern
-money
-month
-moon
-moral
-more
-morning
-most
-mother
-motion
-mountain
-mouth
-move
-much
-murder
-muscle
-music
-must
-my
-mystery
-nail
-name
-narrow
-nation
-native
-navy
-near
-necessary
-neck
-need
-neighbor
-neither
-nerve
-neutral
-never
-new
-news
-next
-nice
-night
-no
-noise
-noon
-normal
-north
-nose
-not
-note
-nothing
-notice
-now
-nowhere
-number
-obey
-object
-observe
-occupy
-occur
-of
-off
-offensive
-offer
-office
-officer
-often
-oil
-old
-on
-once
-only
-open
-operate
-opinion
-opportunity
-opposite
-oppress
-or
-order
-organize
-other
-ounce
-our
-ours
-oust
-out
-over
-owe
-own
-page
-pain
-paint
-pan
-pants
-paper
-parade
-parcel
-parent
-parliament
-part
-party
-pass
-passenger
-past
-paste
-path
-patient
-pattern
-pay
-peace
-pen
-pencil
-people
-percent
-perfect
-perform
-perhaps
-period
-permanent
-permit
-person
-physical
-pick
-picture
-piece
-pig
-pilot
-pint
-pipe
-place
-plain
-plan
-plane
-plant
-plastic
-plate
-play
-please
-plenty
-pocket
-point
-poison
-policy
-politics
-pollute
-poor
-popular
-port
-position
-possess
-possible
-postpone
-potato
-pound
-pour
-powder
-power
-practice
-praise
-pray
-pregnant
-present
-press
-pretty
-prevent
-price
-print
-prison
-private
-prize
-problem
-process
-product
-professor
-profit
-program
-progress
-project
-property
-propose
-protect
-protest
-prove
-provide
-public
-publish
-pull
-punish
-purchase
-pure
-purpose
-push
-put
-quality
-quart
-quarter
-queen
-question
-quick
-quiet
-quit
-quite
-race
-radiation
-raid
-rail
-rain
-raise
-range
-rare
-rate
-rather
-ray
-reach
-react
-read
-ready
-real
-reason
-receive
-recognize
-record
-recover
-red
-reduce
-refugee
-refuse
-regret
-regular
-reject
-relation
-release
-remain
-remember
-remove
-repair
-repeat
-report
-represent
-request
-require
-rescue
-research
-resign
-resist
-resolution
-resource
-respect
-responsible
-rest
-restrain
-result
-retire
-return
-revolt
-reward
-rice
-rich
-ride
-right
-ring
-riot
-rise
-risk
-river
-road
-rob
-rock
-rocket
-roll
-roof
-room
-root
-rope
-rough
-round
-row
-rub
-rubber
-ruin
-rule
-run
-sad
-safe
-sail
-salt
-same
-sand
-satisfy
-save
-say
-scale
-scare
-school
-science
-score
-script
-sea
-search
-season
-seat
-second
-secret
-section
-security
-see
-seed
-seek
-seem
-seize
-seldom
-self
-sell
-senate
-send
-sense
-sentence
-separate
-series
-serious
-serve
-set
-settle
-several
-severe
-sex
-shade
-shake
-shall
-shame
-shape
-share
-sharp
-she
-sheet
-shelf
-shell
-shelter
-shine
-ship
-shirt
-shock
-shoe
-shoot
-shop
-short
-should
-shout
-show
-shrink
-shut
-sick
-side
-sign
-signal
-silence
-silk
-silver
-similar
-simple
-since
-sing
-single
-sister
-sit
-situation
-size
-skill
-skin
-skirt
-sky
-slave
-sleep
-slide
-slip
-slow
-small
-smart
-smash
-smell
-smile
-smoke
-smooth
-snack
-snake
-sneeze
-snow
-so
-soap
-social
-society
-soft
-soil
-soldier
-solid
-solve
-some
-son
-song
-soon
-sorry
-sort
-soul
-sound
-south
-space
-speak
-special
-speech
-speed
-spell
-spend
-spirit
-spot
-spread
-spring
-spy
-square
-stage
-stairs
-stamp
-stand
-star
-start
-starve
-state
-station
-status
-stay
-steal
-steam
-steel
-step
-stick
-still
-stomach
-stone
-stop
-store
-storm
-story
-straight
-strange
-stream
-street
-stretch
-strike
-string
-strong
-structure
-struggle
-study
-stupid
-subject
-substance
-substitute
-succeed
-such
-sudden
-suffer
-sugar
-suggest
-suit
-summer
-sun
-supervise
-supply
-support
-suppose
-suppress
-sure
-surface
-surprise
-surround
-survive
-suspect
-suspend
-swallow
-swear
-sweet
-swim
-symbol
-sympathy
-system
-table
-tail
-take
-talk
-tall
-target
-task
-taste
-tax
-tea
-teach
-team
-tear
-tear
-tell
-term
-terrible
-territory
-terror
-test
-than
-thank
-that
-the
-theater
-their
-theirs
-them
-then
-theory
-there
-these
-they
-thick
-thin
-thing
-think
-third
-this
-those
-though
-thought
-threaten
-through
-throw
-thus
-tie
-tight
-time
-tin
-tiny
-tire
-title
-to
-today
-together
-tomorrow
-tone
-tongue
-tonight
-too
-tool
-tooth
-top
-total
-touch
-toward
-town
-track
-trade
-tradition
-traffic
-train
-transport
-travel
-treason
-treasure
-treat
-treaty
-tree
-trial
-tribe
-trick
-trip
-troop
-trouble
-truck
-true
-trust
-try
-tube
-turn
-twice
-tyre
-under
-understand
-unit
-universe
-unless
-until
-up
-upon
-urge
-us
-use
-valley
-value
-vary
-vegetable
-vehicle
-version
-very
-veto
-vicious
-victim
-victory
-view
-violence
-visit
-voice
-volume
-vote
-wage
-wait
-walk
-wall
-want
-war
-warm
-warn
-wash
-waste
-watch
-water
-wave
-way
-we
-weak
-wealth
-weapon
-wear
-weather
-week
-weight
-welcome
-well
-west
-wet
-what
-wheat
-wheel
-when
-where
-whether
-which
-while
-white
-who
-whole
-why
-wide
-wife
-wild
-will
-win
-wind
-window
-wine
-wing
-winter
-wire
-wise
-wish
-with
-withdraw
-without
-woman
-wonder
-wood
-wool
-word
-work
-world
-worry
-worse
-worth
-wound
-wreck
-write
-wrong
-yard
-year
-yellow
-yes
-yesterday
-yet
-you
-young
+1. [a](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/a)
+2. [able](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/able)
+3. [about](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/about)
+4. [above](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/above)
+5. [accept](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/accept)
+6. [according (to)](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/according )
+7. [account](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/account)
+8. [accuse](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/accuse)
+9. [achieve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/achieve)
+10. [across](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/across)
+11. [act](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/act)
+12. [adapt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/adapt)
+13. [add](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/add)
+14. [admit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/admit)
+15. [adult](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/adult)
+16. [advertisement](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/advertisement)
+17. [advise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/advise)
+18. [affect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/affect)
+19. [afraid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/afraid)
+20. [after](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/after)
+21. [again](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/again)
+22. [against](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/against)
+23. [age](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/age)
+24. [agency](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/agency)
+25. [ago](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ago)
+26. [agree](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/agree)
+27. [ahead](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ahead)
+28. [aid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/aid)
+29. [aim](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/aim)
+30. [air](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/air)
+31. [alive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/alive)
+32. [all](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/all)
+33. [allow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/allow)
+34. [ally](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ally)
+35. [almost](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/almost)
+36. [alone](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/alone)
+37. [along](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/along)
+38. [already](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/already)
+39. [also](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/also)
+40. [although](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/although)
+41. [always](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/always)
+42. [among](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/among)
+43. [amount](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/amount)
+44. [and](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/and)
+45. [anger](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/anger)
+46. [angle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/angle)
+47. [announce](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/announce)
+48. [another](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/another)
+49. [answer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/answer)
+50. [any](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/any)
+51. [apartment](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/apartment)
+52. [apologize](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/apologize)
+53. [appeal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/appeal)
+54. [appear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/appear)
+55. [apple](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/apple)
+56. [apply](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/apply)
+57. [appoint](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/appoint)
+58. [approve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/approve)
+59. [area](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/area)
+60. [argue](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/argue)
+61. [arm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/arm)
+62. [army](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/army)
+63. [around](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/around)
+64. [arrest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/arrest)
+65. [arrive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/arrive)
+66. [art](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/art)
+67. [as](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/as)
+68. [ask](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ask)
+69. [assist](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/assist)
+70. [at](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/at)
+71. [attach](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/attach)
+72. [attack](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/attack)
+73. [attempt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/attempt)
+74. [attend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/attend)
+75. [attention](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/attention)
+76. [authority](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/authority)
+77. [automatic](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/automatic)
+78. [autumn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/autumn)
+79. [available](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/available)
+80. [average](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/average)
+81. [avoid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/avoid)
+82. [awake](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/awake)
+83. [award](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/award)
+84. [away](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/away)
+85. [baby](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/baby)
+86. [back](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/back)
+87. [bad](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bad)
+88. [bag](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bag)
+89. [balance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/balance)
+90. [ball](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ball)
+91. [ballot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ballot)
+92. [ban](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ban)
+93. [bank](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bank)
+94. [bar](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bar)
+95. [barrier](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/barrier)
+96. [base](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/base)
+97. [basket](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/basket)
+98. [bath](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bath)
+99. [battle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/battle)
+100. [be](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/be)
+101. [bear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bear)
+102. [beat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/beat)
+103. [beauty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/beauty)
+104. [because](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/because)
+105. [become](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/become)
+106. [bed](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bed)
+107. [beer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/beer)
+108. [before](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/before)
+109. [begin](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/begin)
+110. [behind](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/behind)
+111. [believe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/believe)
+112. [bell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bell)
+113. [belong](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/belong)
+114. [below](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/below)
+115. [bend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bend)
+116. [beside](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/beside)
+117. [best](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/best)
+118. [betray](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/betray)
+119. [better](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/better)
+120. [between](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/between)
+121. [big](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/big)
+122. [bill](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bill)
+123. [bird](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bird)
+124. [birth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/birth)
+125. [bit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bit)
+126. [bite](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bite)
+127. [black](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/black)
+128. [blade](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blade)
+129. [blame](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blame)
+130. [blank](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blank)
+131. [blanket](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blanket)
+132. [bleed](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bleed)
+133. [blind](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blind)
+134. [block](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/block)
+135. [blood](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blood)
+136. [blow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blow)
+137. [blue](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blue)
+138. [board](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/board)
+139. [boat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/boat)
+140. [body](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/body)
+141. [bomb](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bomb)
+142. [bone](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bone)
+143. [bonus](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bonus)
+144. [book](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/book)
+145. [boot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/boot)
+146. [border](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/border)
+147. [born](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/born)
+148. [borrow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/borrow)
+149. [boss](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/boss)
+150. [both](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/both)
+151. [bottle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bottle)
+152. [bottom](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bottom)
+153. [box](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/box)
+154. [boy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/boy)
+155. [boycott](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/boycott)
+156. [brain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brain)
+157. [brake](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brake)
+158. [branch](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/branch)
+159. [brave](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brave)
+160. [bread](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bread)
+161. [break](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/break)
+162. [breathe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/breathe)
+163. [brick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brick)
+164. [bridge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bridge)
+165. [brief](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brief)
+166. [bright](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bright)
+167. [bring](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bring)
+168. [broad](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/broad)
+169. [broadcast](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/broadcast)
+170. [brother](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brother)
+171. [brown](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brown)
+172. [brush](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/brush)
+173. [budget](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/budget)
+174. [build](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/build)
+175. [bullet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bullet)
+176. [burn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/burn)
+177. [burst](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/burst)
+178. [bury](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bury)
+179. [business](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/business)
+180. [busy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/busy)
+181. [but](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/but)
+182. [butter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/butter)
+183. [button](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/button)
+184. [buy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/buy)
+185. [by](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/by)
+186. [cabinet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cabinet)
+187. [call](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/call)
+188. [calm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/calm)
+189. [camera](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/camera)
+190. [camp](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/camp)
+191. [campaign](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/campaign)
+192. [can](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/can)
+193. [cancel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cancel)
+194. [capture](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/capture)
+195. [car](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/car)
+196. [card](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/card)
+197. [care](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/care)
+198. [carriage](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/carriage)
+199. [carry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/carry)
+200. [case](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/case)
+201. [cash](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cash)
+202. [cat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cat)
+203. [catch](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/catch)
+204. [cause](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cause)
+205. [celebrate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/celebrate)
+206. [cell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cell)
+207. [center](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/center)
+208. [century](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/century)
+209. [ceremony](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ceremony)
+210. [certain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/certain)
+211. [chain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chain)
+212. [chair](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chair)
+213. [chairman](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chairman)
+214. [challenge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/challenge)
+215. [champion](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/champion)
+216. [chance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chance)
+217. [change](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/change)
+218. [channel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/channel)
+219. [character](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/character)
+220. [charge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/charge)
+221. [chart](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chart)
+222. [chase](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chase)
+223. [cheap](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cheap)
+224. [check](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/check)
+225. [cheer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cheer)
+226. [cheese](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cheese)
+227. [chemical](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chemical)
+228. [chest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chest)
+229. [chief](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/chief)
+230. [child](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/child)
+231. [choose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/choose)
+232. [church](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/church)
+233. [circle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/circle)
+234. [citizen](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/citizen)
+235. [city](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/city)
+236. [civilian](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/civilian)
+237. [claim](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/claim)
+238. [clash](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/clash)
+239. [class](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/class)
+240. [clean](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/clean)
+241. [clear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/clear)
+242. [climate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/climate)
+243. [climb](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/climb)
+244. [clock](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/clock)
+245. [close](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/close)
+246. [cloth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cloth)
+247. [cloud](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cloud)
+248. [coal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/coal)
+249. [coast](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/coast)
+250. [coat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/coat)
+251. [code](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/code)
+252. [cold](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cold)
+253. [collect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/collect)
+254. [college](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/college)
+255. [colony](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/colony)
+256. [color](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/color)
+257. [combine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/combine)
+258. [come](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/come)
+259. [comfort](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/comfort)
+260. [command](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/command)
+261. [comment](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/comment)
+262. [committee](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/committee)
+263. [common](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/common)
+264. [communicate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/communicate)
+265. [community](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/community)
+266. [company](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/company)
+267. [compare](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/compare)
+268. [compete](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/compete)
+269. [complete](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/complete)
+270. [compromise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/compromise)
+271. [computer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/computer)
+272. [concern](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/concern)
+273. [condemn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/condemn)
+274. [condition](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/condition)
+275. [conference](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/conference)
+276. [confirm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/confirm)
+277. [congratulate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/congratulate)
+278. [congress](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/congress)
+279. [connect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/connect)
+280. [consider](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/consider)
+281. [consumption](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/consumption)
+282. [contact](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/contact)
+283. [contain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/contain)
+284. [continent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/continent)
+285. [continue](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/continue)
+286. [control](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/control)
+287. [cook](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cook)
+288. [cool](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cool)
+289. [cooperate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cooperate)
+290. [copy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/copy)
+291. [cork](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cork)
+292. [corn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/corn)
+293. [corner](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/corner)
+294. [correct](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/correct)
+295. [cost](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cost)
+296. [cotton](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cotton)
+297. [count](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/count)
+298. [country](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/country)
+299. [course](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/course)
+300. [court](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/court)
+301. [cover](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cover)
+302. [cow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cow)
+303. [crash](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crash)
+304. [create](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/create)
+305. [credit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/credit)
+306. [crew](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crew)
+307. [crime](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crime)
+308. [crisis](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crisis)
+309. [criteria](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/criteria)
+310. [criticize](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/criticize)
+311. [crop](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crop)
+312. [cross](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cross)
+313. [crowd](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crowd)
+314. [crush](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/crush)
+315. [cry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cry)
+316. [culture](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/culture)
+317. [cup](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cup)
+318. [cure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cure)
+319. [current](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/current)
+320. [custom](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/custom)
+321. [cut](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/cut)
+322. [damage](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/damage)
+323. [dance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dance)
+324. [danger](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/danger)
+325. [dark](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dark)
+326. [date](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/date)
+327. [daughter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/daughter)
+328. [day](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/day)
+329. [dead](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dead)
+330. [deaf](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deaf)
+331. [deal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deal)
+332. [dear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dear)
+333. [debate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/debate)
+334. [debt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/debt)
+335. [decide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/decide)
+336. [declare](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/declare)
+337. [decrease](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/decrease)
+338. [deep](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deep)
+339. [defeat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/defeat)
+340. [defend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/defend)
+341. [define](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/define)
+342. [degree](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/degree)
+343. [delay](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/delay)
+344. [delicate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/delicate)
+345. [deliver](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deliver)
+346. [demand](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/demand)
+347. [demonstrate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/demonstrate)
+348. [denounce](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/denounce)
+349. [deny](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deny)
+350. [departure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/departure)
+351. [depend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/depend)
+352. [deploy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deploy)
+353. [depression](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/depression)
+354. [describe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/describe)
+355. [desert](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/desert)
+356. [design](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/design)
+357. [desire](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/desire)
+358. [destroy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/destroy)
+359. [detail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/detail)
+360. [develop](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/develop)
+361. [device](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/device)
+362. [die](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/die)
+363. [diet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/diet)
+364. [differ](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/differ)
+365. [difficult](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/difficult)
+366. [dig](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dig)
+367. [dinner](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dinner)
+368. [diplomat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/diplomat)
+369. [direct](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/direct)
+370. [dirt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dirt)
+371. [disappear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/disappear)
+372. [discover](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/discover)
+373. [discuss](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/discuss)
+374. [disease](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/disease)
+375. [disk](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/disk)
+376. [dismiss](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dismiss)
+377. [dispute](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dispute)
+378. [distance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/distance)
+379. [divide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/divide)
+380. [do](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/do)
+381. [doctor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/doctor)
+382. [document](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/document)
+383. [dog](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dog)
+384. [door](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/door)
+385. [doubt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/doubt)
+386. [down](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/down)
+387. [drain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/drain)
+388. [draw](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/draw)
+389. [dream](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dream)
+390. [dress](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dress)
+391. [drink](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/drink)
+392. [drive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/drive)
+393. [drop](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/drop)
+394. [drug](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/drug)
+395. [dry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dry)
+396. [during](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/during)
+397. [dust](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dust)
+398. [duty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/duty)
+399. [each](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/each)
+400. [ear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ear)
+401. [early](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/early)
+402. [earn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/earn)
+403. [earth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/earth)
+404. [east](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/east)
+405. [easy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/easy)
+406. [eat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/eat)
+407. [edge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/edge)
+408. [education](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/education)
+409. [effect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/effect)
+410. [effort](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/effort)
+411. [egg](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/egg)
+412. [either](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/either)
+413. [elastic](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/elastic)
+414. [electricity](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/electricity)
+415. [element](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/element)
+416. [else](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/else)
+417. [embassy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/embassy)
+418. [emergency](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/emergency)
+419. [emotion](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/emotion)
+420. [employ](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/employ)
+421. [empty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/empty)
+422. [end](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/end)
+423. [enemy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/enemy)
+424. [enforce](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/enforce)
+425. [engine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/engine)
+426. [enjoy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/enjoy)
+427. [enough](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/enough)
+428. [enter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/enter)
+429. [entertain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/entertain)
+430. [environment](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/environment)
+431. [equal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/equal)
+432. [equate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/equate)
+433. [equipment](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/equipment)
+434. [erase](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/erase)
+435. [escape](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/escape)
+436. [especially](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/especially)
+437. [establish](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/establish)
+438. [estimate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/estimate)
+439. [ethnic](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ethnic)
+440. [evaporate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/evaporate)
+441. [even](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/even)
+442. [event](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/event)
+443. [ever](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ever)
+444. [every](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/every)
+445. [evidence](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/evidence)
+446. [evil](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/evil)
+447. [exact](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/exact)
+448. [example](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/example)
+449. [except](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/except)
+450. [exchange](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/exchange)
+451. [excuse](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/excuse)
+452. [execute](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/execute)
+453. [exercise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/exercise)
+454. [exist](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/exist)
+455. [exit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/exit)
+456. [expand](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/expand)
+457. [expect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/expect)
+458. [expense](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/expense)
+459. [experience](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/experience)
+460. [experiment](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/experiment)
+461. [expert](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/expert)
+462. [explain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/explain)
+463. [explode](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/explode)
+464. [explore](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/explore)
+465. [export](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/export)
+466. [express](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/express)
+467. [extend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/extend)
+468. [extra](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/extra)
+469. [extreme](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/extreme)
+470. [eye](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/eye)
+471. [face](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/face)
+472. [fact](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fact)
+473. [factory](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/factory)
+474. [fail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fail)
+475. [fair](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fair)
+476. [fall](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fall)
+477. [FALSE](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/FALSE)
+478. [family](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/family)
+479. [famous](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/famous)
+480. [far](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/far)
+481. [fast](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fast)
+482. [fat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fat)
+483. [father](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/father)
+484. [fear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fear)
+485. [feather](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/feather)
+486. [feature](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/feature)
+487. [feed](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/feed)
+488. [feel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/feel)
+489. [female](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/female)
+490. [fertile](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fertile)
+491. [few](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/few)
+492. [field](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/field)
+493. [fierce](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fierce)
+494. [fight](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fight)
+495. [figure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/figure)
+496. [file](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/file)
+497. [fill](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fill)
+498. [film](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/film)
+499. [final](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/final)
+500. [finance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/finance)
+501. [find](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/find)
+502. [fine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fine)
+503. [finger](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/finger)
+504. [finish](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/finish)
+505. [fire](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fire)
+506. [firm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/firm)
+507. [first](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/first)
+508. [fish](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fish)
+509. [fist](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fist)
+510. [fit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fit)
+511. [fix](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fix)
+512. [flag](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/flag)
+513. [flat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/flat)
+514. [float](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/float)
+515. [floor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/floor)
+516. [flow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/flow)
+517. [flower](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/flower)
+518. [fluid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fluid)
+519. [fly](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fly)
+520. [fog](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fog)
+521. [fold](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fold)
+522. [follow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/follow)
+523. [food](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/food)
+524. [fool](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fool)
+525. [foot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/foot)
+526. [for](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/for)
+527. [forbid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/forbid)
+528. [force](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/force)
+529. [foreign](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/foreign)
+530. [forest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/forest)
+531. [forget](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/forget)
+532. [forgive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/forgive)
+533. [form](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/form)
+534. [former](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/former)
+535. [forward](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/forward)
+536. [frame](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/frame)
+537. [free](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/free)
+538. [freeze](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/freeze)
+539. [fresh](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fresh)
+540. [friend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/friend)
+541. [frighten](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/frighten)
+542. [from](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/from)
+543. [front](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/front)
+544. [fruit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fruit)
+545. [fuel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fuel)
+546. [full](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/full)
+547. [fun](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fun)
+548. [future](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/future)
+549. [gain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gain)
+550. [gallon](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gallon)
+551. [game](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/game)
+552. [gang](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gang)
+553. [garden](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/garden)
+554. [gas](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gas)
+555. [gather](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gather)
+556. [general](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/general)
+557. [gentle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gentle)
+558. [get](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/get)
+559. [gift](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gift)
+560. [girl](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/girl)
+561. [give](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/give)
+562. [glass](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/glass)
+563. [global](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/global)
+564. [go](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/go)
+565. [goal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/goal)
+566. [god](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/god)
+567. [gold](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gold)
+568. [good](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/good)
+569. [govern](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/govern)
+570. [grass](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/grass)
+571. [gray (grey)](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gray )
+572. [great](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/great)
+573. [green](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/green)
+574. [ground](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ground)
+575. [group](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/group)
+576. [grow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/grow)
+577. [guarantee](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/guarantee)
+578. [guard](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/guard)
+579. [guess](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/guess)
+580. [guide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/guide)
+581. [guilty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/guilty)
+582. [gun](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/gun)
+583. [guy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/guy)
+584. [hair](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hair)
+585. [half](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/half)
+586. [halt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/halt)
+587. [hand](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hand)
+588. [hang](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hang)
+589. [happen](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/happen)
+590. [happy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/happy)
+591. [hard](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hard)
+592. [harm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/harm)
+593. [hat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hat)
+594. [hate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hate)
+595. [have](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/have)
+596. [he](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/he)
+597. [head](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/head)
+598. [heal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/heal)
+599. [health](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/health)
+600. [hear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hear)
+601. [heart](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/heart)
+602. [heat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/heat)
+603. [heavy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/heavy)
+604. [help](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/help)
+605. [her](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/her)
+606. [here](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/here)
+607. [hide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hide)
+608. [high](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/high)
+609. [hijack](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hijack)
+610. [hill](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hill)
+611. [him](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/him)
+612. [hire](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hire)
+613. [his](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/his)
+614. [history](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/history)
+615. [hit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hit)
+616. [hold](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hold)
+617. [hole](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hole)
+618. [holiday](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/holiday)
+619. [hollow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hollow)
+620. [holy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/holy)
+621. [home](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/home)
+622. [honest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/honest)
+623. [hope](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hope)
+624. [horrible](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/horrible)
+625. [horse](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/horse)
+626. [hospital](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hospital)
+627. [hostage](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hostage)
+628. [hostile](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hostile)
+629. [hot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hot)
+630. [hour](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hour)
+631. [house](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/house)
+632. [how](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/how)
+633. [however](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/however)
+634. [huge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/huge)
+635. [human](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/human)
+636. [humor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/humor)
+637. [hunger](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hunger)
+638. [hunt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hunt)
+639. [hurry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hurry)
+640. [hurt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/hurt)
+641. [husband](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/husband)
+642. [I](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/[I)
+643. [ice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ice)
+644. [idea](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/idea)
+645. [identify](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/identify)
+646. [if](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/if)
+647. [ill](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ill)
+648. [imagine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/imagine)
+649. [import](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/import)
+650. [important](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/important)
+651. [improve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/improve)
+652. [in](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/in)
+653. [inch](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/inch)
+654. [incident](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/incident)
+655. [include](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/include)
+656. [increase](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/increase)
+657. [independent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/independent)
+658. [indicate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/indicate)
+659. [individual](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/individual)
+660. [industry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/industry)
+661. [infect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/infect)
+662. [influence](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/influence)
+663. [inform](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/inform)
+664. [inject](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/inject)
+665. [injure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/injure)
+666. [innocent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/innocent)
+667. [insane](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/insane)
+668. [insect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/insect)
+669. [inspect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/inspect)
+670. [instead](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/instead)
+671. [insult](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/insult)
+672. [insurance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/insurance)
+673. [intelligence](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/intelligence)
+674. [intense](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/intense)
+675. [interest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/interest)
+676. [interfere](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/interfere)
+677. [international](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/international)
+678. [into](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/into)
+679. [invade](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/invade)
+680. [invent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/invent)
+681. [invest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/invest)
+682. [investigate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/investigate)
+683. [invite](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/invite)
+684. [involve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/involve)
+685. [iron](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/iron)
+686. [island](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/island)
+687. [issue](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/issue)
+688. [it](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/it)
+689. [item](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/item)
+690. [jacket](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/jacket)
+691. [jail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/jail)
+692. [jewel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/jewel)
+693. [job](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/job)
+694. [join](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/join)
+695. [joint](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/joint)
+696. [joke](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/joke)
+697. [joy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/joy)
+698. [judge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/judge)
+699. [jump](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/jump)
+700. [jury](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/jury)
+701. [just](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/just)
+702. [keep](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/keep)
+703. [key](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/key)
+704. [kick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kick)
+705. [kid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kid)
+706. [kill](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kill)
+707. [kind](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kind)
+708. [king](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/king)
+709. [kiss](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kiss)
+710. [kit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kit)
+711. [kitchen](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kitchen)
+712. [knife](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/knife)
+713. [know](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/know)
+714. [labor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/labor)
+715. [laboratory](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/laboratory)
+716. [lack](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lack)
+717. [lake](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lake)
+718. [land](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/land)
+719. [language](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/language)
+720. [large](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/large)
+721. [last](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/last)
+722. [late](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/late)
+723. [laugh](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/laugh)
+724. [law](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/law)
+725. [lay](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lay)
+726. [lead](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lead)
+727. [leak](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/leak)
+728. [learn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/learn)
+729. [least](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/least)
+730. [leave](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/leave)
+731. [left](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/left)
+732. [leg](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/leg)
+733. [legal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/legal)
+734. [lend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lend)
+735. [length](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/length)
+736. [less](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/less)
+737. [let](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/let)
+738. [letter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/letter)
+739. [level](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/level)
+740. [lie](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lie)
+741. [lie](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lie)
+742. [life](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/life)
+743. [lift](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lift)
+744. [light](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/light)
+745. [like](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/like)
+746. [limit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/limit)
+747. [line](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/line)
+748. [link](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/link)
+749. [lip](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lip)
+750. [liquid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/liquid)
+751. [list](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/list)
+752. [listen](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/listen)
+753. [little](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/little)
+754. [live](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/live)
+755. [load](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/load)
+756. [loan](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/loan)
+757. [local](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/local)
+758. [locate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/locate)
+759. [lock](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lock)
+760. [log](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/log)
+761. [lone](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lone)
+762. [long](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/long)
+763. [look](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/look)
+764. [loose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/loose)
+765. [lose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lose)
+766. [lot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/lot)
+767. [loud](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/loud)
+768. [love](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/love)
+769. [low](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/low)
+770. [luck](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/luck)
+771. [mail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mail)
+772. [main](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/main)
+773. [major](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/major)
+774. [make](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/make)
+775. [male](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/male)
+776. [man](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/man)
+777. [manufacture](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/manufacture)
+778. [many](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/many)
+779. [map](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/map)
+780. [march](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/march)
+781. [mark](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mark)
+782. [market](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/market)
+783. [marry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/marry)
+784. [master](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/master)
+785. [match](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/match)
+786. [material](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/material)
+787. [matter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/matter)
+788. [may](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/may)
+789. [mayor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mayor)
+790. [me](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/me)
+791. [meal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/meal)
+792. [mean](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mean)
+793. [measure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/measure)
+794. [meat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/meat)
+795. [media](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/media)
+796. [meet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/meet)
+797. [member](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/member)
+798. [memory](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/memory)
+799. [mental](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mental)
+800. [mercy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mercy)
+801. [message](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/message)
+802. [metal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/metal)
+803. [method](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/method)
+804. [middle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/middle)
+805. [might](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/might)
+806. [mile](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mile)
+807. [military](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/military)
+808. [milk](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/milk)
+809. [mind](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mind)
+810. [mine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mine)
+811. [minister](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/minister)
+812. [minor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/minor)
+813. [miscellaneous](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/miscellaneous)
+814. [miss](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/miss)
+815. [mistake](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mistake)
+816. [mix](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mix)
+817. [mob](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mob)
+818. [model](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/model)
+819. [moderate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/moderate)
+820. [modern](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/modern)
+821. [money](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/money)
+822. [month](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/month)
+823. [moon](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/moon)
+824. [moral](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/moral)
+825. [more](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/more)
+826. [morning](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/morning)
+827. [most](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/most)
+828. [mother](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mother)
+829. [motion](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/motion)
+830. [mountain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mountain)
+831. [mouth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mouth)
+832. [move](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/move)
+833. [much](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/much)
+834. [murder](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/murder)
+835. [muscle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/muscle)
+836. [music](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/music)
+837. [must](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/must)
+838. [my](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/my)
+839. [mystery](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/mystery)
+840. [nail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nail)
+841. [name](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/name)
+842. [narrow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/narrow)
+843. [nation](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nation)
+844. [native](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/native)
+845. [navy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/navy)
+846. [near](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/near)
+847. [necessary](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/necessary)
+848. [neck](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/neck)
+849. [need](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/need)
+850. [neighbor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/neighbor)
+851. [neither](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/neither)
+852. [nerve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nerve)
+853. [neutral](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/neutral)
+854. [never](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/never)
+855. [new](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/new)
+856. [news](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/news)
+857. [next](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/next)
+858. [nice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nice)
+859. [night](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/night)
+860. [no](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/no)
+861. [noise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/noise)
+862. [noon](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/noon)
+863. [normal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/normal)
+864. [north](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/north)
+865. [nose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nose)
+866. [not](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/not)
+867. [note](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/note)
+868. [nothing](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nothing)
+869. [notice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/notice)
+870. [now](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/now)
+871. [nowhere](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nowhere)
+872. [number](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/number)
+873. [obey](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/obey)
+874. [object](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/object)
+875. [observe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/observe)
+876. [occupy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/occupy)
+877. [occur](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/occur)
+878. [of](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/of)
+879. [off](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/off)
+880. [offensive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/offensive)
+881. [offer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/offer)
+882. [office](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/office)
+883. [officer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/officer)
+884. [often](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/often)
+885. [oil](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/oil)
+886. [old](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/old)
+887. [on](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/on)
+888. [once](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/once)
+889. [only](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/only)
+890. [open](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/open)
+891. [operate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/operate)
+892. [opinion](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/opinion)
+893. [opportunity](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/opportunity)
+894. [opposite](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/opposite)
+895. [oppress](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/oppress)
+896. [or](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/or)
+897. [order](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/order)
+898. [organize](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/organize)
+899. [other](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/other)
+900. [ounce](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ounce)
+901. [our](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/our)
+902. [ours](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ours)
+903. [oust](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/oust)
+904. [out](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/out)
+905. [over](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/over)
+906. [owe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/owe)
+907. [own](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/own)
+908. [page](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/page)
+909. [pain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pain)
+910. [paint](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/paint)
+911. [pan](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pan)
+912. [pants](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pants)
+913. [paper](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/paper)
+914. [parade](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/parade)
+915. [parcel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/parcel)
+916. [parent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/parent)
+917. [parliament](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/parliament)
+918. [part](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/part)
+919. [party](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/party)
+920. [pass](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pass)
+921. [passenger](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/passenger)
+922. [past](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/past)
+923. [paste](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/paste)
+924. [path](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/path)
+925. [patient](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/patient)
+926. [pattern](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pattern)
+927. [pay](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pay)
+928. [peace](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/peace)
+929. [pen](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pen)
+930. [pencil](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pencil)
+931. [people](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/people)
+932. [percent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/percent)
+933. [perfect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/perfect)
+934. [perform](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/perform)
+935. [perhaps](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/perhaps)
+936. [period](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/period)
+937. [permanent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/permanent)
+938. [permit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/permit)
+939. [person](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/person)
+940. [physical](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/physical)
+941. [pick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pick)
+942. [picture](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/picture)
+943. [piece](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/piece)
+944. [pig](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pig)
+945. [pilot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pilot)
+946. [pint](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pint)
+947. [pipe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pipe)
+948. [place](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/place)
+949. [plain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plain)
+950. [plan](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plan)
+951. [plane](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plane)
+952. [plant](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plant)
+953. [plastic](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plastic)
+954. [plate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plate)
+955. [play](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/play)
+956. [please](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/please)
+957. [plenty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/plenty)
+958. [pocket](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pocket)
+959. [point](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/point)
+960. [poison](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/poison)
+961. [policy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/policy)
+962. [politics](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/politics)
+963. [pollute](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pollute)
+964. [poor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/poor)
+965. [popular](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/popular)
+966. [port](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/port)
+967. [position](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/position)
+968. [possess](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/possess)
+969. [possible](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/possible)
+970. [postpone](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/postpone)
+971. [potato](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/potato)
+972. [pound](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pound)
+973. [pour](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pour)
+974. [powder](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/powder)
+975. [power](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/power)
+976. [practice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/practice)
+977. [praise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/praise)
+978. [pray](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pray)
+979. [pregnant](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pregnant)
+980. [present](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/present)
+981. [press](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/press)
+982. [pretty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pretty)
+983. [prevent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/prevent)
+984. [price](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/price)
+985. [print](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/print)
+986. [prison](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/prison)
+987. [private](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/private)
+988. [prize](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/prize)
+989. [problem](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/problem)
+990. [process](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/process)
+991. [product](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/product)
+992. [professor](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/professor)
+993. [profit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/profit)
+994. [program](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/program)
+995. [progress](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/progress)
+996. [project](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/project)
+997. [property](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/property)
+998. [propose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/propose)
+999. [protect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/protect)
+1000. [protest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/protest)
+1001. [prove](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/prove)
+1002. [provide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/provide)
+1003. [public](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/public)
+1004. [publish](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/publish)
+1005. [pull](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pull)
+1006. [punish](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/punish)
+1007. [purchase](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/purchase)
+1008. [pure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pure)
+1009. [purpose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/purpose)
+1010. [push](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/push)
+1011. [put](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/put)
+1012. [quality](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quality)
+1013. [quart](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quart)
+1014. [quarter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quarter)
+1015. [queen](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/queen)
+1016. [question](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/question)
+1017. [quick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quick)
+1018. [quiet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quiet)
+1019. [quit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quit)
+1020. [quite](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quite)
+1021. [race](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/race)
+1022. [radiation](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/radiation)
+1023. [raid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/raid)
+1024. [rail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rail)
+1025. [rain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rain)
+1026. [raise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/raise)
+1027. [range](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/range)
+1028. [rare](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rare)
+1029. [rate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rate)
+1030. [rather](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rather)
+1031. [ray](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ray)
+1032. [reach](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/reach)
+1033. [react](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/react)
+1034. [read](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/read)
+1035. [ready](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ready)
+1036. [real](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/real)
+1037. [reason](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/reason)
+1038. [receive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/receive)
+1039. [recognize](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/recognize)
+1040. [record](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/record)
+1041. [recover](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/recover)
+1042. [red](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/red)
+1043. [reduce](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/reduce)
+1044. [refugee](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/refugee)
+1045. [refuse](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/refuse)
+1046. [regret](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/regret)
+1047. [regular](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/regular)
+1048. [reject](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/reject)
+1049. [relation](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/relation)
+1050. [release](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/release)
+1051. [remain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/remain)
+1052. [remember](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/remember)
+1053. [remove](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/remove)
+1054. [repair](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/repair)
+1055. [repeat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/repeat)
+1056. [report](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/report)
+1057. [represent](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/represent)
+1058. [request](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/request)
+1059. [require](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/require)
+1060. [rescue](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rescue)
+1061. [research](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/research)
+1062. [resign](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/resign)
+1063. [resist](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/resist)
+1064. [resolution](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/resolution)
+1065. [resource](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/resource)
+1066. [respect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/respect)
+1067. [responsible](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/responsible)
+1068. [rest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rest)
+1069. [restrain](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/restrain)
+1070. [result](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/result)
+1071. [retire](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/retire)
+1072. [return](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/return)
+1073. [revolt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/revolt)
+1074. [reward](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/reward)
+1075. [rice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rice)
+1076. [rich](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rich)
+1077. [ride](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ride)
+1078. [right](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/right)
+1079. [ring](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ring)
+1080. [riot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/riot)
+1081. [rise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rise)
+1082. [risk](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/risk)
+1083. [river](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/river)
+1084. [road](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/road)
+1085. [rob](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rob)
+1086. [rock](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rock)
+1087. [rocket](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rocket)
+1088. [roll](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/roll)
+1089. [roof](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/roof)
+1090. [room](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/room)
+1091. [root](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/root)
+1092. [rope](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rope)
+1093. [rough](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rough)
+1094. [round](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/round)
+1095. [row](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/row)
+1096. [rub](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rub)
+1097. [rubber](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rubber)
+1098. [ruin](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ruin)
+1099. [rule](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rule)
+1100. [run](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/run)
+1101. [sad](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sad)
+1102. [safe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/safe)
+1103. [sail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sail)
+1104. [salt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/salt)
+1105. [same](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/same)
+1106. [sand](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sand)
+1107. [satisfy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/satisfy)
+1108. [save](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/save)
+1109. [say](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/say)
+1110. [scale](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/scale)
+1111. [scare](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/scare)
+1112. [school](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/school)
+1113. [science](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/science)
+1114. [score](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/score)
+1115. [script](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/script)
+1116. [sea](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sea)
+1117. [search](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/search)
+1118. [season](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/season)
+1119. [seat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/seat)
+1120. [second](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/second)
+1121. [secret](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/secret)
+1122. [section](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/section)
+1123. [security](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/security)
+1124. [see](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/see)
+1125. [seed](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/seed)
+1126. [seek](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/seek)
+1127. [seem](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/seem)
+1128. [seize](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/seize)
+1129. [seldom](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/seldom)
+1130. [self](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/self)
+1131. [sell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sell)
+1132. [senate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/senate)
+1133. [send](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/send)
+1134. [sense](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sense)
+1135. [sentence](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sentence)
+1136. [separate](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/separate)
+1137. [series](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/series)
+1138. [serious](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/serious)
+1139. [serve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/serve)
+1140. [set](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/set)
+1141. [settle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/settle)
+1142. [several](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/several)
+1143. [severe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/severe)
+1144. [sex](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sex)
+1145. [shade](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shade)
+1146. [shake](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shake)
+1147. [shall](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shall)
+1148. [shame](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shame)
+1149. [shape](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shape)
+1150. [share](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/share)
+1151. [sharp](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sharp)
+1152. [she](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/she)
+1153. [sheet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sheet)
+1154. [shelf](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shelf)
+1155. [shell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shell)
+1156. [shelter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shelter)
+1157. [shine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shine)
+1158. [ship](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ship)
+1159. [shirt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shirt)
+1160. [shock](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shock)
+1161. [shoe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shoe)
+1162. [shoot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shoot)
+1163. [shop](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shop)
+1164. [short](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/short)
+1165. [should](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/should)
+1166. [shout](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shout)
+1167. [show](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/show)
+1168. [shrink](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shrink)
+1169. [shut](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/shut)
+1170. [sick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sick)
+1171. [side](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/side)
+1172. [sign](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sign)
+1173. [signal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/signal)
+1174. [silence](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/silence)
+1175. [silk](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/silk)
+1176. [silver](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/silver)
+1177. [similar](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/similar)
+1178. [simple](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/simple)
+1179. [since](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/since)
+1180. [sing](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sing)
+1181. [single](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/single)
+1182. [sister](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sister)
+1183. [sit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sit)
+1184. [situation](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/situation)
+1185. [size](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/size)
+1186. [skill](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/skill)
+1187. [skin](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/skin)
+1188. [skirt](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/skirt)
+1189. [sky](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sky)
+1190. [slave](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/slave)
+1191. [sleep](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sleep)
+1192. [slide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/slide)
+1193. [slip](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/slip)
+1194. [slow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/slow)
+1195. [small](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/small)
+1196. [smart](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/smart)
+1197. [smash](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/smash)
+1198. [smell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/smell)
+1199. [smile](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/smile)
+1200. [smoke](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/smoke)
+1201. [smooth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/smooth)
+1202. [snack](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/snack)
+1203. [snake](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/snake)
+1204. [sneeze](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sneeze)
+1205. [snow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/snow)
+1206. [so](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/so)
+1207. [soap](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/soap)
+1208. [social](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/social)
+1209. [society](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/society)
+1210. [soft](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/soft)
+1211. [soil](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/soil)
+1212. [soldier](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/soldier)
+1213. [solid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/solid)
+1214. [solve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/solve)
+1215. [some](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/some)
+1216. [son](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/son)
+1217. [song](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/song)
+1218. [soon](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/soon)
+1219. [sorry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sorry)
+1220. [sort](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sort)
+1221. [soul](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/soul)
+1222. [sound](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sound)
+1223. [south](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/south)
+1224. [space](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/space)
+1225. [speak](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/speak)
+1226. [special](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/special)
+1227. [speech](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/speech)
+1228. [speed](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/speed)
+1229. [spell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spell)
+1230. [spend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spend)
+1231. [spirit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spirit)
+1232. [spot](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spot)
+1233. [spread](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spread)
+1234. [spring](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spring)
+1235. [spy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/spy)
+1236. [square](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/square)
+1237. [stage](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stage)
+1238. [stairs](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stairs)
+1239. [stamp](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stamp)
+1240. [stand](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stand)
+1241. [star](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/star)
+1242. [start](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/start)
+1243. [starve](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/starve)
+1244. [state](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/state)
+1245. [station](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/station)
+1246. [status](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/status)
+1247. [stay](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stay)
+1248. [steal](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/steal)
+1249. [steam](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/steam)
+1250. [steel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/steel)
+1251. [step](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/step)
+1252. [stick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stick)
+1253. [still](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/still)
+1254. [stomach](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stomach)
+1255. [stone](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stone)
+1256. [stop](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stop)
+1257. [store](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/store)
+1258. [storm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/storm)
+1259. [story](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/story)
+1260. [straight](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/straight)
+1261. [strange](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/strange)
+1262. [stream](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stream)
+1263. [street](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/street)
+1264. [stretch](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stretch)
+1265. [strike](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/strike)
+1266. [string](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/string)
+1267. [strong](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/strong)
+1268. [structure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/structure)
+1269. [struggle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/struggle)
+1270. [study](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/study)
+1271. [stupid](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/stupid)
+1272. [subject](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/subject)
+1273. [substance](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/substance)
+1274. [substitute](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/substitute)
+1275. [succeed](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/succeed)
+1276. [such](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/such)
+1277. [sudden](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sudden)
+1278. [suffer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suffer)
+1279. [sugar](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sugar)
+1280. [suggest](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suggest)
+1281. [suit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suit)
+1282. [summer](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/summer)
+1283. [sun](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sun)
+1284. [supervise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/supervise)
+1285. [supply](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/supply)
+1286. [support](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/support)
+1287. [suppose](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suppose)
+1288. [suppress](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suppress)
+1289. [sure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sure)
+1290. [surface](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/surface)
+1291. [surprise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/surprise)
+1292. [surround](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/surround)
+1293. [survive](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/survive)
+1294. [suspect](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suspect)
+1295. [suspend](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/suspend)
+1296. [swallow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/swallow)
+1297. [swear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/swear)
+1298. [sweet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sweet)
+1299. [swim](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/swim)
+1300. [symbol](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/symbol)
+1301. [sympathy](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sympathy)
+1302. [system](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/system)
+1303. [table](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/table)
+1304. [tail](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tail)
+1305. [take](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/take)
+1306. [talk](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/talk)
+1307. [tall](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tall)
+1308. [target](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/target)
+1309. [task](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/task)
+1310. [taste](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/taste)
+1311. [tax](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tax)
+1312. [tea](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tea)
+1313. [teach](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/teach)
+1314. [team](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/team)
+1315. [tear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tear)
+1316. [tear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tear)
+1317. [tell](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tell)
+1318. [term](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/term)
+1319. [terrible](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/terrible)
+1320. [territory](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/territory)
+1321. [terror](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/terror)
+1322. [test](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/test)
+1323. [than](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/than)
+1324. [thank](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/thank)
+1325. [that](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/that)
+1326. [the](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/the)
+1327. [theater](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/theater)
+1328. [their](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/their)
+1329. [theirs](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/theirs)
+1330. [them](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/them)
+1331. [then](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/then)
+1332. [theory](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/theory)
+1333. [there](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/there)
+1334. [these](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/these)
+1335. [they](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/they)
+1336. [thick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/thick)
+1337. [thin](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/thin)
+1338. [thing](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/thing)
+1339. [think](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/think)
+1340. [third](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/third)
+1341. [this](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/this)
+1342. [those](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/those)
+1343. [though](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/though)
+1344. [thought](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/thought)
+1345. [threaten](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/threaten)
+1346. [through](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/through)
+1347. [throw](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/throw)
+1348. [thus](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/thus)
+1349. [tie](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tie)
+1350. [tight](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tight)
+1351. [time](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/time)
+1352. [tin](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tin)
+1353. [tiny](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tiny)
+1354. [tire](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tire)
+1355. [title](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/title)
+1356. [to](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/to)
+1357. [today](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/today)
+1358. [together](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/together)
+1359. [tomorrow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tomorrow)
+1360. [tone](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tone)
+1361. [tongue](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tongue)
+1362. [tonight](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tonight)
+1363. [too](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/too)
+1364. [tool](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tool)
+1365. [tooth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tooth)
+1366. [top](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/top)
+1367. [total](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/total)
+1368. [touch](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/touch)
+1369. [toward](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/toward)
+1370. [town](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/town)
+1371. [track](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/track)
+1372. [trade](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/trade)
+1373. [tradition](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tradition)
+1374. [traffic](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/traffic)
+1375. [train](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/train)
+1376. [transport](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/transport)
+1377. [travel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/travel)
+1378. [treason](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/treason)
+1379. [treasure](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/treasure)
+1380. [treat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/treat)
+1381. [treaty](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/treaty)
+1382. [tree](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tree)
+1383. [trial](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/trial)
+1384. [tribe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tribe)
+1385. [trick](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/trick)
+1386. [trip](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/trip)
+1387. [troop](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/troop)
+1388. [trouble](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/trouble)
+1389. [truck](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/truck)
+1390. [TRUE](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/TRUE)
+1391. [trust](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/trust)
+1392. [try](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/try)
+1393. [tube](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tube)
+1394. [turn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/turn)
+1395. [twice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/twice)
+1396. [tyre](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tyre)
+1397. [under](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/under)
+1398. [understand](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/understand)
+1399. [unit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/unit)
+1400. [universe](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/universe)
+1401. [unless](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/unless)
+1402. [until](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/until)
+1403. [up](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/up)
+1404. [upon](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/upon)
+1405. [urge](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/urge)
+1406. [us](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/us)
+1407. [use](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/use)
+1408. [valley](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/valley)
+1409. [value](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/value)
+1410. [vary](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/vary)
+1411. [vegetable](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/vegetable)
+1412. [vehicle](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/vehicle)
+1413. [version](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/version)
+1414. [very](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/very)
+1415. [veto](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/veto)
+1416. [vicious](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/vicious)
+1417. [victim](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/victim)
+1418. [victory](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/victory)
+1419. [view](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/view)
+1420. [violence](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/violence)
+1421. [visit](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/visit)
+1422. [voice](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/voice)
+1423. [volume](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/volume)
+1424. [vote](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/vote)
+1425. [wage](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wage)
+1426. [wait](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wait)
+1427. [walk](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/walk)
+1428. [wall](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wall)
+1429. [want](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/want)
+1430. [war](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/war)
+1431. [warm](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/warm)
+1432. [warn](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/warn)
+1433. [wash](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wash)
+1434. [waste](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/waste)
+1435. [watch](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/watch)
+1436. [water](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/water)
+1437. [wave](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wave)
+1438. [way](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/way)
+1439. [we](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/we)
+1440. [weak](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/weak)
+1441. [wealth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wealth)
+1442. [weapon](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/weapon)
+1443. [wear](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wear)
+1444. [weather](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/weather)
+1445. [week](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/week)
+1446. [weight](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/weight)
+1447. [welcome](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/welcome)
+1448. [well](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/well)
+1449. [west](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/west)
+1450. [wet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wet)
+1451. [what](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/what)
+1452. [wheat](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wheat)
+1453. [wheel](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wheel)
+1454. [when](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/when)
+1455. [where](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/where)
+1456. [whether](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/whether)
+1457. [which](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/which)
+1458. [while](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/while)
+1459. [white](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/white)
+1460. [who](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/who)
+1461. [whole](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/whole)
+1462. [why](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/why)
+1463. [wide](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wide)
+1464. [wife](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wife)
+1465. [wild](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wild)
+1466. [will](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/will)
+1467. [win](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/win)
+1468. [wind](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wind)
+1469. [window](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/window)
+1470. [wine](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wine)
+1471. [wing](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wing)
+1472. [winter](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/winter)
+1473. [wire](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wire)
+1474. [wise](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wise)
+1475. [wish](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wish)
+1476. [with](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/with)
+1477. [withdraw](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/withdraw)
+1478. [without](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/without)
+1479. [woman](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/woman)
+1480. [wonder](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wonder)
+1481. [wood](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wood)
+1482. [wool](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wool)
+1483. [word](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/word)
+1484. [work](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/work)
+1485. [world](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/world)
+1486. [worry](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/worry)
+1487. [worse](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/worse)
+1488. [worth](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/worth)
+1489. [wound](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wound)
+1490. [wreck](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wreck)
+1491. [write](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/write)
+1492. [wrong](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wrong)
+1493. [yard](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/yard)
+1494. [year](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/year)
+1495. [yellow](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/yellow)
+1496. [yes](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/yes)
+1497. [yesterday](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/yesterday)
+1498. [yet](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/yet)
+1499. [you](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/you)
+1500. [young](https://dictionary.cambridge.org/dictionary/english-chinese-traditional/young)
