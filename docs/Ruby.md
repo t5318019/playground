@@ -19,6 +19,18 @@
 
 先安裝 Ruby，自己的系統是 Microsoft Windows 10，所以使用 [RubyInstaller](https://rubyinstaller.org/) ，下載 Ruby+Devkit 2.7.X (x64) 安裝程式，目前已經有 Ruby 3.0 ，考量套件相容等因素，對於學習者來說別自找麻煩(太新的東西不要用)。
 
+第一個程式「Hello, World!」，程式碼如下(可以開啟 Interactive Ruby 輸入執行)：
+
+```ruby
+puts "Hello, World!"
+```
+
+puts 是一個 function，用途是把字串印出來，並且在字串後面加上換行 (newline)。除了用 puts 印東西，還可以用 print 和 p 。
+
+寫到這邊發現一個問題，puts 是和 Python 的 print 類似的內建函式嗎？不需要引入任何程式庫就可以使用了嗎？
+
+的確，原來是 Ruby 直譯器會載入 [Kernel](https://docs.ruby-lang.org/en/2.7.0/Kernel.html) 模組，puts, print, p 都是 Public Instance Methods。
+
 ## Ruby 程式語言重點
 
 * 完全地物件導向！所有東西都是物件。不像其他語言有非物件的基本型別。
@@ -26,3 +38,4 @@
 
 # 參考資料
 * David Flanagan and Yukihiro Matsumoto, The Ruby Programming Language, O'Reilly Media, 2008
+* [Documentation for Ruby 2.7.0](https://docs.ruby-lang.org/en/2.7.0/)
