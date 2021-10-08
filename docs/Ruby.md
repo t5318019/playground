@@ -25,14 +25,27 @@
 puts "Hello, World!"
 ```
 
-puts 是一個 function，用途是把字串印出來，並且在字串後面加上換行 (newline)。除了用 puts 印東西，還可以用 print 和 p 。
+`puts` 是一個 function，用途是把字串印出來，並且在字串後面加上換行 (newline)。除了用 `puts` 印東西，還可以用 `print` 和 `p` 。
 
-寫到這邊發現一個問題，puts 是和 Python 的 print 類似的內建函式嗎？不需要引入任何程式庫就可以使用了嗎？
+寫到這邊發現一個問題，`puts` 是和 Python 的 `print` 類似的內建函式嗎？不需要引入任何程式庫就可以使用了嗎？
 
-的確，原來是 Ruby 直譯器會載入 [Kernel](https://docs.ruby-lang.org/en/2.7.0/Kernel.html) 模組，puts, print, p 都是 Public Instance Methods。
+的確，原來是 Ruby 直譯器會自動載入 [Kernel](https://docs.ruby-lang.org/en/2.7.0/Kernel.html) 模組，`puts`, `print`, `p` 都是 Public Instance Method。
+
+如果想要知道 Ruby 執行時有哪些模組可用，請呼叫 `Module.constants` 這個 Public Class Method 檢視，Kernel 就是其中之一。
+
+回到 `puts`, `print`, `p` 這三個 function，差別在於：
+
+* `puts` 等於是呼叫 `$stdout.puts`，`$stdout` 是全域變數之一，代表目前的 STDOUT。(要知道有哪些全域變數，直接呼叫 `global_variables` 可以知道)
+* `print` 是 Kernel 模組的方法之一，把物件輸出到 `$stdout`。
+* `p` 也是 Kernel 模組的方法之一，呼叫每個物件的 `inspect` 方法。
+
+這邊提到 `$stdout` 這個變數， Ruby 的變數不用是「$」開頭 (但 PHP 就必須是)，錢符號 (dollar sign) 代表是「全域變數」，相當好的語言設計，看名稱就知道範疇。
+
 
 ## Ruby 程式語言重點
 
+* 動態語言 (dynamic language)，變數使用前不需要先宣告。
+* 手稿語言 (scripting language)，不需要編譯。
 * 完全地物件導向！所有東西都是物件。不像其他語言有非物件的基本型別。
 * 呼叫函式或方法，可以不需要括弧。因為 Ruby 設計上不允許直接存取物件的屬性，需要透過存取方法 (accessor method)，換句話說，取得物件的屬性等於呼叫getter，忽略括弧吧！
 
