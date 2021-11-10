@@ -7,9 +7,9 @@
 * 文件: [jQuery API Documentation](https://api.jquery.com/)
 * 版本：
   * jQuery 1.0: [2006-08-26](https://blog.jquery.com/2006/08/26/jquery-10/)
-  * jQuery 2.0: [2013-04-18](https://blog.jquery.com/2013/04/18/jquery-2-0-released/)
-  * jQuery 3.0: [2016-06-09](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/)
-  * 現在： [jQuery 3.5.1](https://blog.jquery.com/2020/05/04/jquery-3-5-1-released-fixing-a-regression/)
+  * jQuery 2.0: [2013-04-18](https://blog.jquery.com/2013/04/18/jquery-2-0-released/)，不支援 Internet Explorer 6, 7, 8。
+  * jQuery 3.0: [2016-06-09](https://blog.jquery.com/2016/06/09/jquery-3-0-final-released/)，延續 2.0。
+  * 現在： [jQuery 3.6.0](https://blog.jquery.com/2021/03/02/jquery-3-6-0-released/)
 
 ## jQuery UI
 
@@ -18,5 +18,5 @@
 * 文件: [jQuery UI API Documentation](https://api.jqueryui.com/)
 * 版本：
   * [2007-09-17](http://blog.jquery.com/2007/09/17/jquery-ui-interactions-and-widgets/) 問世
-  * jQuery UI 1.5 : [2008-06-08](https://jqueryui.com/changelog/1.5/)
-  * 現在：[jQuery UI 1.12.1](https://blog.jqueryui.com/2016/09/jquery-ui-1-12-1/)
+  * 第一個穩定版本，jQuery UI 1.5 : [2008-06-08](https://jqueryui.com/changelog/1.5/)
+  * 現在：[jQuery UI 1.13.0](https://blog.jqueryui.com/2016/09/jquery-ui-1-12-1/)
