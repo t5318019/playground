@@ -10,3 +10,11 @@
 * [CKEditor 5 documentation](https://ckeditor.com/docs/ckeditor5/latest/)
 * [CKEditor 4 documentation](https://ckeditor.com/docs/ckeditor4/latest/)
 * [CKEditor 3.x - CKSource Docs](https://docs-old.ckeditor.com/CKEditor_3.x)
+
+## Note
+
+### CKEditor 選單使用「貼上」功能，出現「Press Ctrl+V to paste. Your browser doesn‘t support pasting with the toolbar button or context menu option.」訊息。
+
+IE 會出現「Do you want to allow this webpage to access your clipboard?」確認視窗，但 Chrome, Firefox 不會顯示確認訊息，而直接出現『 請按下「Ctrl+V」貼上。您的瀏覽器不支援工具列按鈕或是內容功能表選項。』訊息。
+
+這個問題是由於瀏覽器的安全限制，避免 JavaScript 任意存取系統剪貼簿的內容，有安全和隱私的疑慮。
