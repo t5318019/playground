@@ -24,7 +24,8 @@
 _Structured programming imposes discipline on direct transfer of control._
 
 * 第一個被採用的典範，但不是第一個被發明的。
-* 由 Edsger Wybe Dijkstra 發現於 1968 年。
+* 由 Edsger Wybe Dijkstra 發現於 1968 年，著名文章：Go To Statement Considered Harmful.
+* Böhm 和 Jacopini 在 1966 年證明所有程式可以由三種結構所建構： sequence, selection, iteration。
 
 ### Object-oriented programming
 
@@ -32,6 +33,8 @@ _Object-oriented programming imposes discipline on indirect transfer of control.
 
 * 第二個被採用的典範。
 * 由 Ole Johan Dahl and Kristen Nygaard 發現於 1966 年。
+* The combination of data and functions.
+* 封裝 (encapsulation)，繼承 (inheritance)，多型 (polymorphism)。
 
 ### Functional programming
 
@@ -51,6 +54,12 @@ An active corollary to Conway's law: The best structure for a software system is
 * A module should have one, and only one, reason to change.
 * A module should be responsible to one, and only one, user or stakeholder.
 * A module should be responsible to one, and only one, actor.
+
+SRP 是 SOLID 中最多人不明白的原則，大概是名稱造成的誤解。不是指「A function should do one, and only one, thing.」，雖然很常在重構的文章中看到這句話，可是 SRP 不是這個意思。
+
+SRP 是指「A module should be responsible to one, and only one, actor.」，其中 module 指的是 functions 和 data structures 凝聚性的集合，通常是指一個程式碼檔案 (source file)。
+
+凝聚性 (cohesive) 意味著 SRP，也就是說一個程式碼必須對應一個行動者 (actor)。
 
 ### OCP: The Open-Closed Principle
 
