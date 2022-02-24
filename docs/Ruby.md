@@ -19,6 +19,10 @@
 
 先安裝 Ruby，自己的系統是 Microsoft Windows 10，所以使用 [RubyInstaller](https://rubyinstaller.org/) ，下載 Ruby+Devkit 2.7.X (x64) 安裝程式，目前已經有 Ruby 3.0 ，考量套件相容等因素，對於學習者來說別自找麻煩(太新的東西不要用)。
 
+什麼是 Devkit？ Devkit 是開發套件 (development kit) 的意思，RubyInstaller 用的是 MSYS2 當作開發套件。因為安裝 Ruby 的擴充套件可能需要編譯原始碼後才能使用，因此會需要開發套件。
+
+執行 RubyInstaller 預設是安裝在 C:\Ruby27-x64 路徑下，安裝完成後，程式會提示「Run 'ridk install' to set up MSYS2 and development toolchain.」，請打勾後結束，會跳出 cmd 視窗按下 Enter 安裝 toolchain。
+
 第一個程式「Hello, World!」，程式碼如下(可以開啟 Interactive Ruby 輸入執行)：
 
 ```ruby
