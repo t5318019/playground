@@ -23,7 +23,69 @@
 
 執行 RubyInstaller 預設是安裝在 C:\Ruby27-x64 路徑下，安裝完成後，程式會提示「Run 'ridk install' to set up MSYS2 and development toolchain.」，請打勾後結束，會跳出 cmd 視窗按下 Enter 安裝 toolchain。
 
-第一個程式「Hello, World!」，程式碼如下(可以開啟 Interactive Ruby 輸入執行)：
+一切都安裝完成之後，開啟 Command Prompt 試試看，輸入 `ruby -v` 顯示 Ruby 版本，大概會輸出 `ruby 2.7.5p203 (2021-11-24 revision f69aeb8314) [x64-mingw32]` 這樣的結果，若要知道如何使用，輸入 `ruby -h` 顯示使用說明。
+
+```
+Usage: C:\Ruby27-x64\bin\ruby.exe [switches] [--] [programfile] [arguments]
+  -0[octal]       specify record separator (\0, if no argument)
+  -a              autosplit mode with -n or -p (splits $_ into $F)
+  -c              check syntax only
+  -Cdirectory     cd to directory before executing your script
+  -d              set debugging flags (set $DEBUG to true)
+  -e 'command'    one line of script. Several -e's allowed. Omit [programfile]
+  -Eex[:in]       specify the default external and internal character encodings
+  -Fpattern       split() pattern for autosplit (-a)
+  -i[extension]   edit ARGV files in place (make backup if extension supplied)
+  -Idirectory     specify $LOAD_PATH directory (may be used more than once)
+  -l              enable line ending processing
+  -n              assume 'while gets(); ... end' loop around your script
+  -p              assume loop like -n but print line also like sed
+  -rlibrary       require the library before executing your script
+  -s              enable some switch parsing for switches after script name
+  -S              look for the script using PATH environment variable
+  -v              print the version number, then turn on verbose mode
+  -w              turn warnings on for your script
+  -W[level=2|:category]     set warning level; 0=silence, 1=medium, 2=verbose
+  -x[directory]   strip off text before #!ruby line and perhaps cd to directory
+  --jit           enable JIT with default options (experimental)
+  --jit-[option]  enable JIT with an option (experimental)
+  -h              show this message, --help for more info
+```
+
+也可以試試 Ruby 的套件管理 RubyGems，輸入 `gem -v` 顯示版本，或是 `gem -h` 顯示使用說明。
+
+```
+RubyGems is a sophisticated package manager for Ruby.  This is a
+basic help message containing pointers to more information.
+
+  Usage:
+    gem -h/--help
+    gem -v/--version
+    gem command [arguments...] [options...]
+
+  Examples:
+    gem install rake
+    gem list --local
+    gem build package.gemspec
+    gem help install
+
+  Further help:
+    gem help commands            list all 'gem' commands
+    gem help examples            show some examples of usage
+    gem help gem_dependencies    gem dependencies file guide
+    gem help platforms           gem platforms guide
+    gem help <COMMAND>           show help on COMMAND
+                                   (e.g. 'gem help install')
+    gem server                   present a web page at
+                                 http://localhost:8808/
+                                 with info about installed gems
+  Further information:
+    https://guides.rubygems.org
+```
+
+## Hello, World!
+
+第一個程式「Hello, World!」，可以開啟 Interactive Ruby (C:\Ruby27-x64\bin\irb.cmd) 輸入執行，程式碼如下：
 
 ```ruby
 puts "Hello, World!"
