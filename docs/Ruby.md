@@ -23,7 +23,9 @@
 
 執行 RubyInstaller 預設是安裝在 C:\Ruby27-x64 路徑下，安裝完成後，程式會提示「Run 'ridk install' to set up MSYS2 and development toolchain.」，請打勾後結束，會跳出 cmd 視窗按下 Enter 安裝 toolchain。
 
-一切都安裝完成之後，開啟 Command Prompt 試試看，輸入 `ruby -v` 顯示 Ruby 版本，大概會輸出 `ruby 2.7.5p203 (2021-11-24 revision f69aeb8314) [x64-mingw32]` 這樣的結果，若要知道如何使用，輸入 `ruby -h` 顯示使用說明。
+一切都安裝完成之後，開啟 Command Prompt 試試看，輸入 `ruby -v` 顯示 Ruby 版本，大概會輸出 `ruby 2.7.5p203 (2021-11-24 revision f69aeb8314) [x64-mingw32]` 這樣的結果。
+
+ruby 是執行 Ruby 程式語言的直譯器 (interpreter)，若要知道如何使用，輸入 `ruby -h` 顯示使用說明，內容如下：
 
 ```
 Usage: C:\Ruby27-x64\bin\ruby.exe [switches] [--] [programfile] [arguments]
@@ -52,7 +54,7 @@ Usage: C:\Ruby27-x64\bin\ruby.exe [switches] [--] [programfile] [arguments]
   -h              show this message, --help for more info
 ```
 
-也可以試試 Ruby 的套件管理 RubyGems，輸入 `gem -v` 顯示版本，或是 `gem -h` 顯示使用說明。
+也可以試試 Ruby 的套件管理 RubyGems，輸入 `gem -v` 顯示版本，或是 `gem -h` 顯示 help 說明，內容如下：
 
 ```
 RubyGems is a sophisticated package manager for Ruby.  This is a
@@ -83,6 +85,8 @@ basic help message containing pointers to more information.
     https://guides.rubygems.org
 ```
 
+還有一個工具可以執行 Ruby 運算式，就是 [Interactive Ruby, IRB](https://docs.ruby-lang.org/en/2.7.0/IRB.html)，開啟 Command Prompt 輸入 irb 執行，如果要離開互動模式，輸入 exit 或按鍵 Ctrl + D 就可以了。
+
 ## Hello, World!
 
 第一個程式「Hello, World!」，可以開啟 Interactive Ruby (C:\Ruby27-x64\bin\irb.cmd) 輸入執行，程式碼如下：
@@ -106,6 +110,22 @@ puts "Hello, World!"
 * `p` 也是 Kernel 模組的方法之一，呼叫每個物件的 `inspect` 方法。
 
 這邊提到 `$stdout` 這個變數， Ruby 的變數不用是「$」開頭 (但 PHP 就必須是)，錢符號 (dollar sign) 代表是「全域變數」，相當好的語言設計，看名稱就知道範疇。
+
+## 資料類型 (Data Type)
+
+了解程式語言的第一步，先從程式語言所提供的資料類型開始，我們需要知道幾件事情：
+
+1. 資料類型的用途，可以做什麼。
+2. 資料類型的使用情境，什麼時候適合採用，限制有哪些。
+3. 資料類型之間的轉換方式。
+4. 特別要注意的地方，刻意記下來，避免發生 bug。
+
+### 數字 (Number)
+
+整數 [Integer](https://docs.ruby-lang.org/en/2.7.0/Integer.html)
+
+浮點數 [Float](https://docs.ruby-lang.org/en/2.7.0/Float.html)
+
 
 
 ## Ruby 程式語言重點
