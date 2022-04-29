@@ -122,12 +122,21 @@ puts "Hello, World!"
 
 ### 數值 (Number)
 
+```mermaid
+  classDiagram
+    Numeric <|-- Integer
+    Numeric <|-- Float
+    Numeric <|-- Complex
+    Numeric <|-- BigDecimal
+    Numeric <|-- Rational
+```
+
 * 數字 [Numeric](https://docs.ruby-lang.org/en/2.7.0/Numeric.html)
   * 整數 [Integer](https://docs.ruby-lang.org/en/2.7.0/Integer.html)
   * 浮點數 [Float](https://docs.ruby-lang.org/en/2.7.0/Float.html)
-  * 有理數 [Rational](https://docs.ruby-lang.org/en/2.7.0/Rational.html)
-  * 十進制小數 [BigDecimal](https://docs.ruby-lang.org/en/2.7.0/BigDecimal.html)
   * 複數 [Complex](https://docs.ruby-lang.org/en/2.7.0/Complex.html)
+  * 十進制小數 [BigDecimal](https://docs.ruby-lang.org/en/2.7.0/BigDecimal.html)
+  * 有理數 [Rational](https://docs.ruby-lang.org/en/2.7.0/Rational.html)
 
 Integer 以前有兩個子類別：[Fixnum](https://docs.ruby-lang.org/en/2.3.0/Fixnum.html) 和 [Bignum](https://docs.ruby-lang.org/en/2.3.0/Bignum.html)，不過在 Ruby 2.4 以後已經統一到 Integer 類別中，移除了 Fixnum 和 Bignum 兩個類別，在網路上的資料有可能還會看到，需要特別注意。
 
