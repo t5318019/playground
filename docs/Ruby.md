@@ -111,7 +111,7 @@ puts "Hello, World!"    # 這是第一個用 Ruby 寫的程式
 
 這邊提到 `$stdout` 這個變數， Ruby 的變數不用是「$」開頭 (但 PHP 就必須是)，錢符號 (dollar sign) 代表是「全域變數」，相當好的語言設計，看名稱就知道範疇。
 
-## 註解 (comment)
+## 註解 (Comments)
 
 Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syntax/comments_rdoc.html)的方法：**行內 (inline)** 和**區塊 (block)**。
 
@@ -120,12 +120,56 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
     # 行內註解可以縮排，也可以在每行程式碼的結尾
 
 =begin
-這是區塊註解，用 =begin 和 =end 包起來。
+這是區塊註解，用 =begin 開頭和 =end 結尾，把註解內容包起來。
 注意！
 1. =begin 和 =end 一定要在每行的開頭，不可以有縮排。
 2. 沒有 C style 的 /* ...... */ 這種多行註解方式。
 =end
 ```
+
+## 關鍵字 (Keywords)
+
+1. __ENCODING__
+2. __LINE__
+3. __FILE__
+4. BEGIN
+5. END
+6. alias
+7. and
+8. begin
+9. break
+10. case
+11. class
+12. def
+13. defined?
+14. do
+15. else
+16. elsif
+17. end
+18. ensure
+19. false
+20. for
+21. if
+22. in
+23. module
+24. next
+25. nil
+26. not
+27. or
+28. redo
+29. rescue
+30. retry
+31. return
+32. self
+33. super
+34. then
+35. true
+36. undef
+37. unless
+38. until
+39. when
+40. while
+41. yield
 
 ## 資料類型 (Data Type)
 
@@ -149,12 +193,16 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
 
 * 數字 [Numeric](https://docs.ruby-lang.org/en/2.7.0/Numeric.html)
   * 整數 [Integer](https://docs.ruby-lang.org/en/2.7.0/Integer.html)
-  * 浮點數 [Float](https://docs.ruby-lang.org/en/2.7.0/Float.html)
+  * 雙精度浮點數 [Float](https://docs.ruby-lang.org/en/2.7.0/Float.html)
   * 複數 [Complex](https://docs.ruby-lang.org/en/2.7.0/Complex.html)
-  * 十進制小數 [BigDecimal](https://docs.ruby-lang.org/en/2.7.0/BigDecimal.html)
+  * 高精度十進制小數 [BigDecimal](https://docs.ruby-lang.org/en/2.7.0/BigDecimal.html)
   * 有理數 [Rational](https://docs.ruby-lang.org/en/2.7.0/Rational.html)
 
+注意！所有 Numeric 類別的物件，都是不可變的 (immutable)。
+
 Integer 以前有兩個子類別：[Fixnum](https://docs.ruby-lang.org/en/2.3.0/Fixnum.html) 和 [Bignum](https://docs.ruby-lang.org/en/2.3.0/Bignum.html)，不過在 Ruby 2.4 以後已經統一到 Integer 類別中，移除了 Fixnum 和 Bignum 兩個類別，在網路上的資料有可能還會看到，需要特別注意。
+
+Integer 和 BigDecimal 的數值是沒有範圍限制，Float 是 IEEE 754 雙精度浮點數。至於 Complex 和 Rational 則是 Integer 和 Float 的組合，那範圍限制呢？
 
 ## Ruby 程式語言重點
 
@@ -162,6 +210,7 @@ Integer 以前有兩個子類別：[Fixnum](https://docs.ruby-lang.org/en/2.3.0/
 * 手稿語言 (scripting language)，不需要編譯。
 * 完全地物件導向！所有東西都是物件。不像其他語言有非物件的基本型別。
 * 呼叫函式或方法，可以不需要括弧。因為 Ruby 設計上不允許直接存取物件的屬性，需要透過存取方法 (accessor method)，換句話說，取得物件的屬性等於呼叫getter，忽略括弧吧！
+* Ruby 是區分大小寫 (case-sensitive) 的程式語言，識別碼 (identifier) 的大寫和小寫是不相同的。另外，像 SQL 和 HTML 就是不區分大小寫的語言。
 
 # 參考資料
 * David Flanagan and Yukihiro Matsumoto, The Ruby Programming Language, O'Reilly Media, 2008
