@@ -129,8 +129,7 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
 
 =begin
 這是區塊註解，
-開頭用 =begin ，結尾用 =end
-
+開頭用 =begin ，結尾用 =end ，把註解內容包起來。
 注意！
 1. "=begin" 和 "=end" 一定要在每行的開頭，不可以有縮排(空格)。
 2. 沒有 C style 的 /* ...... */ 這種多行註解方式。
@@ -185,7 +184,7 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
 
 * `=begin` 區塊註解的開頭
 * `=end` 區塊註解的結尾
-* `__END__` 標記原始碼中程式 (program) 的結束，資料 (data) 的起始
+* `__END__` 標記原始碼中程式 (program) 的結束，[資料 (data)](https://docs.ruby-lang.org/en/2.7.0/Object.html#DATA) 的起始
 
 ## 資料類型 (Data Type)
 
