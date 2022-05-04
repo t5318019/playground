@@ -120,56 +120,56 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
     # 行內註解可以縮排，也可以在每行程式碼的結尾
 
 =begin
-這是區塊註解，用 =begin 開頭和 =end 結尾，把註解內容包起來。
+這是區塊註解，用=begin開頭和=end結尾，把註解內容包起來。
 注意！
-1. =begin 和 =end 一定要在每行的開頭，不可以有縮排。
+1. =begin和=end一定要在每行的開頭，不可以有縮排。
 2. 沒有 C style 的 /* ...... */ 這種多行註解方式。
 =end
 ```
 
 ## 關鍵字 (Keywords)
 
-1. __ENCODING__
-2. __LINE__
-3. __FILE__
-4. BEGIN
-5. END
-6. alias
-7. and
-8. begin
-9. break
-10. case
-11. class
-12. def
-13. defined?
-14. do
-15. else
-16. elsif
-17. end
-18. ensure
-19. false
-20. for
-21. if
-22. in
-23. module
-24. next
-25. nil
-26. not
-27. or
-28. redo
-29. rescue
-30. retry
-31. return
-32. self
-33. super
-34. then
-35. true
-36. undef
-37. unless
-38. until
-39. when
-40. while
-41. yield
+1. `__ENCODING__`
+2. `__LINE__`
+3. `__FILE__`
+4. `BEGIN`
+5. `END`
+6. `alias`
+7. `and`
+8. `begin`
+9. `break`
+10. `case`
+11. `class`
+12. `def`
+13. `defined?`
+14. `do`
+15. `else`
+16. `elsif`
+17. `end`
+18. `ensure`
+19. `false`
+20. `for`
+21. `if`
+22. `in`
+23. `module`
+24. `next`
+25. `nil`
+26. `not`
+27. `or`
+28. `redo`
+29. `rescue`
+30. `retry`
+31. `return`
+32. `self`
+33. `super`
+34. `then`
+35. `true`
+36. `undef`
+37. `unless`
+38. `until`
+39. `when`
+40. `while`
+41. `yield`
 
 ## 資料類型 (Data Type)
 
