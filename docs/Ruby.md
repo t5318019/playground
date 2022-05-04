@@ -92,7 +92,7 @@ basic help message containing pointers to more information.
 第一個程式「Hello, World!」，可以開啟 Interactive Ruby (C:\Ruby27-x64\bin\irb.cmd) 輸入執行，程式碼如下：
 
 ```ruby
-puts "Hello, World!"
+puts "Hello, World!"    # 這是第一個用 Ruby 寫的程式
 ```
 
 `puts` 是一個 function，用途是把字串印出來，並且在字串後面加上換行 (newline)。除了用 `puts` 印東西，還可以用 `print` 和 `p` 。
@@ -110,6 +110,22 @@ puts "Hello, World!"
 * `p` 也是 Kernel 模組的方法之一，呼叫每個物件的 `inspect` 方法。
 
 這邊提到 `$stdout` 這個變數， Ruby 的變數不用是「$」開頭 (但 PHP 就必須是)，錢符號 (dollar sign) 代表是「全域變數」，相當好的語言設計，看名稱就知道範疇。
+
+## 註解 (comment)
+
+Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syntax/comments_rdoc.html)的方法：**行內 (inline)** 和**區塊 (block)**。
+
+```ruby
+# 這是行內註解
+    # 行內註解可以縮排，也可以在每行程式碼的結尾
+
+=begin
+這是區塊註解，用 =begin 和 =end 包起來。
+注意！
+1. =begin 和 =end 一定要在每行的開頭，不可以有縮排。
+2. 沒有 C style 的 /* ...... */ 這種多行註解方式。
+=end
+```
 
 ## 資料類型 (Data Type)
 
