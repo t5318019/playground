@@ -87,6 +87,14 @@ basic help message containing pointers to more information.
 
 還有一個工具可以執行 Ruby 運算式，就是 [Interactive Ruby, IRB](https://docs.ruby-lang.org/en/2.7.0/IRB.html)，開啟 Command Prompt 輸入 irb 執行，如果要離開互動模式，輸入 exit 或按鍵 Ctrl + D 就可以了。
 
+## Ruby 程式語言重點
+
+* 動態語言 (dynamic language)，變數使用前不需要先宣告。
+* 手稿語言 (scripting language)，不需要編譯。
+* 完全地物件導向！所有東西都是物件。不像其他語言有非物件的基本型別。
+* 呼叫函式或方法，可以不需要括弧。因為 Ruby 設計上不允許直接存取物件的屬性，需要透過存取方法 (accessor method)，換句話說，取得物件的屬性等於呼叫getter，忽略括弧吧！
+* Ruby 是區分大小寫 (case-sensitive) 的程式語言，識別碼 (identifier) 的大寫和小寫是不相同的。另外，像 SQL 和 HTML 就是不區分大小寫的語言。
+
 ## Hello, World!
 
 第一個程式「Hello, World!」，可以開啟 Interactive Ruby (C:\Ruby27-x64\bin\irb.cmd) 輸入執行，程式碼如下：
@@ -121,8 +129,9 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
 
 =begin
 這是區塊註解，
-開頭用 "=begin" ，結尾用 "=end" ，
-把註解內容包起來，注意！
+開頭用 =begin ，結尾用 =end
+
+注意！
 1. "=begin" 和 "=end" 一定要在每行的開頭，不可以有縮排(空格)。
 2. 沒有 C style 的 /* ...... */ 這種多行註解方式。
 =end
@@ -172,6 +181,12 @@ Ruby 的程式碼有兩種使用[註解](https://docs.ruby-lang.org/en/2.7.0/syn
 40. `while`
 41. `yield`
 
+除了上述關鍵字，另外有 3 個字具有特別的意義：
+
+* `=begin` 區塊註解的開頭
+* `=end` 區塊註解的結尾
+* `__END__` 標記原始碼中程式 (program) 的結束，資料 (data) 的起始
+
 ## 資料類型 (Data Type)
 
 了解程式語言的第一步，先從程式語言所提供的資料類型開始，我們需要知道幾件事情：
@@ -205,13 +220,19 @@ Integer 以前有兩個子類別：[Fixnum](https://docs.ruby-lang.org/en/2.3.0/
 
 Integer 和 BigDecimal 的數值是沒有範圍限制，Float 是 IEEE 754 雙精度浮點數。至於 Complex 和 Rational 則是 Integer 和 Float 的組合，那範圍限制呢？
 
-## Ruby 程式語言重點
+### 字串 (String)
 
-* 動態語言 (dynamic language)，變數使用前不需要先宣告。
-* 手稿語言 (scripting language)，不需要編譯。
-* 完全地物件導向！所有東西都是物件。不像其他語言有非物件的基本型別。
-* 呼叫函式或方法，可以不需要括弧。因為 Ruby 設計上不允許直接存取物件的屬性，需要透過存取方法 (accessor method)，換句話說，取得物件的屬性等於呼叫getter，忽略括弧吧！
-* Ruby 是區分大小寫 (case-sensitive) 的程式語言，識別碼 (identifier) 的大寫和小寫是不相同的。另外，像 SQL 和 HTML 就是不區分大小寫的語言。
+### 標記 (Symbol)
+
+### 陣列 (Array)
+
+### 雜湊 (Hash)
+
+### 範圍 (Range)
+
+### True, False, Nil
+
+### 物件 (Object)
 
 # 參考資料
 * David Flanagan and Yukihiro Matsumoto, The Ruby Programming Language, O'Reilly Media, 2008
