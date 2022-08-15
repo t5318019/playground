@@ -10,6 +10,9 @@
 * 各發行版本清單：
   * [Releases - Ubuntu Wiki](https://wiki.ubuntu.com/Releases)
 
+## Ubuntu 22.04 LTS (Jammy Jellyfish)
+
+[Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes)
 ## Ubuntu 20.04 LTS (Focal Fossa)
 
 [FocalFossa/ReleaseNotes - Ubuntu Wiki](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes)
