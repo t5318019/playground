@@ -10,6 +10,10 @@
 * 各發行版本清單：
   * [Releases - Ubuntu Wiki](https://wiki.ubuntu.com/Releases)
 
+## Ubuntu 24.04 LTS (Noble Numbat)
+
+[Ubuntu 24.04 LTS (Noble Numbat) Release Notes - Release - Ubuntu Community Hub](https://wiki.ubuntu.com/NobleNumbat/ReleaseNotes)
+
 ## Ubuntu 22.04 LTS (Jammy Jellyfish)
 
 [Jammy Jellyfish Release Notes - Release - Ubuntu Community Hub](https://wiki.ubuntu.com/JammyJellyfish/ReleaseNotes)
